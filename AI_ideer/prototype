@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>n3xtTrack — vibes prototype</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f7f8fa;
+    --card-radius:18px;
+    --soft:#eef0f2;
+    --muted:#6b7280;
+    --accent:#4b7cff;
+    --nav-height:76px;
+    --player-height:96px;
+    --glass: rgba(255,255,255,0.7);
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;
+    background:linear-gradient(#fafbfd,#f3f6f9);
+    color:#111827;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+  }
+
+  /* Header */
+  header.appbar{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:18px;
+    background:linear-gradient(#ffffff, #fbfdff);
+    box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+  }
+  .logo {
+    width:54px;height:54px;border-radius:14px;
+    display:flex;align-items:center;justify-content:center;
+    background:linear-gradient(135deg,#8b5cf6,#5eead4);
+    color:white;font-weight:700;font-size:18px;
+    box-shadow:0 6px 18px rgba(99,102,241,0.08), inset 0 -6px 20px rgba(255,255,255,0.06);
+  }
+  .title { font-weight:700; font-size:20px; color:#0f172a; }
+  .spacer{flex:1}
+  .gear{
+    width:40px;height:40px;border-radius:10px;background:var(--soft);display:flex;align-items:center;justify-content:center;
+  }
+
+  /* Main content */
+  main.container{
+    padding:18px;
+    flex:1;
+    display:flex;
+    flex-direction:column;
+  }
+
+  .search-row{display:flex;gap:10px;align-items:center;margin-bottom:14px;}
+  .search{
+    flex:1; background:var(--soft); padding:12px 16px;border-radius:14px;display:flex;gap:10px;align-items:center;
+    box-shadow:inset 0 -6px 12px rgba(0,0,0,0.02);
+  }
+  .search input{border:0;background:transparent;outline:none;font-size:15px;width:100%;}
+  .btn-filter{width:48px;height:48px;border-radius:12px;background:var(--soft);display:flex;align-items:center;justify-content:center;cursor:pointer}
+
+  h2.section-title{margin:8px 4px 12px;font-weight:600;color:#0f172a}
+  /* Vibes grid */
+  .vibes-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:16px;
+  }
+  .vibe-card{
+    height:140px;border-radius:20px;display:flex;flex-direction:column;align-items:center;justify-content:center;color:white;font-weight:600;
+    font-size:18px;cursor:pointer;position:relative;padding:18px;
+    transition:transform .15s ease, box-shadow .15s ease;
+    user-select:none;
+  }
+  .vibe-card .icon{
+    width:46px;height:46px;border-radius:999px;background:rgba(255,255,255,0.18);display:flex;align-items:center;justify-content:center;margin-bottom:10px;
+  }
+  .vibe-card:active{transform:translateY(2px)}
+  .vibe-card.selected{
+    box-shadow:0 10px 30px rgba(0,0,0,0.12);
+    transform:translateY(-4px);
+  }
+
+  /* Colors like image 1 gradients */
+  .c-happy{background:linear-gradient(135deg,#ffb703,#fb8500)}
+  .c-sad{background:linear-gradient(135deg,#7ea7ff,#6c5ce7)}
+  .c-romantic{background:linear-gradient(135deg,#ff7ab6,#ff4d8d)}
+  .c-intense{background:linear-gradient(135deg,#b28cff,#7a3ff6)}
+  .c-relaxed{background:linear-gradient(135deg,#6fe7a7,#2ecc71)}
+
+  /* Advanced filter panel (slide in) */
+  .panel {
+    position:fixed;right:0;top:0;bottom:0;width:360px;background:white;border-left:1px solid #edf0f3;padding:22px;
+    box-shadow:-18px 0 50px rgba(12,20,31,0.06);transform:translateX(110%);transition:transform .28s cubic-bezier(.2,.9,.2,1);z-index:40;
+  }
+  .panel.open{transform:translateX(0)}
+  .panel h3{margin:0 0 16px;font-weight:700}
+  .field{margin-bottom:18px}
+  .toggle{
+    display:inline-flex;align-items:center;gap:10px;background:var(--soft);padding:8px 10px;border-radius:12px;width:fit-content;
+  }
+  .select-sim{display:flex;gap:10px;align-items:center}
+  .range-wrap{padding:10px 8px;background:#f3f6f9;border-radius:12px}
+  .range-row{display:flex;align-items:center;gap:8px}
+  .range-labels{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);margin-top:8px}
+
+  /* bottom player */
+  .player {
+    position:fixed;left:0;right:0;bottom:0;height:var(--player-height);background:white;border-top:1px solid #e6eef8;display:flex;align-items:center;gap:16px;padding:12px 18px;
+    box-shadow:0 -8px 30px rgba(10,12,16,0.03); z-index:30;
+  }
+  .track-art{width:56px;height:56px;border-radius:8px;background:linear-gradient(#b6ff6b,#73e24b);display:flex;align-items:center;justify-content:center;font-weight:800;color:#0b1220}
+  .track-meta{flex:1;display:flex;flex-direction:column;gap:4px}
+  .track-meta .title{font-weight:700}
+  .controls{display:flex;align-items:center;gap:12px}
+  .circle-btn{width:54px;height:54px;border-radius:28px;background:linear-gradient(180deg,#49a6ff,#2f7ef2);display:flex;align-items:center;justify-content:center;color:white;border:0;cursor:pointer;box-shadow:0 8px 18px rgba(46,122,242,0.18)}
+  .mini-btn{width:40px;height:40px;border-radius:10px;background:var(--soft);display:flex;align-items:center;justify-content:center;cursor:pointer}
+  .progress{height:8px;background:#e6eef8;border-radius:999px;overflow:hidden;margin-top:6px}
+  .progress > div{height:100%;background:linear-gradient(90deg,#49a6ff,#7ad0ff);width:10%}
+
+  /* bottom nav for desktop demo (optional) */
+  .bottom-nav{position:fixed;left:12px;bottom:120px;display:flex;gap:8px;flex-direction:column}
+  .nav-btn{width:48px;height:48px;border-radius:12px;background:var(--soft);display:flex;align-items:center;justify-content:center}
+
+  /* responsive */
+  @media(min-width:880px){
+    main.container{max-width:880px;margin:18px auto}
+    .vibes-grid{grid-template-columns:repeat(3,1fr)}
+  }
+</style>
+</head>
+<body>
+
+<header class="appbar">
+  <div class="logo">♪</div>
+  <div>
+    <div class="title">n3xtTrack</div>
+    <div style="font-size:12px;color:var(--muted)">discover your vibe</div>
+  </div>
+  <div class="spacer"></div>
+  <div class="gear" title="Settings">
+    <!-- simple gear icon -->
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden>
+      <path d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" stroke="#2b3440" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M19.4 15a1.7 1.7 0 0 0 .1 1.9l.1.1a.9.9 0 0 1 0 1.2l-1.1 1.1a.9.9 0 0 1-1.2 0l-.1-.1a1.7 1.7 0 0 0-1.9-.1 1.7 1.7 0 0 0-1 1.4V21a.9.9 0 0 1-.9.9h-1.6a.9.9 0 0 1-.9-.9v-.1c0-.6-.5-1.2-1-1.4a1.7 1.7 0 0 0-1.9.1l-.1.1a.9.9 0 0 1-1.2 0L4.6 19.2a.9.9 0 0 1 0-1.2l.1-.1a1.7 1.7 0 0 0 .1-1.9 1.7 1.7 0 0 0-1.4-1H3a.9.9 0 0 1-.9-.9V13a.9.9 0 0 1 .9-.9h.1c.6 0 1.2-.5 1.4-1a1.7 1.7 0 0 0-.1-1.9L4.5 8.2a.9.9 0 0 1 0-1.2L5.6 5.9a.9.9 0 0 1 1.2 0l.1.1a1.7 1.7 0 0 0 1.9.1c.4-.2 1-.6 1-1.4V4.1c0-.5.4-.9.9-.9h1.6c.5 0 .9.4.9.9v.1c0 .6.5 1.2 1 1.4a1.7 1.7 0 0 0 1.9-.1l.1-.1a.9.9 0 0 1 1.2 0l1.1 1.1a.9.9 0 0 1 0 1.2l-.1.1a1.7 1.7 0 0 0-.1 1.9c.2.4.6 1 1.4 1H21a.9.9 0 0 1 .9.9v1.6c0 .5-.4.9-.9.9h-.1c-.7 0-1.2.6-1.4 1z" stroke="#2b3440" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+</header>
+
+<main class="container" role="main">
+
+  <div class="search-row">
+    <label class="search" aria-label="Search">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" style="opacity:.6">
+        <path d="M21 21l-4.35-4.35" stroke="#111827" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="11" cy="11" r="6" stroke="#111827" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+      <input id="searchInput" placeholder="Search..." />
+    </label>
+    <button class="btn-filter" id="openFilter" title="Advanced filter">
+      <!-- filter icon -->
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+        <path d="M4 6h16M7 12h10M10 18h4" stroke="#4b5563" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+  </div>
+
+  <h2 class="section-title">Vibes</h2>
+  <div class="vibes-grid" id="vibesGrid" aria-live="polite">
+    <!-- cards injected by JS -->
+  </div>
+
+</main>
+
+<!-- Advanced filter panel -->
+<aside class="panel" id="panel">
+  <h3>Advanced filter</h3>
+
+  <div class="field">
+    <div style="font-weight:600;margin-bottom:8px">Vocals</div>
+    <div class="toggle">
+      <label style="display:flex;align-items:center;gap:10px">
+        <input type="checkbox" id="vocals" checked/>
+        <span style="font-size:14px;color:var(--muted)">Include vocals</span>
+      </label>
+    </div>
+  </div>
+
+  <div class="field">
+    <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="font-weight:600">Genre</div>
+      <select id="genre" style="border-radius:10px;padding:6px 8px;border:1px solid #e6eef8;background:var(--soft)">
+        <option>Any</option>
+        <option>Pop</option>
+        <option>Electronic</option>
+        <option>R&B</option>
+        <option>Indie</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="field">
+    <div style="font-weight:600;margin-bottom:8px">BPM</div>
+    <div class="range-wrap">
+      <div class="range-row">
+        <input type="range" id="bpmMin" min="40" max="200" value="60" />
+        <input type="range" id="bpmMax" min="40" max="200" value="120" />
+      </div>
+      <div class="range-labels"><span id="bpmMinLabel">60</span><span id="bpmMaxLabel">120</span></div>
+    </div>
+  </div>
+
+  <div class="field">
+    <div style="font-weight:600;margin-bottom:8px">Song duration</div>
+    <div class="range-wrap">
+      <div class="range-row">
+        <input type="range" id="durMin" min="0" max="600" value="30" />
+        <input type="range" id="durMax" min="0" max="600" value="240" />
+      </div>
+      <div class="range-labels"><span id="durMinLabel">0:30</span><span id="durMaxLabel">4:00</span></div>
+    </div>
+  </div>
+
+  <div class="field">
+    <div style="display:flex;gap:8px">
+      <button id="applyFilters" style="flex:1;padding:12px;border-radius:12px;border:0;background:#2f7ef2;color:white;font-weight:700">Apply</button>
+      <button id="closeFilters" style="padding:12px;border-radius:12px;border:1px solid #e6eef8;background:white">Close</button>
+    </div>
+  </div>
+</aside>
+
+<!-- Bottom player -->
+<footer class="player" role="region" aria-label="Music player">
+  <div class="track-art" id="art">br</div>
+  <div class="track-meta">
+    <div class="title" id="trackTitle">360</div>
+    <div style="font-size:13px;color:var(--muted)" id="trackArtist">Charli xcx</div>
+    <div class="progress" aria-hidden><div id="progBar"></div></div>
+  </div>
+
+  <div class="controls" aria-hidden>
+    <button class="mini-btn" id="prevBtn" title="Previous">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6v12M6 6l8 6-8 6" stroke="#374151" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <button class="circle-btn" id="playBtn" title="Play/Pause">
+      <svg id="playIcon" width="26" height="26" viewBox="0 0 24 24" fill="none">
+        <path d="M5 3v18l15-9L5 3z" fill="white"/>
+      </svg>
+    </button>
+    <button class="mini-btn" id="nextBtn" title="Next">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 6v12M20 6l-8 6 8 6" stroke="#374151" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+  </div>
+</footer>
+
+<!-- Optional small nav -->
+<div class="bottom-nav" aria-hidden>
+  <div class="nav-btn" title="Home">🏠</div>
+  <div class="nav-btn" title="Search">🔍</div>
+  <div class="nav-btn" title="Playlists">📚</div>
+  <div class="nav-btn" title="Share">🔗</div>
+</div>
+
+<script>
+  // Data for vibes
+  const vibes = [
+    {id:'happy', title:'Happy', class:'c-happy', icon:'🙂'},
+    {id:'sad', title:'Sad', class:'c-sad', icon:'☹️'},
+    {id:'romantic', title:'Romantic', class:'c-romantic', icon:'♡'},
+    {id:'intense', title:'Intense', class:'c-intense', icon:'⚡'},
+    {id:'relaxed', title:'Relaxed', class:'c-relaxed', icon:'💨'}
+  ];
+
+  const vibesGrid = document.getElementById('vibesGrid');
+  const searchInput = document.getElementById('searchInput');
+
+  let selectedVibes = new Set();
+
+  function renderVibes(filter = ''){
+    vibesGrid.innerHTML = '';
+    const q = filter.trim().toLowerCase();
+    const list = vibes.filter(v => v.title.toLowerCase().includes(q));
+    for(const v of list){
+      const card = document.createElement('button');
+      card.className = 'vibe-card ' + v.class;
+      card.setAttribute('data-id', v.id);
+      if(selectedVibes.has(v.id)) card.classList.add('selected');
+      card.innerHTML = `
+        <div class="icon" aria-hidden><span style="font-size:20px">${v.icon}</span></div>
+        <div>${v.title}</div>
+      `;
+      card.addEventListener('click', ()=> {
+        if(selectedVibes.has(v.id)) selectedVibes.delete(v.id);
+        else selectedVibes.add(v.id);
+        card.classList.toggle('selected');
+      });
+      vibesGrid.appendChild(card);
+    }
+    if(list.length === 0){
+      const hint = document.createElement('div');
+      hint.style.color='var(--muted)';
+      hint.style.padding='20px';
+      hint.textContent = 'No vibes found';
+      vibesGrid.appendChild(hint);
+    }
+  }
+
+  // initial render
+  renderVibes();
+
+  // search
+  searchInput.addEventListener('input', (e)=> renderVibes(e.target.value));
+
+  // panel open / close
+  const panel = document.getElementById('panel');
+  document.getElementById('openFilter').addEventListener('click', ()=> panel.classList.add('open'));
+  document.getElementById('closeFilters').addEventListener('click', ()=> panel.classList.remove('open'));
+  document.getElementById('applyFilters').addEventListener('click', ()=> {
+    // here you would apply the filters to your track search; for demo we just close
+    panel.classList.remove('open');
+    // optionally show chosen filters in console
+    console.log('Applied filters:', {
+      vocals: document.getElementById('vocals').checked,
+      genre: document.getElementById('genre').value,
+      bpm:[document.getElementById('bpmMin').value, document.getElementById('bpmMax').value],
+      duration:[document.getElementById('durMin').value, document.getElementById('durMax').value],
+      selectedVibes: Array.from(selectedVibes)
+    });
+  });
+
+  // sliders labels
+  function secondsToTime(s){
+    s = Math.round(s);
+    const m = Math.floor(s/60);
+    const sec = s%60;
+    return m + ':' + (sec<10?'0':'') + sec;
+  }
+  const bpmMin = document.getElementById('bpmMin'), bpmMax = document.getElementById('bpmMax');
+  const bpmMinLabel = document.getElementById('bpmMinLabel'), bpmMaxLabel = document.getElementById('bpmMaxLabel');
+  bpmMin.addEventListener('input', ()=> bpmMinLabel.textContent = bpmMin.value);
+  bpmMax.addEventListener('input', ()=> bpmMaxLabel.textContent = bpmMax.value);
+  bpmMinLabel.textContent = bpmMin.value; bpmMaxLabel.textContent = bpmMax.value;
+
+  const durMin = document.getElementById('durMin'), durMax = document.getElementById('durMax');
+  const durMinLabel = document.getElementById('durMinLabel'), durMaxLabel = document.getElementById('durMaxLabel');
+  durMin.addEventListener('input', ()=> durMinLabel.textContent = secondsToTime(durMin.value));
+  durMax.addEventListener('input', ()=> durMaxLabel.textContent = secondsToTime(durMax.value));
+  durMinLabel.textContent = secondsToTime(durMin.value); durMaxLabel.textContent = secondsToTime(durMax.value);
+
+  // Simple player simulation
+  const playBtn = document.getElementById('playBtn');
+  const playIcon = document.getElementById('playIcon');
+  const progBar = document.getElementById('progBar');
+  let playing = false;
+  let prog = 10; // starting progress %
+  let progInterval = null;
+
+  function updatePlayUI(){
+    if(playing){
+      // show pause icon
+      playIcon.innerHTML = '<path d="M9 5h2v14H9zM13 5h2v14h-2z" fill="white"/>';
+      playBtn.setAttribute('aria-pressed','true');
+      progInterval = setInterval(()=> {
+        prog = Math.min(100, prog + 0.7);
+        progBar.style.width = prog + '%';
+        if(prog >= 100){ clearInterval(progInterval); playing=false; updatePlayUI(); }
+      }, 300);
+    } else {
+      // show play icon
+      playIcon.innerHTML = '<path d="M5 3v18l15-9L5 3z" fill="white"/>';
+      playBtn.setAttribute('aria-pressed','false');
+      if(progInterval) clearInterval(progInterval);
+    }
+  }
+  playBtn.addEventListener('click', ()=> {
+    playing = !playing;
+    updatePlayUI();
+  });
+
+  document.getElementById('prevBtn').addEventListener('click', ()=> {
+    prog = 0; progBar.style.width = prog + '%';
+  });
+  document.getElementById('nextBtn').addEventListener('click', ()=> {
+    prog = 0; progBar.style.width = prog + '%';
+  });
+
+  // Accessibility: close panel with ESC
+  window.addEventListener('keydown', (e)=> {
+    if(e.key === 'Escape') panel.classList.remove('open');
+  });
+
+  // Touch / small-screen friendly improvements
+  // ensure two-range sliders never cross each other
+  function fixRangePair(a,b){
+    a.addEventListener('input', ()=> {
+      if(parseInt(a.value) > parseInt(b.value)){
+        if(a === bpmMin || a === durMin) { b.value = a.value; }
+        else { a.value = b.value; }
+      }
+    });
+    b.addEventListener('input', ()=> {
+      if(parseInt(a.value) > parseInt(b.value)){
+        if(b === bpmMax || b === durMax) { a.value = b.value; }
+        else { b.value = a.value; }
+      }
+    });
+  }
+  fixRangePair(bpmMin, bpmMax);
+  fixRangePair(durMin, durMax);
+
+  // keyboard-friendly vibe selection
+  vibesGrid.addEventListener('keydown', (e)=>{
+    if(e.key === 'Enter' && e.target.matches('.vibe-card')) e.target.click();
+  });
+
+</script>
+
+</body>
+</html>
