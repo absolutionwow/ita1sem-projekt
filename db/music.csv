@@ -234,7 +234,7 @@ Song_ID,Title,Artist,Genre,Mood,Language,BPM,Length_sec,Release_Year,Vocal_Instr
 233,"Hurt (Acoustic)","Christina Aguilera",Pop,Sad,English,100,250,2006,Vocal,Sleep
 234,"Blue Danube Waltz","Johann Strauss II",Classical,Happy,Instrumental,180,600,1866,Instrumental,Party
 235,"Gold Digger","Kanye West ft. Jamie Foxx",Rap/Hiphop,Intense,English,93,208,2005,Vocal,Fitness
-236,"Another Brick in the Wall", "Pink Floyd",Rock,Sad,English,104,233,1979,Vocal,Focus
+236,"Another Brick in the Wall","Pink Floyd",Rock,Sad,English,104,233,1979,Vocal,Focus
 237,"Good Vibrations","The Beach Boys",Pop,Happy,English,135,217,1966,Vocal,Roadtrip
 238,"Love Yourself","Justin Bieber",Pop,Calm,English,102,233,2015,Vocal,Dinner
 239,"Jump","Van Halen",Rock,Intense,English,130,240,1984,Vocal,Fitness
@@ -468,7 +468,7 @@ Song_ID,Title,Artist,Genre,Mood,Language,BPM,Length_sec,Release_Year,Vocal_Instr
 467,"Killing Me Softly with His Song (Instrumental)","Roberta Flack",R&B,Sad,Instrumental,108,266,1973,Instrumental,Dinner
 468,"Let's Get It Started (Instrumental)","Black Eyed Peas",Pop,Intense,Instrumental,130,277,2003,Instrumental,Fitness
 469,"Summertime (Instrumental)","Ella Fitzgerald & Louis Armstrong",Jazz,Calm,Instrumental,75,285,1957,Instrumental,Dinner
-470,"I Like It (Instrumental)","Cardi B, Rap/Hiphop",Happy,Instrumental,136,253,2018,Instrumental,Party
+470,"I Like It (Instrumental)","Cardi B", Rap/Hiphop,Happy,Instrumental,136,253,2018,Instrumental,Party
 471,"Someone Like You (Instrumental)","Adele",Pop,Sad,Instrumental,67,285,2011,Instrumental,Sleep
 472,"Lose Control (Instrumental)","Missy Elliott",Rap/Hiphop,Intense,Instrumental,125,225,2005,Instrumental,Fitness
 473,"Yesterday (Instrumental)","The Beatles",Pop,Sad,Instrumental,96,125,1965,Instrumental,Sleep
@@ -588,7 +588,7 @@ Song_ID,Title,Artist,Genre,Mood,Language,BPM,Length_sec,Release_Year,Vocal_Instr
 587,"Killing Me Softly with His Song (Live)","Roberta Flack",R&B,Sad,English,108,266,1973,Vocal,Dinner
 588,"Let's Get It Started (Live)","Black Eyed Peas",Pop,Intense,English,130,277,2003,Vocal,Fitness
 589,"Summertime (Live)","Ella Fitzgerald & Louis Armstrong",Jazz,Calm,English,75,285,1957,Vocal,Dinner
-590,"I Like It (Live)","Cardi B, Rap/Hiphop",Happy,English,136,253,2018,Vocal,Party
+590,"I Like It (Live)","Cardi B", Rap/Hiphop,Happy,English,136,253,2018,Vocal,Party
 591,"Someone Like You (Live)","Adele",Pop,Sad,English,67,285,2011,Vocal,Sleep
 592,"Lose Control (Live)","Missy Elliott",Rap/Hiphop,Intense,English,125,225,2005,Vocal,Fitness
 593,"Yesterday (Live)","The Beatles",Pop,Sad,English,96,125,1965,Vocal,Sleep
@@ -772,7 +772,7 @@ Song_ID,Title,Artist,Genre,Mood,Language,BPM,Length_sec,Release_Year,Vocal_Instr
 771,"Killing Me Softly with His Song (Acoustic)","Roberta Flack",R&B,Sad,English,108,266,1973,Vocal,Dinner
 772,"Let's Get It Started (Remix)","Black Eyed Peas",EDM,Intense,English,128,240,2003,Vocal,Fitness
 773,"Summertime (Acoustic)","Ella Fitzgerald & Louis Armstrong",Jazz,Calm,English,75,285,1957,Vocal,Dinner
-774,"I Like It (Remix)","Cardi B, Rap/Hiphop",EDM,Happy,English,128,240,2018,Vocal,Party
+774,"I Like It (Remix)","Cardi B", Rap/Hiphop,EDM,Happy,English,128,240,2018,Vocal,Party
 775,"Someone Like You (Remix)","Adele",EDM,Sad,English,128,240,2011,Vocal,Sleep
 776,"Lose Control (Remix)","Missy Elliott",EDM,Intense,English,128,240,2005,Vocal,Fitness
 777,"Yesterday (Remix)","The Beatles",Pop,Sad,English,128,240,1965,Vocal,Sleep
@@ -896,7 +896,7 @@ Song_ID,Title,Artist,Genre,Mood,Language,BPM,Length_sec,Release_Year,Vocal_Instr
 895,"Killing Me Softly with His Song (Remix)","Roberta Flack",EDM,Sad,English,128,240,1973,Vocal,Dinner
 896,"Let's Get It Started (Acoustic)","Black Eyed Peas",Pop,Intense,English,130,277,2003,Vocal,Fitness
 897,"Summertime (Remix)","Ella Fitzgerald & Louis Armstrong",EDM,Calm,English,128,240,1957,Vocal,Dinner
-898,"I Like It (Acoustic)","Cardi B, Rap/Hiphop",Happy,English,136,253,2018,Vocal,Party
+898,"I Like It (Acoustic)","Cardi B", Rap/Hiphop,Happy,English,136,253,2018,Vocal,Party
 899,"Someone Like You (Acoustic)","Adele",Pop,Sad,English,67,285,2011,Vocal,Sleep
 900,"Lose Control (Acoustic)","Missy Elliott",Rap/Hiphop,Intense,English,125,225,2005,Vocal,Fitness
 901,"Yesterday (Acoustic)","The Beatles",Pop,Sad,English,96,125,1965,Vocal,Sleep
