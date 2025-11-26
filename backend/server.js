@@ -43,7 +43,7 @@ function onServerReady() {
 
 async function loadTracks() {
     const dbResult = await db.query(`
-        select track_id, title, artist, duration
+        select track_id, title, artist, length_sec
         from   tracks
     `);
     return dbResult.rows;
@@ -53,6 +53,6 @@ function pickNextTrackFor(partyCode) {
     const trackIndex = Math.floor(Math.random() * tracks.length)
     currentTracks.set(partyCode, trackIndex);
     const track = tracks[trackIndex];
-    play(partyCode, track.track_id, track.duration, Date.now(), () => currentTracks.delete(partyCode));
+    play(partyCode, track.track_id, track.length_sec, Date.now(), () => currentTracks.delete(partyCode));
     return trackIndex;
 }
