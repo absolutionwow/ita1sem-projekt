@@ -1,1001 +1,1001 @@
 Song_ID,Title,Artist,Genre,Mood,Language,BPM,Length_sec,Release_Year,Vocal_Instrumental,Mode
-1,Blinding Lights,The Weeknd,Pop,Intense,English,171,200,2019,Vocal,Fitness
-2,Bohemian Rhapsody,Queen,Rock,Intense,English,144,354,1975,Vocal,Roadtrip
-3,Take Five,Dave Brubeck Quartet,Jazz,Calm,English,172,324,1959,Instrumental,Dinner
-4,Für Elise,Ludwig van Beethoven,Classical,Calm,Instrumental,75,180,1810,Instrumental,Focus
-5,Shape of You,Ed Sheeran,Pop,Happy,English,96,233,2017,Vocal,Cooking
-6,Lose Yourself,Eminem,Rap/Hiphop,Intense,English,171,326,2002,Vocal,Fitness
-7,September,Earth, Wind & Fire,R&B,Happy,English,126,215,1978,Vocal,Party
-8,Stairway to Heaven,Led Zeppelin,Rock,Sad,English,82,482,1971,Vocal,Roadtrip
-9,One Kiss,Calvin Harris & Dua Lipa,EDM,Happy,English,124,214,2018,Vocal,Party
-10,Hurt,Johnny Cash,Rock,Sad,English,80,237,2002,Vocal,Sleep
-11,Fly Me to the Moon,Frank Sinatra,Jazz,In_Love,English,119,147,1964,Vocal,Dinner
-12,Let It Be,The Beatles,Pop,Calm,English,143,243,1970,Vocal,Focus
-13,Tiden Læger Alle Sår,Tobias Rahim,Pop,In_Love,Danish,103,165,2022,Vocal,Cooking
-14,Lidt i 5,The Minds of 99,Rock,Intense,Danish,135,210,2018,Vocal,Roadtrip
-15,Clair de Lune,Claude Debussy,Classical,Calm,Instrumental,68,270,1905,Instrumental,Sleep
-16,Old Town Road,Lil Nas X,Rap/Hiphop,Happy,English,136,157,2019,Vocal,Party
-17,Thinking Out Loud,Ed Sheeran,R&B,In_Love,English,79,281,2014,Vocal,Dinner
-18,Smells Like Teen Spirit,Nirvana,Rock,Intense,English,118,301,1991,Vocal,Fitness
-19,Happier,Marshmello ft. Bastille,EDM,Sad,English,100,214,2018,Vocal,Sleep
-20,Kys Mig Nu,Gulddreng,Pop,Happy,Danish,128,198,2016,Vocal,Party
-21,Billie Jean,Michael Jackson,Pop,Intense,English,117,294,1982,Vocal,Fitness
-22,Hey Jude,The Beatles,Pop,Calm,English,148,425,1968,Vocal,Roadtrip
-23,So What,Miles Davis,Jazz,Calm,English,136,561,1959,Instrumental,Dinner
-24,Moonlight Sonata,Ludwig van Beethoven,Classical,Sad,Instrumental,60,400,1801,Instrumental,Focus
-25,Hotline Bling,Drake,R&B,In_Love,English,135,268,2015,Vocal,Cooking
-26,In Da Club,50 Cent,Rap/Hiphop,Intense,English,90,193,2003,Vocal,Party
-27,Wonderwall,Oasis,Rock,Sad,English,174,258,1995,Vocal,Roadtrip
-28,Titanium,David Guetta ft. Sia,EDM,Intense,English,126,245,2011,Vocal,Fitness
-29,Lær Mig at Elske Dig,Sanne Salomonsen,Pop,In_Love,Danish,93,240,1996,Vocal,Dinner
-30,Stille Før Storm,Rasmus Seebach,Pop,Sad,Danish,100,230,2011,Vocal,Sleep
-31,God's Plan,Drake,Rap/Hiphop,Happy,English,77,199,2018,Vocal,Cooking
-32,Come Away With Me,Norah Jones,Jazz,In_Love,English,85,238,2002,Vocal,Dinner
-33,Toccata and Fugue in D minor,Johann Sebastian Bach,Classical,Intense,Instrumental,100,540,1703,Instrumental,Focus
-34,Sweet Child o' Mine,Guns N' Roses,Rock,Happy,English,125,356,1987,Vocal,Party
-35,Don't Start Now,Dua Lipa,Pop,Intense,English,124,183,2019,Vocal,Fitness
-36,The Way You Make Me Feel,Michael Jackson,R&B,In_Love,English,115,269,1987,Vocal,Party
-37,Du Er,Sivas,Rap/Hiphop,In_Love,Danish,120,180,2016,Vocal,Dinner
-38,Levels,Avicii,EDM,Happy,English,126,332,2011,Vocal,Roadtrip
-39,Imagine,John Lennon,Pop,Calm,English,75,187,1971,Vocal,Sleep
-40,Hotel California,Eagles,Rock,Calm,English,147,390,1976,Vocal,Roadtrip
-41,I Feel It Coming,The Weeknd,R&B,In_Love,English,93,269,2016,Vocal,Dinner
-42,Symphony No. 5,Ludwig van Beethoven,Classical,Intense,Instrumental,120,400,1808,Instrumental,Focus
-43,Crazy in Love,Beyoncé ft. Jay-Z,R&B,Intense,English,99,236,2003,Vocal,Fitness
-44,Dope Dope,Suspekt,Rap/Hiphop,Intense,Danish,140,240,2007,Vocal,Party
-45,Adore You,Harry Styles,Pop,In_Love,English,99,209,2019,Vocal,Cooking
-46,Blue in Green,Miles Davis,Jazz,Sad,English,84,337,1959,Instrumental,Sleep
-47,Wake Me Up,Avicii,EDM,Happy,English,124,249,2013,Vocal,Roadtrip
-48,Perfect,Ed Sheeran,Pop,In_Love,English,95,263,2017,Vocal,Dinner
-49,Sweet Dreams (Are Made of This),Eurythmics,Pop,Intense,English,125,216,1983,Vocal,Fitness
-50,With or Without You,U2,Rock,Sad,English,108,296,1987,Vocal,Roadtrip
-51,What's Going On,Marvin Gaye,R&B,Calm,English,101,233,1971,Vocal,Focus
-52,Watermelon Sugar,Harry Styles,Pop,Happy,English,95,174,2019,Vocal,Party
-53,All of Me,John Legend,R&B,In_Love,English,120,270,2013,Vocal,Dinner
-54,Hallelujah,Leonard Cohen,Pop,Sad,English,110,260,1984,Vocal,Sleep
-55,Smukke Mennesker,Malurt,Rock,Happy,Danish,130,200,1982,Vocal,Roadtrip
-56,No Diggity,Blackstreet ft. Dr. Dre,R&B,Happy,English,106,304,1996,Vocal,Party
-57,Heartless,The Weeknd,R&B,Intense,English,100,205,2019,Vocal,Fitness
-58,Overture (from The Marriage of Figaro),Wolfgang Amadeus Mozart,Classical,Happy,Instrumental,140,270,1786,Instrumental,Focus
-59,Vandmand,Icekiid,Rap/Hiphop,Happy,Danish,128,180,2020,Vocal,Party
-60,Hello,Adele,Pop,Sad,English,78,295,2015,Vocal,Sleep
-61,California Love,2Pac ft. Dr. Dre,Rap/Hiphop,Happy,English,91,269,1995,Vocal,Roadtrip
-62,Don't Stop Believin',Journey,Rock,Happy,English,119,268,1981,Vocal,Cooking
-63,At Last,Etta James,Jazz,In_Love,English,95,182,1960,Vocal,Dinner
-64,I Will Always Love You,Whitney Houston,R&B,Sad,English,133,271,1992,Vocal,Sleep
-65,Africa,Toto,Rock,Calm,English,93,296,1982,Vocal,Focus
-66,Bad Guy,Billie Eilish,Pop,Intense,English,135,194,2019,Vocal,Fitness
-67,Let Her Go,Passenger,Pop,Sad,English,75,252,2012,Vocal,Roadtrip
-68,My Heart Will Go On,Celine Dion,Pop,Sad,English,100,281,1997,Vocal,Sleep
-69,En Lille Fugl,Kim Larsen,Pop,Happy,Danish,105,180,1979,Vocal,Cooking
-70,Starlight,Muse,Rock,Intense,English,122,240,2006,Vocal,Party
-71,River Flows in You,Yiruma,Classical,Calm,Instrumental,132,185,2001,Instrumental,Sleep
-72,Get Lucky,Daft Punk ft. Pharrell Williams,Pop,Happy,English,116,247,2013,Vocal,Party
-73,The Sound of Silence,Simon & Garfunkel,Pop,Calm,English,105,185,1966,Vocal,Focus
-74,Back to Black,Amy Winehouse,Jazz,Sad,English,123,241,2006,Vocal,Dinner
-75,In The End,Linkin Park,Rock,Intense,English,105,216,2000,Vocal,Fitness
-76,Can't Hold Us,Macklemore & Ryan Lewis,Rap/Hiphop,Intense,English,146,260,2011,Vocal,Fitness
-77,Vågner i Natten,Ray Dee Ohh,Pop,Happy,Danish,130,220,1989,Vocal,Party
-78,Viva La Vida,Coldplay,Pop,Happy,English,138,241,2008,Vocal,Roadtrip
-79,Nocturne in E-flat major,Op. 9 No. 2,Frédéric Chopin,Classical,Calm,Instrumental,50,270,1830,Instrumental,Dinner
-80,Thriller,Michael Jackson,Pop,Intense,English,120,357,1982,Vocal,Party
-81,A Change Is Gonna Come,Sam Cooke,R&B,Sad,English,82,192,1964,Vocal,Sleep
-82,Sweet Caroline,Neil Diamond,Pop,Happy,English,126,203,1969,Vocal,Roadtrip
-83,Højt over Jorden,Nephew,Rock,Intense,Danish,130,215,2004,Vocal,Fitness
-84,Crazy Little Thing Called Love,Queen,Rock,Happy,English,168,162,1979,Vocal,Cooking
-85,What a Wonderful World,Louis Armstrong,Jazz,Calm,English,80,140,1967,Vocal,Dinner
-86,Where Are Ü Now,Skrillex & Diplo with Justin Bieber,EDM,Intense,English,140,250,2015,Vocal,Fitness
-87,Stan,Eminem ft. Dido,Rap/Hiphop,Sad,English,80,444,2000,Vocal,Sleep
-88,Boombayah,Blackpink,Pop,Intense,English,125,230,2016,Vocal,Party
-89,Don't Worry,M.O.P.,Rap/Hiphop,Intense,English,98,212,1998,Vocal,Fitness
-90,Respect,Aretha Franklin,R&B,Intense,English,115,148,1967,Vocal,Roadtrip
-91,Fix You,Coldplay,Pop,Sad,English,138,295,2005,Vocal,Sleep
-92,Ain't No Mountain High Enough,Marvin Gaye & Tammi Terrell,R&B,Happy,English,124,143,1967,Vocal,Cooking
-93,Gymnopédie No. 1,Erik Satie,Classical,Calm,Instrumental,45,200,1888,Instrumental,Focus
-94,The Real Slim Shady,Eminem,Rap/Hiphop,Intense,English,104,284,2000,Vocal,Party
-95,Come Away With Me,Norah Jones,Jazz,Calm,English,85,238,2002,Vocal,Dinner
-96,Purple Haze,Jimi Hendrix,Rock,Intense,English,135,170,1967,Vocal,Fitness
-97,Du Kan Gøre Hvad Du Vil,Christian Brøns,Pop,Happy,Danish,100,180,2001,Vocal,Roadtrip
-98,Wake Up,Arcade Fire,Rock,Intense,English,125,360,2004,Vocal,Fitness
-99,Easy On Me,Adele,Pop,Sad,English,150,224,2021,Vocal,Sleep
-100,Symphony No. 9 "Ode to Joy",Ludwig van Beethoven,Classical,Happy,Instrumental,120,400,1824,Instrumental,Party
-101,Mr. Brightside,The Killers,Rock,Happy,English,148,223,2003,Vocal,Fitness
-102,Crazy,Gnarls Barkley,R&B,Intense,English,112,182,2006,Vocal,Roadtrip
-103,Når Englene Græder,Maria Montell,Pop,Sad,Danish,115,245,1994,Vocal,Sleep
-104,Get Into The Groove,Madonna,Pop,Intense,English,116,281,1985,Vocal,Party
-105,Unforgettable,Nat King Cole,Jazz,In_Love,English,88,190,1951,Vocal,Dinner
-106,Rhapsody in Blue,George Gershwin,Classical,Intense,Instrumental,135,1000,1924,Instrumental,Focus
-107,Run This Town,Jay-Z ft. Rihanna,Rap/Hiphop,Intense,English,120,270,2009,Vocal,Fitness
-108,I Wanna Dance with Somebody,Whitney Houston,Pop,Happy,English,120,272,1987,Vocal,Party
-109,Rolling in the Deep,Adele,Pop,Intense,English,105,228,2010,Vocal,Roadtrip
-110,Sexual Healing,Marvin Gaye,R&B,In_Love,English,98,240,1982,Vocal,Dinner
-111,Back in Black,AC/DC,Rock,Intense,English,188,255,1980,Vocal,Fitness
-112,Fast Car,Tracy Chapman,Pop,Sad,English,104,300,1988,Vocal,Roadtrip
-113,Shining,DJ Khaled ft. Beyoncé & Jay-Z,Rap/Hiphop,Happy,English,130,260,2017,Vocal,Party
-114,La Valse d'Amélie,Yann Tiersen,Classical,Calm,Instrumental,100,120,2001,Instrumental,Cooking
-115,My Girl,The Temptations,R&B,Happy,English,105,165,1964,Vocal,Dinner
-116,En Tur på Landet,De Nattergale,Pop,Happy,Danish,110,210,1991,Vocal,Roadtrip
-117,Don't Stop Me Now,Queen,Rock,Happy,English,156,210,1978,Vocal,Party
-118,Hurt So Good,Astrid S,Pop,Sad,English,115,200,2016,Vocal,Sleep
-119,Smash Into Pieces,The Offspring,Rock,Intense,English,140,165,1998,Vocal,Fitness
-120,One,U2,Rock,Sad,English,91,276,1991,Vocal,Sleep
-121,It Was A Good Day,Ice Cube,Rap/Hiphop,Calm,English,82,270,1992,Vocal,Focus
-122,Sweet Nothing,Calvin Harris ft. Florence Welch,EDM,Intense,English,126,220,2012,Vocal,Fitness
-123,Killing Me Softly with His Song,Roberta Flack,R&B,Sad,English,108,266,1973,Vocal,Dinner
-124,Grieg: Peer Gynt Suite No. 1,Morning Mood,Edvard Grieg,Classical,Calm,Instrumental,55,240,1876,Instrumental,Sleep
-125,I Got You (I Feel Good),James Brown,R&B,Happy,English,144,167,1965,Vocal,Party
-126,Let's Get It Started,Black Eyed Peas,Pop,Intense,English,130,277,2003,Vocal,Fitness
-127,Summertime,Ella Fitzgerald & Louis Armstrong,Jazz,Calm,English,75,285,1957,Vocal,Dinner
-128,Hotellet,C.V. Jørgensen,Pop,Sad,Danish,100,280,1980,Vocal,Sleep
-129,I Like It,Cardi B, Rap/Hiphop,Happy,English,136,253,2018,Vocal,Party
-130,Someone Like You,Adele,Pop,Sad,English,67,285,2011,Vocal,Sleep
-131,Lose Control,Missy Elliott,Rap/Hiphop,Intense,English,125,225,2005,Vocal,Fitness
-132,Yesterday,The Beatles,Pop,Sad,English,96,125,1965,Vocal,Sleep
-133,All Night Long (All Night),Lionel Richie,R&B,Happy,English,108,256,1983,Vocal,Party
-134,Stayin' Alive,Bee Gees,Pop,Intense,English,103,283,1977,Vocal,Fitness
-135,La vie en rose,Louis Armstrong,Jazz,In_Love,English,75,205,1950,Vocal,Dinner
-136,The Four Seasons - Spring,Antonio Vivaldi,Classical,Happy,Instrumental,120,180,1725,Instrumental,Roadtrip
-137,7 Years,Lukas Graham,Pop,Calm,English,120,239,2015,Vocal,Focus
-138,Ensom,Morten Breum,EDM,Intense,Danish,128,210,2010,Vocal,Party
-139,Crazy Frog,Crazy Frog,EDM,Happy,English,130,170,2005,Instrumental,Party
-140,Like a Rolling Stone,Bob Dylan,Rock,Calm,English,94,365,1965,Vocal,Roadtrip
-141,Lovely,Billie Eilish ft. Khalid,Pop,Sad,English,115,200,2018,Vocal,Sleep
-142,Empire State of Mind,Jay-Z ft. Alicia Keys,Rap/Hiphop,Intense,English,84,276,2009,Vocal,Roadtrip
-143,Happy,Pharrell Williams,Pop,Happy,English,160,233,2013,Vocal,Party
-144,Don't Speak,No Doubt,Rock,Sad,English,78,263,1995,Vocal,Sleep
-145,Pony,Ginuwine,R&B,In_Love,English,128,260,1996,Vocal,Dinner
-146,Clocks,Coldplay,Pop,Calm,English,130,307,2002,Vocal,Focus
-147,Can't Help Falling in Love,Elvis Presley,Pop,In_Love,English,100,181,1961,Vocal,Dinner
-148,Dansevisen,Grethe & Jørgen Ingmann,Pop,Happy,Danish,120,180,1963,Vocal,Party
-149,Numb,Linkin Park,Rock,Intense,English,104,187,2003,Vocal,Fitness
-150,I Gotta Feeling,Black Eyed Peas,Pop,Happy,English,128,269,2009,Vocal,Party
-151,Unwritten,Natasha Bedingfield,Pop,Happy,English,105,258,2004,Vocal,Fitness
-152,The Girl from Ipanema,Stan Getz & João Gilberto,Jazz,Calm,English,129,315,1964,Vocal,Dinner
-153,Jump Around,House of Pain,Rap/Hiphop,Intense,English,126,214,1992,Vocal,Party
-154,Halo,Beyoncé,R&B,In_Love,English,80,261,2008,Vocal,Dinner
-155,The Scientist,Coldplay,Pop,Sad,English,150,310,2002,Vocal,Sleep
-156,Livin' on a Prayer,Bon Jovi,Rock,Intense,English,123,249,1986,Vocal,Fitness
-157,Stjernefald,Christopher,Pop,In_Love,Danish,100,190,2011,Vocal,Cooking
-158,Concerto for Clarinet in A major,K. 622,Wolfgang Amadeus Mozart,Classical,Calm,Instrumental,90,450,1791,Instrumental,Sleep
-159,Firework,Katy Perry,Pop,Happy,English,124,227,2010,Vocal,Fitness
-160,Tears in Heaven,Eric Clapton,Rock,Sad,English,75,270,1992,Vocal,Sleep
-161,Lose Yourself to Dance,Daft Punk ft. Pharrell Williams,Pop,Happy,English,100,353,2013,Vocal,Party
-162,California Dreamin',The Mamas & the Papas,Pop,Calm,English,110,158,1965,Vocal,Roadtrip
-163,Changes,2Pac ft. Talent,Rap/Hiphop,Sad,English,110,269,1998,Vocal,Sleep
-164,Ain't No Sunshine,Bill Withers,R&B,Sad,English,100,130,1971,Vocal,Dinner
-165,The Dance,Garth Brooks,Pop,Sad,English,75,240,1989,Vocal,Roadtrip
-166,Sweet Home Alabama,Lynyrd Skynyrd,Rock,Happy,English,100,283,1974,Vocal,Roadtrip
-167,Blue Suede Shoes,Elvis Presley,Rock,Happy,English,190,120,1956,Vocal,Party
-168,Don't You Worry 'bout a Thing,Stevie Wonder,R&B,Happy,English,121,224,1973,Vocal,Cooking
-169,Skate,Bruno Mars,Anderson .Paak, Silk Sonic,R&B,Happy,English,112,203,2021,Vocal,Party
-170,Blue Bossa,Kenny Dorham,Jazz,Calm,Instrumental,128,240,1963,Instrumental,Dinner
-171,A Thousand Years,Christina Perry,Pop,In_Love,English,139,287,2011,Vocal,Dinner
-172,Danish Delight,Dizzy Mizz Lizzy,Rock,Intense,English,130,220,1994,Vocal,Fitness
-173,Vi Maler Byen Rød,Birthe Kjær,Pop,Happy,Danish,128,180,1989,Vocal,Party
-174,Havana,Camila Cabello ft. Young Thug,Pop,Intense,English,105,217,2017,Vocal,Party
-175,Concerto for Violin in E minor,Op. 64,Felix Mendelssohn,Classical,Intense,Instrumental,130,700,1844,Instrumental,Focus
-176,Crazy in Love (Remix),Beyoncé,EDM,Intense,English,128,240,2003,Vocal,Fitness
-177,A Sky Full of Stars,Coldplay,Pop,Happy,English,125,268,2014,Vocal,Party
-178,The Message,Grandmaster Flash and the Furious Five,Rap/Hiphop,Sad,English,100,444,1982,Vocal,Focus
-179,I'm Yours,Jason Mraz,Pop,Happy,English,150,240,2008,Vocal,Roadtrip
-180,Stay With Me,Sam Smith,R&B,Sad,English,84,172,2014,Vocal,Sleep
-181,Imagine,Ariana Grande,R&B,In_Love,English,130,212,2018,Vocal,Dinner
-182,Candle in the Wind,Elton John,Pop,Sad,English,73,228,1973,Vocal,Sleep
-183,Purple Rain,Prince,Pop,Sad,English,60,520,1984,Vocal,Roadtrip
-184,Stol På Dig Selv,Mads Langer,Pop,Calm,Danish,105,200,2009,Vocal,Focus
-185,Walk This Way,Run-DMC ft. Aerosmith,Rap/Hiphop,Intense,English,106,244,1986,Vocal,Fitness
-186,O Mio Babbino Caro,Giacomo Puccini,Classical,Sad,Vocal,90,120,1918,Vocal,Sleep
-187,Another One Bites the Dust,Queen,Rock,Intense,English,110,214,1980,Vocal,Fitness
-188,What Goes Around... Comes Around,Justin Timberlake,R&B,Sad,English,76,330,2006,Vocal,Dinner
-189,I Don't Care,Ed Sheeran & Justin Bieber,Pop,Happy,English,102,220,2019,Vocal,Cooking
-190,Get Up (I Feel Like Being a) Sex Machine,James Brown,R&B,Intense,English,106,320,1970,Vocal,Fitness
-191,Take a Chance on Me,ABBA,Pop,Happy,English,105,243,1977,Vocal,Party
-192,My Favorite Things,John Coltrane,Jazz,Calm,Instrumental,128,870,1961,Instrumental,Focus
-193,Basket Case,Green Day,Rock,Intense,English,171,181,1994,Vocal,Fitness
-194,Skibet Skal Sejle I Nat,Bjørn Tidmand,Pop,In_Love,Danish,100,180,1964,Vocal,Dinner
-195,The Rite of Spring,Igor Stravinsky,Classical,Intense,Instrumental,120,2000,1913,Instrumental,Fitness
-196,Lose My Mind,Dizzy Mizz Lizzy,Rock,Intense,English,130,240,1994,Vocal,Roadtrip
-197,Sultans of Swing,Dire Straits,Rock,Calm,English,146,340,1978,Vocal,Roadtrip
-198,Single Ladies (Put a Ring on It),Beyoncé,R&B,Intense,English,96,210,2008,Vocal,Party
-199,Hey Ya!,Outkast,Rap/Hiphop,Happy,English,160,235,2003,Vocal,Party
-200,Don't Stop The Music,Rihanna,Pop,Intense,English,123,260,2007,Vocal,Fitness
-201,Seven Nation Army,The White Stripes,Rock,Intense,English,120,232,2003,Vocal,Fitness
-202,What's Up?,4 Non Blondes,Rock,Sad,English,102,285,1992,Vocal,Roadtrip
-203,Smooth Operator,Sade,Jazz,Calm,English,120,256,1984,Vocal,Dinner
-204,Let Me Love You,DJ Snake ft. Justin Bieber,EDM,Happy,English,100,205,2016,Vocal,Party
-205,Pusherman,Curtis Mayfield,R&B,Intense,English,118,350,1972,Vocal,Focus
-206,Ave Maria,Franz Schubert,Classical,Calm,Vocal,60,280,1825,Vocal,Sleep
-207,Vi er Røde Vi er Hvide,Landsholdet,Pop,Happy,Danish,140,180,1986,Vocal,Party
-208,Despacito,Luis Fonsi ft. Daddy Yankee,Pop,Happy,English,89,228,2017,Vocal,Party
-209,I Put a Spell on You,Nina Simone,R&B,Intense,English,118,170,1965,Vocal,Dinner
-210,Candlelight,Jack & Jones,Pop,Sad,English,100,220,2011,Vocal,Sleep
-211,The Funeral,Band of Horses,Rock,Sad,English,140,321,2006,Vocal,Roadtrip
-212,Lose Control,Meduza, Goodboys,EDM,Intense,English,124,180,2019,Vocal,Fitness
-213,A Hard Day's Night,The Beatles,Pop,Happy,English,139,154,1964,Vocal,Cooking
-214,Stan (Remix),Eminem,EDM,Intense,English,130,240,2000,Vocal,Fitness
-215,Miserere mei, Deus,Gregorio Allegri,Classical,Sad,Vocal,60,600,1630,Vocal,Sleep
-216,Run Away With Me,Carly Rae Jepsen,Pop,Intense,English,120,250,2015,Vocal,Party
-217,Nuthin' but a 'G' Thang,Dr. Dre ft. Snoop Dogg,Rap/Hiphop,Calm,English,95,278,1992,Vocal,Roadtrip
-218,Sittin' on the Dock of the Bay,Otis Redding,R&B,Calm,English,104,163,1968,Vocal,Focus
-219,Creep,Radiohead,Rock,Sad,English,92,239,1992,Vocal,Sleep
-220,One Dance,Drake ft. Wizkid & Kyla,Pop,Happy,English,104,174,2016,Vocal,Party
-221,Vi To Er Ét,Dúné,Rock,Intense,Danish,130,200,2007,Vocal,Fitness
-222,How Deep Is Your Love,Bee Gees,Pop,In_Love,English,105,245,1977,Vocal,Dinner
-223,Take on Me,a-ha,Pop,Intense,English,169,225,1985,Vocal,Fitness
-224,Imagine (Instrumental),John Lennon,Pop,Calm,Instrumental,75,187,1971,Instrumental,Focus
-225,Love on Top,Beyoncé,R&B,Happy,English,188,268,2011,Vocal,Party
-226,So Lonely,The Police,Rock,Sad,English,168,270,1978,Vocal,Roadtrip
-227,Mack the Knife,Louis Armstrong,Jazz,Happy,English,150,200,1956,Vocal,Dinner
-228,All Star,Smash Mouth,Pop,Happy,English,104,198,1999,Vocal,Roadtrip
-229,Du Gør Mig Skør,Burhan G,Pop,In_Love,Danish,100,210,2013,Vocal,Dinner
-230,Dilemma,Nelly ft. Kelly Rowland,R&B,In_Love,English,168,270,2002,Vocal,Sleep
-231,Stjerne til Støv,Niels Hausgaard,Pop,Calm,Danish,100,240,1974,Vocal,Focus
-232,I Believe I Can Fly,R. Kelly,R&B,Happy,English,60,320,1996,Vocal,Roadtrip
-233,Hurt (Acoustic),Christina Aguilera,Pop,Sad,English,100,250,2006,Vocal,Sleep
-234,Blue Danube Waltz,Johann Strauss II,Classical,Happy,Instrumental,180,600,1866,Instrumental,Party
-235,Gold Digger,Kanye West ft. Jamie Foxx,Rap/Hiphop,Intense,English,93,208,2005,Vocal,Fitness
-236,Another Brick in the Wall, Pink Floyd,Rock,Sad,English,104,233,1979,Vocal,Focus
-237,Good Vibrations,The Beach Boys,Pop,Happy,English,135,217,1966,Vocal,Roadtrip
-238,Love Yourself,Justin Bieber,Pop,Calm,English,102,233,2015,Vocal,Dinner
-239,Jump,Van Halen,Rock,Intense,English,130,240,1984,Vocal,Fitness
-240,Killing Me Softly (with His Song),The Fugees,Rap/Hiphop,Sad,English,108,278,1996,Vocal,Dinner
-241,What Is Love,Haddaway,EDM,Intense,English,124,250,1993,Vocal,Party
-242,Unge og Naive,Nik & Jay,Pop,Happy,Danish,120,210,2002,Vocal,Roadtrip
-243,Stay,Rihanna ft. Mikky Ekko,Pop,Sad,English,112,240,2012,Vocal,Sleep
-244,Tequila Sunrise,Eagles,Rock,Calm,English,100,180,1973,Vocal,Cooking
-245,La Isla Bonita,Madonna,Pop,Happy,English,100,242,1987,Vocal,Cooking
-246,In Bloom,Nirvana,Rock,Intense,English,155,255,1991,Vocal,Fitness
-247,Piano Man,Billy Joel,Pop,Calm,English,75,336,1973,Vocal,Dinner
-248,The Girl Is Mine,Michael Jackson & Paul McCartney,Pop,In_Love,English,127,215,1982,Vocal,Dinner
-249,Lose My Breath,Destiny's Child,R&B,Intense,English,120,242,2004,Vocal,Fitness
-250,The Entertainer,Scott Joplin,Classical,Happy,Instrumental,170,240,1902,Instrumental,Cooking
-251,California Gurls,Katy Perry ft. Snoop Dogg,Pop,Happy,English,125,236,2010,Vocal,Party
-252,The Way You Look Tonight,Frank Sinatra,Jazz,In_Love,English,90,190,1964,Vocal,Dinner
-253,Hurt (Nine Inch Nails cover),Johnny Cash,Rock,Sad,English,80,237,2002,Vocal,Sleep
-254,One Way or Another,Blondie,Pop,Intense,English,161,190,1978,Vocal,Fitness
-255,I Will Survive,Gloria Gaynor,R&B,Happy,English,118,210,1978,Vocal,Party
-256,Grieg: Peer Gynt Suite No. 2,Anitra's Dance,Edvard Grieg,Classical,Happy,Instrumental,120,210,1876,Instrumental,Roadtrip
-257,Don't Give Up,Peter Gabriel & Kate Bush,Pop,Sad,English,75,394,1986,Vocal,Sleep
-258,Runaway,Kanye West ft. Pusha T,Rap/Hiphop,Sad,English,90,540,2010,Vocal,Focus
-259,Sex on Fire,Kings of Leon,Rock,Intense,English,153,203,2008,Vocal,Fitness
-260,Uptown Funk,Mark Ronson ft. Bruno Mars,Pop,Happy,English,115,270,2014,Vocal,Party
-261,Fields of Gold,Sting,Pop,Calm,English,104,240,1993,Vocal,Dinner
-262,Vogue,Madonna,Pop,Intense,English,118,319,1990,Vocal,Fitness
-263,En Nat Bliver Til To,Sanne Salomonsen,Pop,In_Love,Danish,100,240,1987,Vocal,Dinner
-264,No Scrubs,TLC,R&B,Intense,English,93,222,1999,Vocal,Party
-265,All Night,Beyoncé,R&B,In_Love,English,65,321,2016,Vocal,Sleep
-266,All Along the Watchtower,Jimi Hendrix,Rock,Intense,English,116,240,1968,Vocal,Roadtrip
-267,Get Down Tonight,KC and the Sunshine Band,R&B,Happy,English,113,212,1975,Vocal,Party
-268,Don't Go Breaking My Heart,Elton John & Kiki Dee,Pop,Happy,English,127,268,1976,Vocal,Cooking
-269,Crazy Train,Ozzy Osbourne,Rock,Intense,English,138,280,1980,Vocal,Fitness
-270,The Way You Make Me Feel,Michael Jackson,Pop,In_Love,English,115,269,1987,Vocal,Dinner
-271,Stolen Dance,Milky Chance,Pop,Calm,English,118,313,2013,Vocal,Roadtrip
-272,Waterfalls,TLC,R&B,Sad,English,100,279,1995,Vocal,Focus
-273,The Entertainer (Ragtime),Scott Joplin,Classical,Happy,Instrumental,170,240,1902,Instrumental,Cooking
-274,Nirvana - Lithium,Nirvana,Rock,Intense,English,123,257,1991,Vocal,Fitness
-275,Stay (Don't Go Away),David Guetta ft. Raye,EDM,Happy,English,126,180,2019,Vocal,Party
-276,The Real Slim Shady (Remix),Eminem,EDM,Intense,English,130,240,2000,Vocal,Fitness
-277,Don't Know Why,Norah Jones,Jazz,Calm,English,88,185,2002,Vocal,Sleep
-278,Juicy,The Notorious B.I.G.,Rap/Hiphop,Happy,English,85,270,1994,Vocal,Roadtrip
-279,Symphony No. 6 "Pastoral",Ludwig van Beethoven,Classical,Calm,Instrumental,120,2400,1808,Instrumental,Sleep
-280,September Song,Frank Sinatra,Jazz,Calm,English,110,180,1946,Vocal,Dinner
-281,Can't Feel My Face,The Weeknd,Pop,Intense,English,108,215,2015,Vocal,Party
-282,Hey Joe,Jimi Hendrix,Rock,Intense,English,140,210,1966,Vocal,Fitness
-283,Respect (Aretha Franklin),Aretha Franklin,R&B,Intense,English,115,148,1967,Vocal,Fitness
-284,The Middle,Zedd, Maren Morris, Grey,EDM,Happy,English,107,184,2018,Vocal,Cooking
-285,Candle in the Wind 1997,Elton John,Pop,Sad,English,73,354,1997,Vocal,Sleep
-286,What If,Coldplay,Pop,Sad,English,130,300,2005,Vocal,Roadtrip
-287,California Girls,The Beach Boys,Pop,Happy,English,120,157,1965,Vocal,Party
-288,Vi Vandt I Dag,De Gyldne Løver,Pop,Happy,Danish,120,180,1970,Vocal,Roadtrip
-289,Stand by Me,Ben E. King,R&B,In_Love,English,110,178,1961,Vocal,Dinner
-290,Rolling Stone,The Weeknd,R&B,Sad,English,142,230,2011,Vocal,Sleep
-291,Crazy (Patsy Cline),Patsy Cline,Pop,Sad,English,105,165,1961,Vocal,Sleep
-292,Jumpman,Drake & Future,Rap/Hiphop,Intense,English,140,200,2015,Vocal,Fitness
-293,I'm Not the Only One,Sam Smith,R&B,Sad,English,80,237,2014,Vocal,Dinner
-294,The Way You Are,Outlandish,Pop,Happy,English,100,210,2003,Vocal,Cooking
-295,Symphony No. 40,Wolfgang Amadeus Mozart,Classical,Intense,Instrumental,120,420,1788,Instrumental,Focus
-296,Mr. Vain,Culture Beat,EDM,Intense,English,130,350,1993,Vocal,Party
-297,I Wanna Be Your Lover,Prince,R&B,Intense,English,120,379,1979,Vocal,Fitness
-298,Let It Go,Idina Menzel,Pop,Happy,English,137,225,2013,Vocal,Roadtrip
-299,Summertime Sadness,Lana Del Rey,Pop,Sad,English,126,252,2012,Vocal,Sleep
-300,Smoke on the Water,Deep Purple,Rock,Intense,English,114,340,1972,Vocal,Fitness
-301,Sweet Dreams (Are Made of This),Eurythmics,EDM,Intense,English,125,216,1983,Vocal,Fitness
-302,It's My Life,Bon Jovi,Rock,Intense,English,120,224,2000,Vocal,Fitness
-303,My Kind of Town,Frank Sinatra,Jazz,Happy,English,120,180,1964,Vocal,Dinner
-304,I Will Always Love You (Dolly Parton),Dolly Parton,Pop,Sad,English,133,180,1974,Vocal,Sleep
-305,Vi Lever,Rasmus Seebach,Pop,Happy,Danish,105,200,2017,Vocal,Party
-306,Billie Jean (Remix),Michael Jackson,EDM,Intense,English,128,240,1982,Vocal,Fitness
-307,Hurt Somebody,Noah Kahan & Julia Michaels,Pop,Sad,English,100,180,2018,Vocal,Sleep
-308,The Boxer,Simon & Garfunkel,Pop,Calm,English,105,308,1969,Vocal,Roadtrip
-309,A Change Is Gonna Come (Instrumental),Sam Cooke,R&B,Calm,Instrumental,82,192,1964,Instrumental,Focus
-310,Lose Yourself (Remix),Eminem,EDM,Intense,English,130,240,2002,Vocal,Fitness
-311,I'm Still Standing,Elton John,Pop,Happy,English,105,185,1983,Vocal,Roadtrip
-312,Du Har Tårer i Øjnene,Lars H.U.G.,Pop,Sad,Danish,110,210,1989,Vocal,Sleep
-313,Rolling in the Deep (Acoustic),Adele,Pop,Intense,English,105,228,2010,Vocal,Dinner
-314,Symphony No. 3 "Eroica",Ludwig van Beethoven,Classical,Intense,Instrumental,120,3000,1803,Instrumental,Focus
-315,No Diggity (Acoustic),Blackstreet,R&B,Happy,English,106,304,1996,Vocal,Dinner
-316,The Power,Snap!,EDM,Intense,English,125,240,1990,Vocal,Fitness
-317,Can't Hold Us (Acoustic),Macklemore & Ryan Lewis,Rap/Hiphop,Intense,English,146,260,2011,Vocal,Fitness
-318,Walk This Way (Aerosmith),Aerosmith,Rock,Intense,English,106,244,1975,Vocal,Fitness
-319,The Way You Make Me Feel (Remix),Michael Jackson,EDM,Intense,English,128,240,1987,Vocal,Party
-320,Imagine (Live),John Lennon,Pop,Calm,English,75,187,1971,Vocal,Focus
-321,Don't Stop Believin' (Live),Journey,Rock,Happy,English,119,268,1981,Vocal,Roadtrip
-322,Happy (Acoustic),Pharrell Williams,Pop,Happy,English,160,233,2013,Vocal,Cooking
-323,My Girl (Live),The Temptations,R&B,Happy,English,105,165,1964,Vocal,Dinner
-324,Hurt (Live),Christina Aguilera,Pop,Sad,English,100,250,2006,Vocal,Sleep
-325,Can't Help Falling in Love (Live),Elvis Presley,Pop,In_Love,English,100,181,1961,Vocal,Dinner
-326,Crazy Little Thing Called Love (Live),Queen,Rock,Happy,English,168,162,1979,Vocal,Cooking
-327,All of Me (Acoustic),John Legend,R&B,In_Love,English,120,270,2013,Vocal,Dinner
-328,The Sound of Silence (Acoustic),Simon & Garfunkel,Pop,Calm,English,105,185,1966,Vocal,Sleep
-329,Bohemian Rhapsody (Live),Queen,Rock,Intense,English,144,354,1975,Vocal,Roadtrip
-330,Stairway to Heaven (Live),Led Zeppelin,Rock,Sad,English,82,482,1971,Vocal,Sleep
-331,Stjernefald (Akustisk),Christopher,Pop,In_Love,Danish,100,190,2011,Vocal,Dinner
-332,Seven Nation Army (Remix),The White Stripes,EDM,Intense,English,128,240,2003,Vocal,Fitness
-333,Juicy (Remix),The Notorious B.I.G.,EDM,Intense,English,130,240,1994,Vocal,Party
-334,The Message (Remix),Grandmaster Flash and the Furious Five,EDM,Intense,English,128,240,1982,Vocal,Fitness
-335,Billie Jean (Instrumental),Michael Jackson,Pop,Intense,Instrumental,117,294,1982,Instrumental,Fitness
-336,Hurt (Instrumental),Johnny Cash,Rock,Sad,Instrumental,80,237,2002,Instrumental,Sleep
-337,Take Five (Vocal Version),Dave Brubeck Quartet,Jazz,Calm,Vocal,172,324,1959,Vocal,Dinner
-338,Für Elise (Remix),Ludwig van Beethoven,EDM,Intense,Instrumental,130,240,1810,Instrumental,Party
-339,Shape of You (Instrumental),Ed Sheeran,Pop,Happy,Instrumental,96,233,2017,Instrumental,Cooking
-340,Lose Yourself (Instrumental),Eminem,Rap/Hiphop,Intense,Instrumental,171,326,2002,Instrumental,Fitness
-341,September (Instrumental),Earth, Wind & Fire,R&B,Happy,Instrumental,126,215,1978,Instrumental,Party
-342,Stairway to Heaven (Instrumental),Led Zeppelin,Rock,Sad,Instrumental,82,482,1971,Instrumental,Sleep
-343,One Kiss (Instrumental),Calvin Harris & Dua Lipa,EDM,Happy,Instrumental,124,214,2018,Instrumental,Party
-344,Fly Me to the Moon (Instrumental),Frank Sinatra,Jazz,In_Love,Instrumental,119,147,1964,Instrumental,Dinner
-345,Let It Be (Instrumental),The Beatles,Pop,Calm,Instrumental,143,243,1970,Instrumental,Focus
-346,Old Town Road (Instrumental),Lil Nas X,Rap/Hiphop,Happy,Instrumental,136,157,2019,Instrumental,Party
-347,Thinking Out Loud (Instrumental),Ed Sheeran,R&B,In_Love,Instrumental,79,281,2014,Instrumental,Dinner
-348,Smells Like Teen Spirit (Instrumental),Nirvana,Rock,Intense,Instrumental,118,301,1991,Instrumental,Fitness
-349,Happier (Instrumental),Marshmello ft. Bastille,EDM,Sad,Instrumental,100,214,2018,Instrumental,Sleep
-350,Hello (Instrumental),Adele,Pop,Sad,Instrumental,78,295,2015,Instrumental,Sleep
-351,California Love (Instrumental),2Pac ft. Dr. Dre,Rap/Hiphop,Happy,Instrumental,91,269,1995,Instrumental,Roadtrip
-352,Don't Stop Believin' (Instrumental),Journey,Rock,Happy,Instrumental,119,268,1981,Instrumental,Cooking
-353,At Last (Instrumental),Etta James,Jazz,In_Love,Instrumental,95,182,1960,Instrumental,Dinner
-354,I Will Always Love You (Instrumental),Whitney Houston,R&B,Sad,Instrumental,133,271,1992,Instrumental,Sleep
-355,Africa (Instrumental),Toto,Rock,Calm,Instrumental,93,296,1982,Instrumental,Focus
-356,Bad Guy (Instrumental),Billie Eilish,Pop,Intense,Instrumental,135,194,2019,Instrumental,Fitness
-357,My Heart Will Go On (Instrumental),Celine Dion,Pop,Sad,Instrumental,100,281,1997,Instrumental,Sleep
-358,Starlight (Instrumental),Muse,Rock,Intense,Instrumental,122,240,2006,Instrumental,Party
-359,Waterfalls (Instrumental),TLC,R&B,Sad,Instrumental,100,279,1995,Instrumental,Focus
-360,God's Plan (Instrumental),Drake,Rap/Hiphop,Happy,Instrumental,77,199,2018,Instrumental,Cooking
-361,Come Away With Me (Instrumental),Norah Jones,Jazz,In_Love,Instrumental,85,238,2002,Instrumental,Dinner
-362,Crazy Little Thing Called Love (Instrumental),Queen,Rock,Happy,Instrumental,168,162,1979,Instrumental,Cooking
-363,What a Wonderful World (Instrumental),Louis Armstrong,Jazz,Calm,Instrumental,80,140,1967,Instrumental,Dinner
-364,Where Are Ü Now (Instrumental),Skrillex & Diplo with Justin Bieber,EDM,Intense,Instrumental,140,250,2015,Instrumental,Fitness
-365,Stan (Instrumental),Eminem ft. Dido,Rap/Hiphop,Sad,Instrumental,80,444,2000,Instrumental,Sleep
-366,Respect (Instrumental),Aretha Franklin,R&B,Intense,Instrumental,115,148,1967,Instrumental,Fitness
-367,Fix You (Instrumental),Coldplay,Pop,Sad,Instrumental,138,295,2005,Instrumental,Sleep
-368,Ain't No Mountain High Enough (Instrumental),Marvin Gaye & Tammi Terrell,R&B,Happy,Instrumental,124,143,1967,Instrumental,Cooking
-369,The Real Slim Shady (Instrumental),Eminem,Rap/Hiphop,Intense,Instrumental,104,284,2000,Instrumental,Party
-370,Purple Haze (Instrumental),Jimi Hendrix,Rock,Intense,Instrumental,135,170,1967,Instrumental,Fitness
-371,Numb (Instrumental),Linkin Park,Rock,Intense,Instrumental,104,187,2003,Instrumental,Fitness
-372,I Gotta Feeling (Instrumental),Black Eyed Peas,Pop,Happy,Instrumental,128,269,2009,Instrumental,Party
-373,Unwritten (Instrumental),Natasha Bedingfield,Pop,Happy,Instrumental,105,258,2004,Instrumental,Fitness
-374,The Girl from Ipanema (Instrumental),Stan Getz & João Gilberto,Jazz,Calm,Instrumental,129,315,1964,Instrumental,Dinner
-375,Jump Around (Instrumental),House of Pain,Rap/Hiphop,Intense,Instrumental,126,214,1992,Instrumental,Party
-376,Halo (Instrumental),Beyoncé,R&B,In_Love,Instrumental,80,261,2008,Instrumental,Dinner
-377,The Scientist (Instrumental),Coldplay,Pop,Sad,Instrumental,150,310,2002,Instrumental,Sleep
-378,Livin' on a Prayer (Instrumental),Bon Jovi,Rock,Intense,Instrumental,123,249,1986,Instrumental,Fitness
-379,Firework (Instrumental),Katy Perry,Pop,Happy,Instrumental,124,227,2010,Instrumental,Fitness
-380,Tears in Heaven (Instrumental),Eric Clapton,Rock,Sad,Instrumental,75,270,1992,Instrumental,Sleep
-381,California Dreamin' (Instrumental),The Mamas & the Papas,Pop,Calm,Instrumental,110,158,1965,Instrumental,Roadtrip
-382,Changes (Instrumental),2Pac ft. Talent,Rap/Hiphop,Sad,Instrumental,110,269,1998,Instrumental,Sleep
-383,Ain't No Sunshine (Instrumental),Bill Withers,R&B,Sad,Instrumental,100,130,1971,Instrumental,Dinner
-384,Sweet Home Alabama (Instrumental),Lynyrd Skynyrd,Rock,Happy,Instrumental,100,283,1974,Instrumental,Roadtrip
-385,Don't You Worry 'bout a Thing (Instrumental),Stevie Wonder,R&B,Happy,Instrumental,121,224,1973,Instrumental,Cooking
-386,Blue Bossa (Vocal Version),Kenny Dorham,Jazz,Calm,Vocal,128,240,1963,Vocal,Dinner
-387,A Thousand Years (Instrumental),Christina Perry,Pop,In_Love,Instrumental,139,287,2011,Instrumental,Dinner
-388,Havana (Instrumental),Camila Cabello ft. Young Thug,Pop,Intense,Instrumental,105,217,2017,Instrumental,Party
-389,A Sky Full of Stars (Instrumental),Coldplay,Pop,Happy,Instrumental,125,268,2014,Instrumental,Party
-390,I'm Yours (Instrumental),Jason Mraz,Pop,Happy,Instrumental,150,240,2008,Instrumental,Roadtrip
-391,Stay With Me (Instrumental),Sam Smith,R&B,Sad,Instrumental,84,172,2014,Instrumental,Sleep
-392,Walk This Way (Instrumental),Run-DMC ft. Aerosmith,Rap/Hiphop,Intense,Instrumental,106,244,1986,Instrumental,Fitness
-393,Another One Bites the Dust (Instrumental),Queen,Rock,Intense,Instrumental,110,214,1980,Instrumental,Fitness
-394,What Goes Around... Comes Around (Instrumental),Justin Timberlake,R&B,Sad,Instrumental,76,330,2006,Instrumental,Dinner
-395,I Don't Care (Instrumental),Ed Sheeran & Justin Bieber,Pop,Happy,Instrumental,102,220,2019,Instrumental,Cooking
-396,Get Up (I Feel Like Being a) Sex Machine (Instrumental),James Brown,R&B,Intense,Instrumental,106,320,1970,Instrumental,Fitness
-397,Take a Chance on Me (Instrumental),ABBA,Pop,Happy,Instrumental,105,243,1977,Instrumental,Party
-398,Basket Case (Instrumental),Green Day,Rock,Intense,Instrumental,171,181,1994,Instrumental,Fitness
-399,Lose My Breath (Instrumental),Destiny's Child,R&B,Intense,Instrumental,120,242,2004,Instrumental,Fitness
-400,California Gurls (Instrumental),Katy Perry ft. Snoop Dogg,Pop,Happy,Instrumental,125,236,2010,Instrumental,Party
-401,One Way or Another (Instrumental),Blondie,Pop,Intense,Instrumental,161,190,1978,Instrumental,Fitness
-402,I Will Survive (Instrumental),Gloria Gaynor,R&B,Happy,Instrumental,118,210,1978,Instrumental,Party
-403,Uptown Funk (Instrumental),Mark Ronson ft. Bruno Mars,Pop,Happy,Instrumental,115,270,2014,Instrumental,Party
-404,Vogue (Instrumental),Madonna,Pop,Intense,Instrumental,118,319,1990,Instrumental,Fitness
-405,No Scrubs (Instrumental),TLC,R&B,Intense,Instrumental,93,222,1999,Instrumental,Party
-406,All Night (Instrumental),Beyoncé,R&B,In_Love,Instrumental,65,321,2016,Instrumental,Sleep
-407,All Along the Watchtower (Instrumental),Jimi Hendrix,Rock,Intense,Instrumental,116,240,1968,Instrumental,Roadtrip
-408,Get Down Tonight (Instrumental),KC and the Sunshine Band,R&B,Happy,Instrumental,113,212,1975,Instrumental,Party
-409,Don't Go Breaking My Heart (Instrumental),Elton John & Kiki Dee,Pop,Happy,Instrumental,127,268,1976,Instrumental,Cooking
-410,Crazy Train (Instrumental),Ozzy Osbourne,Rock,Intense,Instrumental,138,280,1980,Instrumental,Fitness
-411,Nirvana - Lithium (Instrumental),Nirvana,Rock,Intense,Instrumental,123,257,1991,Instrumental,Fitness
-412,Can't Feel My Face (Instrumental),The Weeknd,Pop,Intense,Instrumental,108,215,2015,Instrumental,Party
-413,Hey Joe (Instrumental),Jimi Hendrix,Rock,Intense,Instrumental,140,210,1966,Instrumental,Fitness
-414,Respect (Instrumental),Aretha Franklin,R&B,Intense,Instrumental,115,148,1967,Instrumental,Fitness
-415,California Girls (Instrumental),The Beach Boys,Pop,Happy,Instrumental,120,157,1965,Instrumental,Party
-416,Stand by Me (Instrumental),Ben E. King,R&B,In_Love,Instrumental,110,178,1961,Instrumental,Dinner
-417,Jumpman (Instrumental),Drake & Future,Rap/Hiphop,Intense,Instrumental,140,200,2015,Instrumental,Fitness
-418,I'm Not the Only One (Instrumental),Sam Smith,R&B,Sad,Instrumental,80,237,2014,Instrumental,Dinner
-419,I Wanna Be Your Lover (Instrumental),Prince,R&B,Intense,Instrumental,120,379,1979,Instrumental,Fitness
-420,Don't Stop The Music (Instrumental),Rihanna,Pop,Intense,Instrumental,123,260,2007,Instrumental,Fitness
-421,Seven Nation Army (Instrumental),The White Stripes,Rock,Intense,Instrumental,120,232,2003,Instrumental,Fitness
-422,What's Up? (Instrumental),4 Non Blondes,Rock,Sad,Instrumental,102,285,1992,Instrumental,Roadtrip
-423,Pusherman (Instrumental),Curtis Mayfield,R&B,Intense,Instrumental,118,350,1972,Instrumental,Focus
-424,Vi er Røde Vi er Hvide (Instrumental),Landsholdet,Pop,Happy,Instrumental,140,180,1986,Instrumental,Party
-425,Despacito (Instrumental),Luis Fonsi ft. Daddy Yankee,Pop,Happy,Instrumental,89,228,2017,Instrumental,Party
-426,I Put a Spell on You (Instrumental),Nina Simone,R&B,Intense,Instrumental,118,170,1965,Instrumental,Dinner
-427,The Funeral (Instrumental),Band of Horses,Rock,Sad,Instrumental,140,321,2006,Instrumental,Roadtrip
-428,A Hard Day's Night (Instrumental),The Beatles,Pop,Happy,Instrumental,139,154,1964,Instrumental,Cooking
-429,Nuthin' but a 'G' Thang (Instrumental),Dr. Dre ft. Snoop Dogg,Rap/Hiphop,Calm,Instrumental,95,278,1992,Instrumental,Roadtrip
-430,Sittin' on the Dock of the Bay (Instrumental),Otis Redding,R&B,Calm,Instrumental,104,163,1968,Instrumental,Focus
-431,Creep (Instrumental),Radiohead,Rock,Sad,Instrumental,92,239,1992,Instrumental,Sleep
-432,One Dance (Instrumental),Drake ft. Wizkid & Kyla,Pop,Happy,Instrumental,104,174,2016,Instrumental,Party
-433,Vi To Er Ét (Instrumental),Dúné,Rock,Intense,Instrumental,130,200,2007,Instrumental,Fitness
-434,How Deep Is Your Love (Instrumental),Bee Gees,Pop,In_Love,Instrumental,105,245,1977,Instrumental,Dinner
-435,Take on Me (Instrumental),a-ha,Pop,Intense,Instrumental,169,225,1985,Instrumental,Fitness
-436,Love on Top (Instrumental),Beyoncé,R&B,Happy,Instrumental,188,268,2011,Instrumental,Party
-437,So Lonely (Instrumental),The Police,Rock,Sad,Instrumental,168,270,1978,Instrumental,Roadtrip
-438,All Star (Instrumental),Smash Mouth,Pop,Happy,Instrumental,104,198,1999,Instrumental,Roadtrip
-439,Gold Digger (Instrumental),Kanye West ft. Jamie Foxx,Rap/Hiphop,Intense,Instrumental,93,208,2005,Instrumental,Fitness
-440,Another Brick in the Wall (Instrumental),Pink Floyd,Rock,Sad,Instrumental,104,233,1979,Instrumental,Focus
-441,Good Vibrations (Instrumental),The Beach Boys,Pop,Happy,Instrumental,135,217,1966,Instrumental,Roadtrip
-442,Love Yourself (Instrumental),Justin Bieber,Pop,Calm,Instrumental,102,233,2015,Instrumental,Dinner
-443,Jump (Instrumental),Van Halen,Rock,Intense,Instrumental,130,240,1984,Instrumental,Fitness
-444,What Is Love (Instrumental),Haddaway,EDM,Intense,Instrumental,124,250,1993,Instrumental,Party
-445,Stay (Instrumental),Rihanna ft. Mikky Ekko,Pop,Sad,Instrumental,112,240,2012,Instrumental,Sleep
-446,Tequila Sunrise (Instrumental),Eagles,Rock,Calm,Instrumental,100,180,1973,Instrumental,Cooking
-447,La Isla Bonita (Instrumental),Madonna,Pop,Happy,Instrumental,100,242,1987,Instrumental,Cooking
-448,In Bloom (Instrumental),Nirvana,Rock,Intense,Instrumental,155,255,1991,Instrumental,Fitness
-449,Piano Man (Instrumental),Billy Joel,Pop,Calm,Instrumental,75,336,1973,Instrumental,Dinner
-450,The Girl Is Mine (Instrumental),Michael Jackson & Paul McCartney,Pop,In_Love,Instrumental,127,215,1982,Instrumental,Dinner
-451,Mr. Brightside (Instrumental),The Killers,Rock,Happy,Instrumental,148,223,2003,Instrumental,Fitness
-452,Crazy (Instrumental),Gnarls Barkley,R&B,Intense,Instrumental,112,182,2006,Instrumental,Roadtrip
-453,Get Into The Groove (Instrumental),Madonna,Pop,Intense,Instrumental,116,281,1985,Instrumental,Party
-454,Run This Town (Instrumental),Jay-Z ft. Rihanna,Rap/Hiphop,Intense,Instrumental,120,270,2009,Instrumental,Fitness
-455,I Wanna Dance with Somebody (Instrumental),Whitney Houston,Pop,Happy,Instrumental,120,272,1987,Instrumental,Party
-456,Rolling in the Deep (Instrumental),Adele,Pop,Intense,Instrumental,105,228,2010,Instrumental,Roadtrip
-457,Sexual Healing (Instrumental),Marvin Gaye,R&B,In_Love,Instrumental,98,240,1982,Instrumental,Dinner
-458,Back in Black (Instrumental),AC/DC,Rock,Intense,Instrumental,188,255,1980,Instrumental,Fitness
-459,Fast Car (Instrumental),Tracy Chapman,Pop,Sad,Instrumental,104,300,1988,Instrumental,Roadtrip
-460,Shining (Instrumental),DJ Khaled ft. Beyoncé & Jay-Z,Rap/Hiphop,Happy,Instrumental,130,260,2017,Instrumental,Party
-461,My Girl (Instrumental),The Temptations,R&B,Happy,Instrumental,105,165,1964,Instrumental,Dinner
-462,Don't Stop Me Now (Instrumental),Queen,Rock,Happy,Instrumental,156,210,1978,Instrumental,Party
-463,Smash Into Pieces (Instrumental),The Offspring,Rock,Intense,Instrumental,140,165,1998,Instrumental,Fitness
-464,One (Instrumental),U2,Rock,Sad,Instrumental,91,276,1991,Instrumental,Sleep
-465,It Was A Good Day (Instrumental),Ice Cube,Rap/Hiphop,Calm,Instrumental,82,270,1992,Instrumental,Focus
-466,Sweet Nothing (Instrumental),Calvin Harris ft. Florence Welch,EDM,Intense,Instrumental,126,220,2012,Instrumental,Fitness
-467,Killing Me Softly with His Song (Instrumental),Roberta Flack,R&B,Sad,Instrumental,108,266,1973,Instrumental,Dinner
-468,Let's Get It Started (Instrumental),Black Eyed Peas,Pop,Intense,Instrumental,130,277,2003,Instrumental,Fitness
-469,Summertime (Instrumental),Ella Fitzgerald & Louis Armstrong,Jazz,Calm,Instrumental,75,285,1957,Instrumental,Dinner
-470,I Like It (Instrumental),Cardi B, Rap/Hiphop,Happy,Instrumental,136,253,2018,Instrumental,Party
-471,Someone Like You (Instrumental),Adele,Pop,Sad,Instrumental,67,285,2011,Instrumental,Sleep
-472,Lose Control (Instrumental),Missy Elliott,Rap/Hiphop,Intense,Instrumental,125,225,2005,Instrumental,Fitness
-473,Yesterday (Instrumental),The Beatles,Pop,Sad,Instrumental,96,125,1965,Instrumental,Sleep
-474,All Night Long (All Night) (Instrumental),Lionel Richie,R&B,Happy,Instrumental,108,256,1983,Instrumental,Party
-475,Stayin' Alive (Instrumental),Bee Gees,Pop,Intense,Instrumental,103,283,1977,Instrumental,Fitness
-476,Empire State of Mind (Instrumental),Jay-Z ft. Alicia Keys,Rap/Hiphop,Intense,Instrumental,84,276,2009,Instrumental,Roadtrip
-477,Happy (Instrumental),Pharrell Williams,Pop,Happy,Instrumental,160,233,2013,Instrumental,Party
-478,Pony (Instrumental),Ginuwine,R&B,In_Love,Instrumental,128,260,1996,Instrumental,Dinner
-479,Clocks (Instrumental),Coldplay,Pop,Calm,Instrumental,130,307,2002,Instrumental,Focus
-480,The Way You Make Me Feel (Instrumental),Michael Jackson,Pop,In_Love,Instrumental,115,269,1987,Instrumental,Dinner
-481,Don't Speak (Instrumental),No Doubt,Rock,Sad,Instrumental,78,263,1995,Instrumental,Sleep
-482,Can't Help Falling in Love (Instrumental),Elvis Presley,Pop,In_Love,Instrumental,100,181,1961,Instrumental,Dinner
-483,Sex on Fire (Instrumental),Kings of Leon,Rock,Intense,Instrumental,153,203,2008,Instrumental,Fitness
-484,Uptown Funk (Instrumental),Mark Ronson ft. Bruno Mars,Pop,Happy,Instrumental,115,270,2014,Instrumental,Party
-485,Fields of Gold (Instrumental),Sting,Pop,Calm,Instrumental,104,240,1993,Instrumental,Dinner
-486,Watermelon Sugar (Instrumental),Harry Styles,Pop,Happy,Instrumental,95,174,2019,Instrumental,Party
-487,All of Me (Instrumental),John Legend,R&B,In_Love,Instrumental,120,270,2013,Instrumental,Dinner
-488,Hallelujah (Instrumental),Leonard Cohen,Pop,Sad,Instrumental,110,260,1984,Instrumental,Sleep
-489,No Diggity (Instrumental),Blackstreet ft. Dr. Dre,R&B,Happy,Instrumental,106,304,1996,Instrumental,Party
-490,Heartless (Instrumental),The Weeknd,R&B,Intense,Instrumental,100,205,2019,Instrumental,Fitness
-491,Bad Guy (Remix),Billie Eilish,EDM,Intense,English,130,240,2019,Vocal,Fitness
-492,Boombayah (Instrumental),Blackpink,Pop,Intense,Instrumental,125,230,2016,Instrumental,Party
-493,Don't Worry (Instrumental),M.O.P.,Rap/Hiphop,Intense,Instrumental,98,212,1998,Instrumental,Fitness
-494,Fix You (Live),Coldplay,Pop,Sad,English,138,295,2005,Vocal,Sleep
-495,The Real Slim Shady (Live),Eminem,Rap/Hiphop,Intense,English,104,284,2000,Vocal,Party
-496,Numb (Live),Linkin Park,Rock,Intense,English,104,187,2003,Vocal,Fitness
-497,I Gotta Feeling (Live),Black Eyed Peas,Pop,Happy,English,128,269,2009,Vocal,Party
-498,The Girl from Ipanema (Vocal Version),Stan Getz & João Gilberto,Jazz,Calm,Vocal,129,315,1964,Vocal,Dinner
-499,Halo (Live),Beyoncé,R&B,In_Love,English,80,261,2008,Vocal,Dinner
-500,The Scientist (Live),Coldplay,Pop,Sad,English,150,310,2002,Vocal,Sleep
-501,Livin' on a Prayer (Live),Bon Jovi,Rock,Intense,English,123,249,1986,Vocal,Fitness
-502,Firework (Live),Katy Perry,Pop,Happy,English,124,227,2010,Vocal,Fitness
-503,Tears in Heaven (Live),Eric Clapton,Rock,Sad,English,75,270,1992,Vocal,Sleep
-504,California Dreamin' (Live),The Mamas & the Papas,Pop,Calm,English,110,158,1965,Vocal,Roadtrip
-505,Changes (Live),2Pac ft. Talent,Rap/Hiphop,Sad,English,110,269,1998,Vocal,Sleep
-506,Ain't No Sunshine (Live),Bill Withers,R&B,Sad,English,100,130,1971,Vocal,Dinner
-507,Sweet Home Alabama (Live),Lynyrd Skynyrd,Rock,Happy,English,100,283,1974,Vocal,Roadtrip
-508,Don't You Worry 'bout a Thing (Live),Stevie Wonder,R&B,Happy,English,121,224,1973,Vocal,Cooking
-509,A Thousand Years (Live),Christina Perry,Pop,In_Love,English,139,287,2011,Vocal,Dinner
-510,Havana (Live),Camila Cabello ft. Young Thug,Pop,Intense,English,105,217,2017,Vocal,Party
-511,A Sky Full of Stars (Live),Coldplay,Pop,Happy,English,125,268,2014,Vocal,Party
-512,I'm Yours (Live),Jason Mraz,Pop,Happy,English,150,240,2008,Vocal,Roadtrip
-513,Stay With Me (Live),Sam Smith,R&B,Sad,English,84,172,2014,Vocal,Sleep
-514,Walk This Way (Live),Run-DMC ft. Aerosmith,Rap/Hiphop,Intense,English,106,244,1986,Vocal,Fitness
-515,Another One Bites the Dust (Live),Queen,Rock,Intense,English,110,214,1980,Vocal,Fitness
-516,What Goes Around... Comes Around (Live),Justin Timberlake,R&B,Sad,English,76,330,2006,Vocal,Dinner
-517,I Don't Care (Live),Ed Sheeran & Justin Bieber,Pop,Happy,English,102,220,2019,Vocal,Cooking
-518,Get Up (I Feel Like Being a) Sex Machine (Live),James Brown,R&B,Intense,English,106,320,1970,Vocal,Fitness
-519,Take a Chance on Me (Live),ABBA,Pop,Happy,English,105,243,1977,Vocal,Party
-520,Basket Case (Live),Green Day,Rock,Intense,English,171,181,1994,Vocal,Fitness
-521,Lose My Breath (Live),Destiny's Child,R&B,Intense,English,120,242,2004,Vocal,Fitness
-522,California Gurls (Live),Katy Perry ft. Snoop Dogg,Pop,Happy,English,125,236,2010,Vocal,Party
-523,One Way or Another (Live),Blondie,Pop,Intense,English,161,190,1978,Vocal,Fitness
-524,I Will Survive (Live),Gloria Gaynor,R&B,Happy,English,118,210,1978,Vocal,Party
-525,Uptown Funk (Live),Mark Ronson ft. Bruno Mars,Pop,Happy,English,115,270,2014,Vocal,Party
-526,Vogue (Live),Madonna,Pop,Intense,English,118,319,1990,Vocal,Fitness
-527,No Scrubs (Live),TLC,R&B,Intense,English,93,222,1999,Vocal,Party
-528,All Night (Live),Beyoncé,R&B,In_Love,English,65,321,2016,Vocal,Sleep
-529,All Along the Watchtower (Live),Jimi Hendrix,Rock,Intense,English,116,240,1968,Vocal,Roadtrip
-530,Get Down Tonight (Live),KC and the Sunshine Band,R&B,Happy,English,113,212,1975,Vocal,Party
-531,Don't Go Breaking My Heart (Live),Elton John & Kiki Dee,Pop,Happy,English,127,268,1976,Vocal,Cooking
-532,Crazy Train (Live),Ozzy Osbourne,Rock,Intense,English,138,280,1980,Vocal,Fitness
-533,Nirvana - Lithium (Live),Nirvana,Rock,Intense,English,123,257,1991,Vocal,Fitness
-534,Can't Feel My Face (Live),The Weeknd,Pop,Intense,English,108,215,2015,Vocal,Party
-535,Hey Joe (Live),Jimi Hendrix,Rock,Intense,English,140,210,1966,Vocal,Fitness
-536,Respect (Live),Aretha Franklin,R&B,Intense,English,115,148,1967,Vocal,Fitness
-537,California Girls (Live),The Beach Boys,Pop,Happy,English,120,157,1965,Vocal,Party
-538,Stand by Me (Live),Ben E. King,R&B,In_Love,English,110,178,1961,Vocal,Dinner
-539,Jumpman (Live),Drake & Future,Rap/Hiphop,Intense,English,140,200,2015,Vocal,Fitness
-540,I'm Not the Only One (Live),Sam Smith,R&B,Sad,English,80,237,2014,Vocal,Dinner
-541,I Wanna Be Your Lover (Live),Prince,R&B,Intense,English,120,379,1979,Vocal,Fitness
-542,Don't Stop The Music (Live),Rihanna,Pop,Intense,English,123,260,2007,Vocal,Fitness
-543,Seven Nation Army (Live),The White Stripes,Rock,Intense,English,120,232,2003,Vocal,Fitness
-544,What's Up? (Live),4 Non Blondes,Rock,Sad,English,102,285,1992,Vocal,Roadtrip
-545,Pusherman (Live),Curtis Mayfield,R&B,Intense,English,118,350,1972,Vocal,Focus
-546,Despacito (Live),Luis Fonsi ft. Daddy Yankee,Pop,Happy,English,89,228,2017,Vocal,Party
-547,I Put a Spell on You (Live),Nina Simone,R&B,Intense,English,118,170,1965,Vocal,Dinner
-548,The Funeral (Live),Band of Horses,Rock,Sad,English,140,321,2006,Vocal,Roadtrip
-549,A Hard Day's Night (Live),The Beatles,Pop,Happy,English,139,154,1964,Vocal,Cooking
-550,Nuthin' but a 'G' Thang (Live),Dr. Dre ft. Snoop Dogg,Rap/Hiphop,Calm,English,95,278,1992,Vocal,Roadtrip
-551,Sittin' on the Dock of the Bay (Live),Otis Redding,R&B,Calm,English,104,163,1968,Vocal,Focus
-552,Creep (Live),Radiohead,Rock,Sad,English,92,239,1992,Vocal,Sleep
-553,One Dance (Live),Drake ft. Wizkid & Kyla,Pop,Happy,English,104,174,2016,Vocal,Party
-554,How Deep Is Your Love (Live),Bee Gees,Pop,In_Love,English,105,245,1977,Vocal,Dinner
-555,Take on Me (Live),a-ha,Pop,Intense,English,169,225,1985,Vocal,Fitness
-556,Love on Top (Live),Beyoncé,R&B,Happy,English,188,268,2011,Vocal,Party
-557,So Lonely (Live),The Police,Rock,Sad,English,168,270,1978,Vocal,Roadtrip
-558,All Star (Live),Smash Mouth,Pop,Happy,English,104,198,1999,Vocal,Roadtrip
-559,Gold Digger (Live),Kanye West ft. Jamie Foxx,Rap/Hiphop,Intense,English,93,208,2005,Vocal,Fitness
-560,Another Brick in the Wall (Live),Pink Floyd,Rock,Sad,English,104,233,1979,Vocal,Focus
-561,Good Vibrations (Live),The Beach Boys,Pop,Happy,English,135,217,1966,Vocal,Roadtrip
-562,Love Yourself (Live),Justin Bieber,Pop,Calm,English,102,233,2015,Vocal,Dinner
-563,Jump (Live),Van Halen,Rock,Intense,English,130,240,1984,Vocal,Fitness
-564,What Is Love (Live),Haddaway,EDM,Intense,English,124,250,1993,Vocal,Party
-565,Stay (Live),Rihanna ft. Mikky Ekko,Pop,Sad,English,112,240,2012,Vocal,Sleep
-566,Tequila Sunrise (Live),Eagles,Rock,Calm,English,100,180,1973,Vocal,Cooking
-567,La Isla Bonita (Live),Madonna,Pop,Happy,English,100,242,1987,Vocal,Cooking
-568,In Bloom (Live),Nirvana,Rock,Intense,English,155,255,1991,Vocal,Fitness
-569,Piano Man (Live),Billy Joel,Pop,Calm,English,75,336,1973,Vocal,Dinner
-570,The Girl Is Mine (Live),Michael Jackson & Paul McCartney,Pop,In_Love,English,127,215,1982,Vocal,Dinner
-571,Mr. Brightside (Live),The Killers,Rock,Happy,English,148,223,2003,Vocal,Fitness
-572,Crazy (Live),Gnarls Barkley,R&B,Intense,English,112,182,2006,Vocal,Roadtrip
-573,Get Into The Groove (Live),Madonna,Pop,Intense,English,116,281,1985,Vocal,Party
-574,Run This Town (Live),Jay-Z ft. Rihanna,Rap/Hiphop,Intense,English,120,270,2009,Vocal,Fitness
-575,I Wanna Dance with Somebody (Live),Whitney Houston,Pop,Happy,English,120,272,1987,Vocal,Party
-576,Rolling in the Deep (Live),Adele,Pop,Intense,English,105,228,2010,Vocal,Roadtrip
-577,Sexual Healing (Live),Marvin Gaye,R&B,In_Love,English,98,240,1982,Vocal,Dinner
-578,Back in Black (Live),AC/DC,Rock,Intense,English,188,255,1980,Vocal,Fitness
-579,Fast Car (Live),Tracy Chapman,Pop,Sad,English,104,300,1988,Vocal,Roadtrip
-580,Shining (Live),DJ Khaled ft. Beyoncé & Jay-Z,Rap/Hiphop,Happy,English,130,260,2017,Vocal,Party
-581,My Girl (Acoustic),The Temptations,R&B,Happy,English,105,165,1964,Vocal,Dinner
-582,Don't Stop Me Now (Live),Queen,Rock,Happy,English,156,210,1978,Vocal,Party
-583,Smash Into Pieces (Live),The Offspring,Rock,Intense,English,140,165,1998,Vocal,Fitness
-584,One (Live),U2,Rock,Sad,English,91,276,1991,Vocal,Sleep
-585,It Was A Good Day (Live),Ice Cube,Rap/Hiphop,Calm,English,82,270,1992,Vocal,Focus
-586,Sweet Nothing (Live),Calvin Harris ft. Florence Welch,EDM,Intense,English,126,220,2012,Vocal,Fitness
-587,Killing Me Softly with His Song (Live),Roberta Flack,R&B,Sad,English,108,266,1973,Vocal,Dinner
-588,Let's Get It Started (Live),Black Eyed Peas,Pop,Intense,English,130,277,2003,Vocal,Fitness
-589,Summertime (Live),Ella Fitzgerald & Louis Armstrong,Jazz,Calm,English,75,285,1957,Vocal,Dinner
-590,I Like It (Live),Cardi B, Rap/Hiphop,Happy,English,136,253,2018,Vocal,Party
-591,Someone Like You (Live),Adele,Pop,Sad,English,67,285,2011,Vocal,Sleep
-592,Lose Control (Live),Missy Elliott,Rap/Hiphop,Intense,English,125,225,2005,Vocal,Fitness
-593,Yesterday (Live),The Beatles,Pop,Sad,English,96,125,1965,Vocal,Sleep
-594,All Night Long (All Night) (Live),Lionel Richie,R&B,Happy,English,108,256,1983,Vocal,Party
-595,Stayin' Alive (Live),Bee Gees,Pop,Intense,English,103,283,1977,Vocal,Fitness
-596,Empire State of Mind (Live),Jay-Z ft. Alicia Keys,Rap/Hiphop,Intense,English,84,276,2009,Vocal,Roadtrip
-597,Happy (Live),Pharrell Williams,Pop,Happy,English,160,233,2013,Vocal,Party
-598,Pony (Live),Ginuwine,R&B,In_Love,English,128,260,1996,Vocal,Dinner
-599,Clocks (Live),Coldplay,Pop,Calm,English,130,307,2002,Vocal,Focus
-600,The Way You Make Me Feel (Live),Michael Jackson,Pop,In_Love,English,115,269,1987,Vocal,Dinner
-601,Don't Speak (Live),No Doubt,Rock,Sad,English,78,263,1995,Vocal,Sleep
-602,Can't Help Falling in Love (Live),Elvis Presley,Pop,In_Love,English,100,181,1961,Vocal,Dinner
-603,Sex on Fire (Live),Kings of Leon,Rock,Intense,English,153,203,2008,Vocal,Fitness
-604,Uptown Funk (Live),Mark Ronson ft. Bruno Mars,Pop,Happy,English,115,270,2014,Vocal,Party
-605,Fields of Gold (Live),Sting,Pop,Calm,English,104,240,1993,Vocal,Dinner
-606,Watermelon Sugar (Live),Harry Styles,Pop,Happy,English,95,174,2019,Vocal,Party
-607,All of Me (Live),John Legend,R&B,In_Love,English,120,270,2013,Vocal,Dinner
-608,Hallelujah (Live),Leonard Cohen,Pop,Sad,English,110,260,1984,Vocal,Sleep
-609,No Diggity (Live),Blackstreet ft. Dr. Dre,R&B,Happy,English,106,304,1996,Vocal,Party
-610,Heartless (Live),The Weeknd,R&B,Intense,English,100,205,2019,Vocal,Fitness
-611,Bad Guy (Live),Billie Eilish,Pop,Intense,English,135,194,2019,Vocal,Fitness
-612,Boombayah (Live),Blackpink,Pop,Intense,English,125,230,2016,Vocal,Party
-613,Don't Worry (Live),M.O.P.,Rap/Hiphop,Intense,English,98,212,1998,Vocal,Fitness
-614,I Got You (I Feel Good) (Instrumental),James Brown,R&B,Happy,Instrumental,144,167,1965,Instrumental,Party
-615,Tequila Sunrise (Acoustic),Eagles,Rock,Calm,English,100,180,1973,Vocal,Cooking
-616,Smooth Operator (Instrumental),Sade,Jazz,Calm,Instrumental,120,256,1984,Instrumental,Dinner
-617,What If (Instrumental),Coldplay,Pop,Sad,Instrumental,130,300,2005,Instrumental,Roadtrip
-618,La Valse d'Amélie (Orchestral),Yann Tiersen,Classical,Calm,Instrumental,100,120,2001,Instrumental,Cooking
-619,One Dance (Remix),Drake ft. Wizkid & Kyla,EDM,Happy,English,124,240,2016,Vocal,Party
-620,Sweet Caroline (Instrumental),Neil Diamond,Pop,Happy,Instrumental,126,203,1969,Instrumental,Roadtrip
-621,Lose Control (Instrumental),Meduza, Goodboys,EDM,Intense,Instrumental,124,180,2019,Instrumental,Fitness
-622,Don't Give Up (Instrumental),Peter Gabriel & Kate Bush,Pop,Sad,Instrumental,75,394,1986,Instrumental,Sleep
-623,Runaway (Instrumental),Kanye West ft. Pusha T,Rap/Hiphop,Sad,Instrumental,90,540,2010,Instrumental,Focus
-624,Let Me Love You (Instrumental),DJ Snake ft. Justin Bieber,EDM,Happy,Instrumental,100,205,2016,Instrumental,Party
-625,Thriller (Instrumental),Michael Jackson,Pop,Intense,Instrumental,120,357,1982,Instrumental,Party
-626,A Change Is Gonna Come (Live),Sam Cooke,R&B,Sad,English,82,192,1964,Vocal,Sleep
-627,Sweet Caroline (Live),Neil Diamond,Pop,Happy,English,126,203,1969,Vocal,Roadtrip
-628,Don't Stop The Music (Remix),Rihanna,EDM,Intense,English,128,240,2007,Vocal,Fitness
-629,The Power (Instrumental),Snap!,EDM,Intense,Instrumental,125,240,1990,Instrumental,Fitness
-630,The Scientist (Acoustic),Coldplay,Pop,Sad,English,150,310,2002,Vocal,Sleep
-631,Easy On Me (Instrumental),Adele,Pop,Sad,Instrumental,150,224,2021,Instrumental,Sleep
-632,I Believe I Can Fly (Instrumental),R. Kelly,R&B,Happy,Instrumental,60,320,1996,Instrumental,Roadtrip
-633,Juicy (Acoustic),The Notorious B.I.G.,Rap/Hiphop,Happy,English,85,270,1994,Vocal,Roadtrip
-634,Don't Stop Believin' (Acoustic),Journey,Rock,Happy,English,119,268,1981,Vocal,Cooking
-635,Empire State of Mind (Acoustic),Jay-Z ft. Alicia Keys,Rap/Hiphop,Intense,English,84,276,2009,Vocal,Roadtrip
-636,Love Yourself (Acoustic),Justin Bieber,Pop,Calm,English,102,233,2015,Vocal,Dinner
-637,Stay (Acoustic),Rihanna ft. Mikky Ekko,Pop,Sad,English,112,240,2012,Vocal,Sleep
-638,One Dance (Acoustic),Drake ft. Wizkid & Kyla,Pop,Happy,English,104,174,2016,Vocal,Party
-639,The Boxer (Instrumental),Simon & Garfunkel,Pop,Calm,Instrumental,105,308,1969,Instrumental,Roadtrip
-640,The Boxer (Acoustic),Simon & Garfunkel,Pop,Calm,English,105,308,1969,Vocal,Roadtrip
-641,My Favorite Things (Vocal Version),John Coltrane,Jazz,Calm,Vocal,128,870,1961,Vocal,Focus
-642,Smooth Operator (Acoustic),Sade,Jazz,Calm,English,120,256,1984,Vocal,Dinner
-643,What If (Acoustic),Coldplay,Pop,Sad,English,130,300,2005,Vocal,Roadtrip
-644,Lose Control (Acoustic),Meduza, Goodboys,EDM,Intense,English,124,180,2019,Vocal,Fitness
-645,Don't Give Up (Acoustic),Peter Gabriel & Kate Bush,Pop,Sad,English,75,394,1986,Vocal,Sleep
-646,Runaway (Acoustic),Kanye West ft. Pusha T,Rap/Hiphop,Sad,English,90,540,2010,Vocal,Focus
-647,Thriller (Acoustic),Michael Jackson,Pop,Intense,English,120,357,1982,Vocal,Party
-648,My Kind of Town (Instrumental),Frank Sinatra,Jazz,Happy,Instrumental,120,180,1964,Instrumental,Dinner
-649,I Will Always Love You (Instrumental),Dolly Parton,Pop,Sad,Instrumental,133,180,1974,Instrumental,Sleep
-650,Stol På Dig Selv (Instrumental),Mads Langer,Pop,Calm,Instrumental,105,200,2009,Instrumental,Focus
-651,Hurt (Acoustic Instrumental),Christina Aguilera,Pop,Sad,Instrumental,100,250,2006,Instrumental,Sleep
-652,The Four Seasons - Spring (Violin Solo),Antonio Vivaldi,Classical,Happy,Instrumental,120,180,1725,Instrumental,Roadtrip
-653,Jump Around (Remix),House of Pain,EDM,Intense,English,130,240,1992,Vocal,Party
-654,Halo (Remix),Beyoncé,EDM,In_Love,English,126,240,2008,Vocal,Dinner
-655,Someone Like You (Acoustic),Adele,Pop,Sad,English,67,285,2011,Vocal,Sleep
-656,Lose Control (Remix),Missy Elliott,EDM,Intense,English,130,240,2005,Vocal,Fitness
-657,Yesterday (Acoustic),The Beatles,Pop,Sad,English,96,125,1965,Vocal,Sleep
-658,All Night Long (All Night) (Remix),Lionel Richie,EDM,Happy,English,128,240,1983,Vocal,Party
-659,Stayin' Alive (Remix),Bee Gees,EDM,Intense,English,125,240,1977,Vocal,Fitness
-660,Empire State of Mind (Remix),Jay-Z ft. Alicia Keys,EDM,Intense,English,128,240,2009,Vocal,Roadtrip
-661,Happy (Remix),Pharrell Williams,EDM,Happy,English,128,240,2013,Vocal,Party
-662,Pony (Remix),Ginuwine,EDM,In_Love,English,130,240,1996,Vocal,Dinner
-663,Clocks (Remix),Coldplay,EDM,Calm,English,126,240,2002,Vocal,Focus
-664,The Way You Make Me Feel (Acoustic),Michael Jackson,Pop,In_Love,English,115,269,1987,Vocal,Dinner
-665,Don't Speak (Acoustic),No Doubt,Rock,Sad,English,78,263,1995,Vocal,Sleep
-666,Can't Help Falling in Love (Acoustic),Elvis Presley,Pop,In_Love,English,100,181,1961,Vocal,Dinner
-667,Sex on Fire (Acoustic),Kings of Leon,Rock,Intense,English,153,203,2008,Vocal,Fitness
-668,Uptown Funk (Remix),Mark Ronson ft. Bruno Mars,EDM,Happy,English,128,240,2014,Vocal,Party
-669,Fields of Gold (Acoustic),Sting,Pop,Calm,English,104,240,1993,Vocal,Dinner
-670,Watermelon Sugar (Remix),Harry Styles,EDM,Happy,English,124,240,2019,Vocal,Party
-671,All of Me (Remix),John Legend,EDM,In_Love,English,128,240,2013,Vocal,Dinner
-672,Hallelujah (Acoustic),Leonard Cohen,Pop,Sad,English,110,260,1984,Vocal,Sleep
-673,No Diggity (Remix),Blackstreet ft. Dr. Dre,EDM,Happy,English,125,240,1996,Vocal,Party
-674,Heartless (Remix),The Weeknd,EDM,Intense,English,128,240,2019,Vocal,Fitness
-675,Bad Guy (Acoustic),Billie Eilish,Pop,Intense,English,135,194,2019,Vocal,Fitness
-676,Boombayah (Remix),Blackpink,EDM,Intense,English,128,240,2016,Vocal,Party
-677,Don't Worry (Remix),M.O.P.,EDM,Intense,English,126,240,1998,Vocal,Fitness
-678,Fix You (Acoustic),Coldplay,Pop,Sad,English,138,295,2005,Vocal,Sleep
-679,The Real Slim Shady (Acoustic),Eminem,Rap/Hiphop,Intense,English,104,284,2000,Vocal,Party
-680,Numb (Acoustic),Linkin Park,Rock,Intense,English,104,187,2003,Vocal,Fitness
-681,I Gotta Feeling (Remix),Black Eyed Peas,EDM,Happy,English,130,240,2009,Vocal,Party
-682,The Girl from Ipanema (Acoustic),Stan Getz & João Gilberto,Jazz,Calm,English,129,315,1964,Vocal,Dinner
-683,Halo (Acoustic),Beyoncé,R&B,In_Love,English,80,261,2008,Vocal,Dinner
-684,The Scientist (Remix),Coldplay,EDM,Sad,English,128,240,2002,Vocal,Sleep
-685,Livin' on a Prayer (Remix),Bon Jovi,EDM,Intense,English,130,240,1986,Vocal,Fitness
-686,Firework (Remix),Katy Perry,EDM,Happy,English,128,240,2010,Vocal,Fitness
-687,Tears in Heaven (Acoustic),Eric Clapton,Rock,Sad,English,75,270,1992,Vocal,Sleep
-688,California Dreamin' (Acoustic),The Mamas & the Papas,Pop,Calm,English,110,158,1965,Vocal,Roadtrip
-689,Changes (Acoustic),2Pac ft. Talent,Rap/Hiphop,Sad,English,110,269,1998,Vocal,Sleep
-690,Ain't No Sunshine (Acoustic),Bill Withers,R&B,Sad,English,100,130,1971,Vocal,Dinner
-691,Sweet Home Alabama (Acoustic),Lynyrd Skynyrd,Rock,Happy,English,100,283,1974,Vocal,Roadtrip
-692,Don't You Worry 'bout a Thing (Acoustic),Stevie Wonder,R&B,Happy,English,121,224,1973,Vocal,Cooking
-693,A Thousand Years (Acoustic),Christina Perry,Pop,In_Love,English,139,287,2011,Vocal,Dinner
-694,Havana (Remix),Camila Cabello ft. Young Thug,EDM,Intense,English,128,240,2017,Vocal,Party
-695,A Sky Full of Stars (Remix),Coldplay,EDM,Happy,English,128,240,2014,Vocal,Party
-696,I'm Yours (Acoustic),Jason Mraz,Pop,Happy,English,150,240,2008,Vocal,Roadtrip
-697,Stay With Me (Acoustic),Sam Smith,R&B,Sad,English,84,172,2014,Vocal,Sleep
-698,Walk This Way (Remix),Run-DMC ft. Aerosmith,EDM,Intense,English,128,240,1986,Vocal,Fitness
-699,Another One Bites the Dust (Remix),Queen,EDM,Intense,English,128,240,1980,Vocal,Fitness
-700,What Goes Around... Comes Around (Acoustic),Justin Timberlake,R&B,Sad,English,76,330,2006,Vocal,Dinner
-701,I Don't Care (Remix),Ed Sheeran & Justin Bieber,EDM,Happy,English,128,240,2019,Vocal,Cooking
-702,Get Up (I Feel Like Being a) Sex Machine (Remix),James Brown,EDM,Intense,English,130,240,1970,Vocal,Fitness
-703,Take a Chance on Me (Remix),ABBA,EDM,Happy,English,128,240,1977,Vocal,Party
-704,Basket Case (Acoustic),Green Day,Rock,Intense,English,171,181,1994,Vocal,Fitness
-705,Lose My Breath (Remix),Destiny's Child,EDM,Intense,English,128,240,2004,Vocal,Fitness
-706,California Gurls (Remix),Katy Perry ft. Snoop Dogg,EDM,Happy,English,128,240,2010,Vocal,Party
-707,One Way or Another (Remix),Blondie,EDM,Intense,English,128,240,1978,Vocal,Fitness
-708,I Will Survive (Remix),Gloria Gaynor,EDM,Happy,English,128,240,1978,Vocal,Party
-709,Uptown Funk (Acoustic),Mark Ronson ft. Bruno Mars,Pop,Happy,English,115,270,2014,Vocal,Party
-710,Vogue (Remix),Madonna,EDM,Intense,English,128,240,1990,Vocal,Fitness
-711,No Scrubs (Acoustic),TLC,R&B,Intense,English,93,222,1999,Vocal,Party
-712,All Night (Remix),Beyoncé,EDM,In_Love,English,128,240,2016,Vocal,Sleep
-713,All Along the Watchtower (Acoustic),Jimi Hendrix,Rock,Intense,English,116,240,1968,Vocal,Roadtrip
-714,Get Down Tonight (Remix),KC and the Sunshine Band,EDM,Happy,English,128,240,1975,Vocal,Party
-715,Don't Go Breaking My Heart (Acoustic),Elton John & Kiki Dee,Pop,Happy,English,127,268,1976,Vocal,Cooking
-716,Crazy Train (Acoustic),Ozzy Osbourne,Rock,Intense,English,138,280,1980,Vocal,Fitness
-717,Nirvana - Lithium (Acoustic),Nirvana,Rock,Intense,English,123,257,1991,Vocal,Fitness
-718,Can't Feel My Face (Remix),The Weeknd,EDM,Intense,English,128,240,2015,Vocal,Party
-719,Hey Joe (Acoustic),Jimi Hendrix,Rock,Intense,English,140,210,1966,Vocal,Fitness
-720,Respect (Acoustic),Aretha Franklin,R&B,Intense,English,115,148,1967,Vocal,Fitness
-721,California Girls (Acoustic),The Beach Boys,Pop,Happy,English,120,157,1965,Vocal,Party
-722,Stand by Me (Acoustic),Ben E. King,R&B,In_Love,English,110,178,1961,Vocal,Dinner
-723,Jumpman (Remix),Drake & Future,EDM,Intense,English,130,240,2015,Vocal,Fitness
-724,I'm Not the Only One (Acoustic),Sam Smith,R&B,Sad,English,80,237,2014,Vocal,Dinner
-725,I Wanna Be Your Lover (Remix),Prince,EDM,Intense,English,128,240,1979,Vocal,Fitness
-726,Don't Stop The Music (Acoustic),Rihanna,Pop,Intense,English,123,260,2007,Vocal,Fitness
-727,Seven Nation Army (Acoustic),The White Stripes,Rock,Intense,English,120,232,2003,Vocal,Fitness
-728,What's Up? (Acoustic),4 Non Blondes,Rock,Sad,English,102,285,1992,Vocal,Roadtrip
-729,Pusherman (Acoustic),Curtis Mayfield,R&B,Intense,English,118,350,1972,Vocal,Focus
-730,Despacito (Remix),Luis Fonsi ft. Daddy Yankee,EDM,Happy,English,128,240,2017,Vocal,Party
-731,I Put a Spell on You (Acoustic),Nina Simone,R&B,Intense,English,118,170,1965,Vocal,Dinner
-732,The Funeral (Acoustic),Band of Horses,Rock,Sad,English,140,321,2006,Vocal,Roadtrip
-733,A Hard Day's Night (Acoustic),The Beatles,Pop,Happy,English,139,154,1964,Vocal,Cooking
-734,Nuthin' but a 'G' Thang (Acoustic),Dr. Dre ft. Snoop Dogg,Rap/Hiphop,Calm,English,95,278,1992,Vocal,Roadtrip
-735,Sittin' on the Dock of the Bay (Acoustic),Otis Redding,R&B,Calm,English,104,163,1968,Vocal,Focus
-736,Creep (Acoustic),Radiohead,Rock,Sad,English,92,239,1992,Vocal,Sleep
-737,One Dance (Remix),Drake ft. Wizkid & Kyla,EDM,Happy,English,128,240,2016,Vocal,Party
-738,How Deep Is Your Love (Acoustic),Bee Gees,Pop,In_Love,English,105,245,1977,Vocal,Dinner
-739,Take on Me (Acoustic),a-ha,Pop,Intense,English,169,225,1985,Vocal,Fitness
-740,Love on Top (Acoustic),Beyoncé,R&B,Happy,English,188,268,2011,Vocal,Party
-741,So Lonely (Acoustic),The Police,Rock,Sad,English,168,270,1978,Vocal,Roadtrip
-742,All Star (Acoustic),Smash Mouth,Pop,Happy,English,104,198,1999,Vocal,Roadtrip
-743,Gold Digger (Remix),Kanye West ft. Jamie Foxx,EDM,Intense,English,130,240,2005,Vocal,Fitness
-744,Another Brick in the Wall (Acoustic),Pink Floyd,Rock,Sad,English,104,233,1979,Vocal,Focus
-745,Good Vibrations (Acoustic),The Beach Boys,Pop,Happy,English,135,217,1966,Vocal,Roadtrip
-746,Love Yourself (Remix),Justin Bieber,EDM,Calm,English,128,240,2015,Vocal,Dinner
-747,Jump (Remix),Van Halen,EDM,Intense,English,130,240,1984,Vocal,Fitness
-748,What Is Love (Remix),Haddaway,EDM,Intense,English,128,240,1993,Vocal,Party
-749,Stay (Remix),Rihanna ft. Mikky Ekko,EDM,Sad,English,128,240,2012,Vocal,Sleep
-750,Tequila Sunrise (Remix),Eagles,EDM,Calm,English,126,240,1973,Vocal,Cooking
-751,La Isla Bonita (Remix),Madonna,EDM,Happy,English,128,240,1987,Vocal,Cooking
-752,In Bloom (Acoustic),Nirvana,Rock,Intense,English,155,255,1991,Vocal,Fitness
-753,Piano Man (Acoustic),Billy Joel,Pop,Calm,English,75,336,1973,Vocal,Dinner
-754,The Girl Is Mine (Acoustic),Michael Jackson & Paul McCartney,Pop,In_Love,English,127,215,1982,Vocal,Dinner
-755,Mr. Brightside (Remix),The Killers,EDM,Happy,English,128,240,2003,Vocal,Fitness
-756,Crazy (Acoustic),Gnarls Barkley,R&B,Intense,English,112,182,2006,Vocal,Roadtrip
-757,Get Into The Groove (Remix),Madonna,EDM,Intense,English,128,240,1985,Vocal,Party
-758,Run This Town (Remix),Jay-Z ft. Rihanna,EDM,Intense,English,128,240,2009,Vocal,Fitness
-759,I Wanna Dance with Somebody (Remix),Whitney Houston,EDM,Happy,English,128,240,1987,Vocal,Party
-760,Rolling in the Deep (Remix),Adele,EDM,Intense,English,128,240,2010,Vocal,Roadtrip
-761,Sexual Healing (Acoustic),Marvin Gaye,R&B,In_Love,English,98,240,1982,Vocal,Dinner
-762,Back in Black (Remix),AC/DC,EDM,Intense,English,130,240,1980,Vocal,Fitness
-763,Fast Car (Remix),Tracy Chapman,EDM,Sad,English,128,240,1988,Vocal,Roadtrip
-764,Shining (Remix),DJ Khaled ft. Beyoncé & Jay-Z,EDM,Happy,English,128,240,2017,Vocal,Party
-765,My Girl (Instrumental Remix),The Temptations,EDM,Happy,Instrumental,128,240,1964,Instrumental,Dinner
-766,Don't Stop Me Now (Remix),Queen,EDM,Happy,English,128,240,1978,Vocal,Party
-767,Smash Into Pieces (Remix),The Offspring,EDM,Intense,English,128,240,1998,Vocal,Fitness
-768,One (Acoustic),U2,Rock,Sad,English,91,276,1991,Vocal,Sleep
-769,It Was A Good Day (Remix),Ice Cube,EDM,Calm,English,128,240,1992,Vocal,Focus
-770,Sweet Nothing (Remix),Calvin Harris ft. Florence Welch,EDM,Intense,English,128,240,2012,Vocal,Fitness
-771,Killing Me Softly with His Song (Acoustic),Roberta Flack,R&B,Sad,English,108,266,1973,Vocal,Dinner
-772,Let's Get It Started (Remix),Black Eyed Peas,EDM,Intense,English,128,240,2003,Vocal,Fitness
-773,Summertime (Acoustic),Ella Fitzgerald & Louis Armstrong,Jazz,Calm,English,75,285,1957,Vocal,Dinner
-774,I Like It (Remix),Cardi B, Rap/Hiphop,EDM,Happy,English,128,240,2018,Vocal,Party
-775,Someone Like You (Remix),Adele,EDM,Sad,English,128,240,2011,Vocal,Sleep
-776,Lose Control (Remix),Missy Elliott,EDM,Intense,English,128,240,2005,Vocal,Fitness
-777,Yesterday (Remix),The Beatles,Pop,Sad,English,128,240,1965,Vocal,Sleep
-778,All Night Long (All Night) (Acoustic),Lionel Richie,R&B,Happy,English,108,256,1983,Vocal,Party
-779,Stayin' Alive (Acoustic),Bee Gees,Pop,Intense,English,103,283,1977,Vocal,Fitness
-780,Empire State of Mind (Acoustic),Jay-Z ft. Alicia Keys,Rap/Hiphop,Intense,English,84,276,2009,Vocal,Roadtrip
-781,Happy (Acoustic),Pharrell Williams,Pop,Happy,English,160,233,2013,Vocal,Party
-782,Pony (Acoustic),Ginuwine,R&B,In_Love,English,128,260,1996,Vocal,Dinner
-783,Clocks (Acoustic),Coldplay,Pop,Calm,English,130,307,2002,Vocal,Focus
-784,The Way You Make Me Feel (Remix),Michael Jackson,EDM,In_Love,English,128,240,1987,Vocal,Dinner
-785,Don't Speak (Remix),No Doubt,EDM,Sad,English,128,240,1995,Vocal,Sleep
-786,Can't Help Falling in Love (Remix),Elvis Presley,EDM,In_Love,English,128,240,1961,Vocal,Dinner
-787,Sex on Fire (Remix),Kings of Leon,EDM,Intense,English,128,240,2008,Vocal,Fitness
-788,Uptown Funk (Remix),Mark Ronson ft. Bruno Mars,EDM,Happy,English,128,240,2014,Vocal,Party
-789,Fields of Gold (Remix),Sting,EDM,Calm,English,128,240,1993,Vocal,Dinner
-790,Watermelon Sugar (Acoustic),Harry Styles,Pop,Happy,English,95,174,2019,Vocal,Party
-791,All of Me (Acoustic),John Legend,R&B,In_Love,English,120,270,2013,Vocal,Dinner
-792,Hallelujah (Remix),Leonard Cohen,EDM,Sad,English,128,240,1984,Vocal,Sleep
-793,No Diggity (Acoustic),Blackstreet ft. Dr. Dre,R&B,Happy,English,106,304,1996,Vocal,Party
-794,Heartless (Acoustic),The Weeknd,R&B,Intense,English,100,205,2019,Vocal,Fitness
-795,Bohemian Rhapsody (Acoustic),Queen,Rock,Intense,English,144,354,1975,Vocal,Roadtrip
-796,September (Acoustic),Earth, Wind & Fire,R&B,Happy,English,126,215,1978,Vocal,Party
-797,One Kiss (Acoustic),Calvin Harris & Dua Lipa,EDM,Happy,English,124,214,2018,Vocal,Party
-798,Stairway to Heaven (Acoustic),Led Zeppelin,Rock,Sad,English,82,482,1971,Vocal,Sleep
-799,Blinding Lights (Acoustic),The Weeknd,Pop,Intense,English,171,200,2019,Vocal,Fitness
-800,Imagine (Acoustic),John Lennon,Pop,Calm,English,75,187,1971,Vocal,Sleep
-801,Sweet Child o' Mine (Acoustic),Guns N' Roses,Rock,Happy,English,125,356,1987,Vocal,Party
-802,Let It Be (Acoustic),The Beatles,Pop,Calm,English,143,243,1970,Vocal,Focus
-803,Crazy in Love (Acoustic),Beyoncé ft. Jay-Z,R&B,Intense,English,99,236,2003,Vocal,Fitness
-804,The Way You Make Me Feel (Acoustic),Michael Jackson,R&B,In_Love,English,115,269,1987,Vocal,Party
-805,One (Acoustic),U2,Rock,Sad,English,91,276,1991,Vocal,Sleep
-806,Starlight (Acoustic),Muse,Rock,Intense,English,122,240,2006,Vocal,Party
-807,Love on Top (Remix),Beyoncé,EDM,Happy,English,128,240,2011,Vocal,Party
-808,Bad Guy (Remix),Billie Eilish,EDM,Intense,English,130,240,2019,Vocal,Fitness
-809,Boombayah (Acoustic),Blackpink,Pop,Intense,English,125,230,2016,Vocal,Party
-810,Don't Worry (Acoustic),M.O.P.,Rap/Hiphop,Intense,English,98,212,1998,Vocal,Fitness
-811,The Real Slim Shady (Remix),Eminem,EDM,Intense,English,130,240,2000,Vocal,Party
-812,Numb (Remix),Linkin Park,EDM,Intense,English,128,240,2003,Vocal,Fitness
-813,I Gotta Feeling (Acoustic),Black Eyed Peas,Pop,Happy,English,128,269,2009,Vocal,Party
-814,Halo (Remix),Beyoncé,EDM,In_Love,English,126,240,2008,Vocal,Dinner
-815,The Scientist (Acoustic),Coldplay,Pop,Sad,English,150,310,2002,Vocal,Sleep
-816,Livin' on a Prayer (Acoustic),Bon Jovi,Rock,Intense,English,123,249,1986,Vocal,Fitness
-817,Firework (Acoustic),Katy Perry,Pop,Happy,English,124,227,2010,Vocal,Fitness
-818,Tears in Heaven (Remix),Eric Clapton,EDM,Sad,English,128,240,1992,Vocal,Sleep
-819,California Dreamin' (Remix),The Mamas & the Papas,EDM,Calm,English,128,240,1965,Vocal,Roadtrip
-820,Changes (Remix),2Pac ft. Talent,EDM,Sad,English,128,240,1998,Vocal,Sleep
-821,Ain't No Sunshine (Remix),Bill Withers,EDM,Sad,English,126,240,1971,Vocal,Dinner
-822,Sweet Home Alabama (Remix),Lynyrd Skynyrd,EDM,Happy,English,128,240,1974,Vocal,Roadtrip
-823,Don't You Worry 'bout a Thing (Remix),Stevie Wonder,EDM,Happy,English,128,240,1973,Vocal,Cooking
-824,A Thousand Years (Remix),Christina Perry,EDM,In_Love,English,128,240,2011,Vocal,Dinner
-825,Havana (Acoustic),Camila Cabello ft. Young Thug,Pop,Intense,English,105,217,2017,Vocal,Party
-826,A Sky Full of Stars (Acoustic),Coldplay,Pop,Happy,English,125,268,2014,Vocal,Party
-827,I'm Yours (Remix),Jason Mraz,EDM,Happy,English,128,240,2008,Vocal,Roadtrip
-828,Stay With Me (Remix),Sam Smith,EDM,Sad,English,128,240,2014,Vocal,Sleep
-829,Walk This Way (Acoustic),Run-DMC ft. Aerosmith,Rap/Hiphop,Intense,English,106,244,1986,Vocal,Fitness
-830,Another One Bites the Dust (Acoustic),Queen,Rock,Intense,English,110,214,1980,Vocal,Fitness
-831,What Goes Around... Comes Around (Remix),Justin Timberlake,EDM,Sad,English,128,240,2006,Vocal,Dinner
-832,I Don't Care (Acoustic),Ed Sheeran & Justin Bieber,Pop,Happy,English,102,220,2019,Vocal,Cooking
-833,Get Up (I Feel Like Being a) Sex Machine (Acoustic),James Brown,R&B,Intense,English,106,320,1970,Vocal,Fitness
-834,Take a Chance on Me (Acoustic),ABBA,Pop,Happy,English,105,243,1977,Vocal,Party
-835,Basket Case (Remix),Green Day,EDM,Intense,English,130,240,1994,Vocal,Fitness
-836,Lose My Breath (Acoustic),Destiny's Child,R&B,Intense,English,120,242,2004,Vocal,Fitness
-837,California Gurls (Acoustic),Katy Perry ft. Snoop Dogg,Pop,Happy,English,125,236,2010,Vocal,Party
-838,One Way or Another (Acoustic),Blondie,Pop,Intense,English,161,190,1978,Vocal,Fitness
-839,I Will Survive (Acoustic),Gloria Gaynor,R&B,Happy,English,118,210,1978,Vocal,Party
-840,Uptown Funk (Remix),Mark Ronson ft. Bruno Mars,EDM,Happy,English,128,240,2014,Vocal,Party
-841,Vogue (Acoustic),Madonna,Pop,Intense,English,118,319,1990,Vocal,Fitness
-842,No Scrubs (Remix),TLC,EDM,Intense,English,128,240,1999,Vocal,Party
-843,All Night (Acoustic),Beyoncé,R&B,In_Love,English,65,321,2016,Vocal,Sleep
-844,All Along the Watchtower (Remix),Jimi Hendrix,EDM,Intense,English,128,240,1968,Vocal,Roadtrip
-845,Get Down Tonight (Acoustic),KC and the Sunshine Band,R&B,Happy,English,113,212,1975,Vocal,Party
-846,Don't Go Breaking My Heart (Remix),Elton John & Kiki Dee,EDM,Happy,English,128,240,1976,Vocal,Cooking
-847,Crazy Train (Remix),Ozzy Osbourne,EDM,Intense,English,130,240,1980,Vocal,Fitness
-848,Nirvana - Lithium (Remix),Nirvana,EDM,Intense,English,128,240,1991,Vocal,Fitness
-849,Can't Feel My Face (Acoustic),The Weeknd,Pop,Intense,English,108,215,2015,Vocal,Party
-850,Hey Joe (Remix),Jimi Hendrix,EDM,Intense,English,128,240,1966,Vocal,Fitness
-851,Respect (Remix),Aretha Franklin,EDM,Intense,English,128,240,1967,Vocal,Fitness
-852,California Girls (Remix),The Beach Boys,EDM,Happy,English,128,240,1965,Vocal,Party
-853,Stand by Me (Remix),Ben E. King,EDM,In_Love,English,126,240,1961,Vocal,Dinner
-854,Jumpman (Acoustic),Drake & Future,Rap/Hiphop,Intense,English,140,200,2015,Vocal,Fitness
-855,I'm Not the Only One (Remix),Sam Smith,EDM,Sad,English,128,240,2014,Vocal,Dinner
-856,I Wanna Be Your Lover (Acoustic),Prince,R&B,Intense,English,120,379,1979,Vocal,Fitness
-857,Don't Stop The Music (Remix),Rihanna,EDM,Intense,English,128,240,2007,Vocal,Fitness
-858,Seven Nation Army (Remix),The White Stripes,EDM,Intense,English,128,240,2003,Vocal,Fitness
-859,What's Up? (Remix),4 Non Blondes,EDM,Sad,English,128,240,1992,Vocal,Roadtrip
-860,Pusherman (Remix),Curtis Mayfield,EDM,Intense,English,128,240,1972,Vocal,Focus
-861,I Put a Spell on You (Remix),Nina Simone,EDM,Intense,English,128,240,1965,Vocal,Dinner
-862,The Funeral (Remix),Band of Horses,EDM,Sad,English,128,240,2006,Vocal,Roadtrip
-863,A Hard Day's Night (Remix),The Beatles,EDM,Happy,English,128,240,1964,Vocal,Cooking
-864,Nuthin' but a 'G' Thang (Remix),Dr. Dre ft. Snoop Dogg,EDM,Calm,English,128,240,1992,Vocal,Roadtrip
-865,Sittin' on the Dock of the Bay (Remix),Otis Redding,EDM,Calm,English,128,240,1968,Vocal,Focus
-866,Creep (Remix),Radiohead,EDM,Sad,English,128,240,1992,Vocal,Sleep
-867,How Deep Is Your Love (Remix),Bee Gees,EDM,In_Love,English,128,240,1977,Vocal,Dinner
-868,Take on Me (Remix),a-ha,EDM,Intense,English,128,240,1985,Vocal,Fitness
-869,So Lonely (Remix),The Police,EDM,Sad,English,128,240,1978,Vocal,Roadtrip
-870,All Star (Remix),Smash Mouth,EDM,Happy,English,128,240,1999,Vocal,Roadtrip
-871,Another Brick in the Wall (Remix),Pink Floyd,EDM,Sad,English,128,240,1979,Vocal,Focus
-872,Good Vibrations (Remix),The Beach Boys,EDM,Happy,English,128,240,1966,Vocal,Roadtrip
-873,Jump (Acoustic),Van Halen,Rock,Intense,English,130,240,1984,Vocal,Fitness
-874,What Is Love (Acoustic),Haddaway,EDM,Intense,English,124,250,1993,Vocal,Party
-875,Tequila Sunrise (Acoustic),Eagles,Rock,Calm,English,100,180,1973,Vocal,Cooking
-876,La Isla Bonita (Acoustic),Madonna,Pop,Happy,English,100,242,1987,Vocal,Cooking
-877,In Bloom (Remix),Nirvana,EDM,Intense,English,128,240,1991,Vocal,Fitness
-878,Piano Man (Remix),Billy Joel,EDM,Calm,English,128,240,1973,Vocal,Dinner
-879,The Girl Is Mine (Remix),Michael Jackson & Paul McCartney,EDM,In_Love,English,128,240,1982,Vocal,Dinner
-880,Mr. Brightside (Acoustic),The Killers,Rock,Happy,English,148,223,2003,Vocal,Fitness
-881,Crazy (Remix),Gnarls Barkley,EDM,Intense,English,128,240,2006,Vocal,Roadtrip
-882,Get Into The Groove (Acoustic),Madonna,Pop,Intense,English,116,281,1985,Vocal,Party
-883,Run This Town (Acoustic),Jay-Z ft. Rihanna,Rap/Hiphop,Intense,English,120,270,2009,Vocal,Fitness
-884,I Wanna Dance with Somebody (Acoustic),Whitney Houston,Pop,Happy,English,120,272,1987,Vocal,Party
-885,Rolling in the Deep (Acoustic),Adele,Pop,Intense,English,105,228,2010,Vocal,Roadtrip
-886,Sexual Healing (Remix),Marvin Gaye,EDM,In_Love,English,128,240,1982,Vocal,Dinner
-887,Back in Black (Acoustic),AC/DC,Rock,Intense,English,188,255,1980,Vocal,Fitness
-888,Fast Car (Acoustic),Tracy Chapman,Pop,Sad,English,104,300,1988,Vocal,Roadtrip
-889,Shining (Acoustic),DJ Khaled ft. Beyoncé & Jay-Z,Rap/Hiphop,Happy,English,130,260,2017,Vocal,Party
-890,My Girl (Remix),The Temptations,EDM,Happy,English,128,240,1964,Vocal,Dinner
-891,Don't Stop Me Now (Acoustic),Queen,Rock,Happy,English,156,210,1978,Vocal,Party
-892,Smash Into Pieces (Acoustic),The Offspring,Rock,Intense,English,140,165,1998,Vocal,Fitness
-893,It Was A Good Day (Acoustic),Ice Cube,Rap/Hiphop,Calm,English,82,270,1992,Vocal,Focus
-894,Sweet Nothing (Acoustic),Calvin Harris ft. Florence Welch,EDM,Intense,English,126,220,2012,Vocal,Fitness
-895,Killing Me Softly with His Song (Remix),Roberta Flack,EDM,Sad,English,128,240,1973,Vocal,Dinner
-896,Let's Get It Started (Acoustic),Black Eyed Peas,Pop,Intense,English,130,277,2003,Vocal,Fitness
-897,Summertime (Remix),Ella Fitzgerald & Louis Armstrong,EDM,Calm,English,128,240,1957,Vocal,Dinner
-898,I Like It (Acoustic),Cardi B, Rap/Hiphop,Happy,English,136,253,2018,Vocal,Party
-899,Someone Like You (Acoustic),Adele,Pop,Sad,English,67,285,2011,Vocal,Sleep
-900,Lose Control (Acoustic),Missy Elliott,Rap/Hiphop,Intense,English,125,225,2005,Vocal,Fitness
-901,Yesterday (Acoustic),The Beatles,Pop,Sad,English,96,125,1965,Vocal,Sleep
-902,All Night Long (All Night) (Remix),Lionel Richie,EDM,Happy,English,128,240,1983,Vocal,Party
-903,Stayin' Alive (Remix),Bee Gees,EDM,Intense,English,128,240,1977,Vocal,Fitness
-904,Empire State of Mind (Remix),Jay-Z ft. Alicia Keys,EDM,Intense,English,128,240,2009,Vocal,Roadtrip
-905,Happy (Remix),Pharrell Williams,EDM,Happy,English,128,240,2013,Vocal,Party
-906,Pony (Remix),Ginuwine,EDM,In_Love,English,130,240,1996,Vocal,Dinner
-907,Clocks (Remix),Coldplay,EDM,Calm,English,128,240,2002,Vocal,Focus
-908,The Way You Make Me Feel (Remix),Michael Jackson,EDM,In_Love,English,128,240,1987,Vocal,Dinner
-909,Don't Speak (Remix),No Doubt,EDM,Sad,English,128,240,1995,Vocal,Sleep
-910,Can't Help Falling in Love (Remix),Elvis Presley,EDM,In_Love,English,128,240,1961,Vocal,Dinner
-911,Sex on Fire (Remix),Kings of Leon,EDM,Intense,English,128,240,2008,Vocal,Fitness
-912,Uptown Funk (Acoustic),Mark Ronson ft. Bruno Mars,Pop,Happy,English,115,270,2014,Vocal,Party
-913,Fields of Gold (Acoustic),Sting,Pop,Calm,English,104,240,1993,Vocal,Dinner
-914,Watermelon Sugar (Remix),Harry Styles,EDM,Happy,English,128,240,2019,Vocal,Party
-915,All of Me (Remix),John Legend,EDM,In_Love,English,128,240,2013,Vocal,Dinner
-916,Hallelujah (Acoustic),Leonard Cohen,Pop,Sad,English,110,260,1984,Vocal,Sleep
-917,No Diggity (Remix),Blackstreet ft. Dr. Dre,EDM,Happy,English,128,240,1996,Vocal,Party
-918,Heartless (Remix),The Weeknd,EDM,Intense,English,128,240,2019,Vocal,Fitness
-919,Bad Guy (Acoustic),Billie Eilish,Pop,Intense,English,135,194,2019,Vocal,Fitness
-920,Boombayah (Remix),Blackpink,EDM,Intense,English,128,240,2016,Vocal,Party
-921,Don't Worry (Remix),M.O.P.,EDM,Intense,English,128,240,1998,Vocal,Fitness
-922,Fix You (Remix),Coldplay,EDM,Sad,English,128,240,2005,Vocal,Sleep
-923,The Real Slim Shady (Acoustic),Eminem,Rap/Hiphop,Intense,English,104,284,2000,Vocal,Party
-924,Numb (Acoustic),Linkin Park,Rock,Intense,English,104,187,2003,Vocal,Fitness
-925,I Gotta Feeling (Remix),Black Eyed Peas,EDM,Happy,English,128,240,2009,Vocal,Party
-926,The Girl from Ipanema (Remix),Stan Getz & João Gilberto,EDM,Calm,English,128,240,1964,Vocal,Dinner
-927,Halo (Acoustic),Beyoncé,R&B,In_Love,English,80,261,2008,Vocal,Dinner
-928,The Scientist (Remix),Coldplay,EDM,Sad,English,128,240,2002,Vocal,Sleep
-929,Livin' on a Prayer (Acoustic),Bon Jovi,Rock,Intense,English,123,249,1986,Vocal,Fitness
-930,Firework (Acoustic),Katy Perry,Pop,Happy,English,124,227,2010,Vocal,Fitness
-931,Tears in Heaven (Remix),Eric Clapton,EDM,Sad,English,128,240,1992,Vocal,Sleep
-932,California Dreamin' (Acoustic),The Mamas & the Papas,Pop,Calm,English,110,158,1965,Vocal,Roadtrip
-933,Changes (Acoustic),2Pac ft. Talent,Rap/Hiphop,Sad,English,110,269,1998,Vocal,Sleep
-934,Ain't No Sunshine (Acoustic),Bill Withers,R&B,Sad,English,100,130,1971,Vocal,Dinner
-935,Sweet Home Alabama (Acoustic),Lynyrd Skynyrd,Rock,Happy,English,100,283,1974,Vocal,Roadtrip
-936,Don't You Worry 'bout a Thing (Acoustic),Stevie Wonder,R&B,Happy,English,121,224,1973,Vocal,Cooking
-937,A Thousand Years (Acoustic),Christina Perry,Pop,In_Love,English,139,287,2011,Vocal,Dinner
-938,Havana (Acoustic),Camila Cabello ft. Young Thug,Pop,Intense,English,105,217,2017,Vocal,Party
-939,A Sky Full of Stars (Acoustic),Coldplay,Pop,Happy,English,125,268,2014,Vocal,Party
-940,I'm Yours (Acoustic),Jason Mraz,Pop,Happy,English,150,240,2008,Vocal,Roadtrip
-941,Stay With Me (Acoustic),Sam Smith,R&B,Sad,English,84,172,2014,Vocal,Sleep
-942,Walk This Way (Acoustic),Run-DMC ft. Aerosmith,Rap/Hiphop,Intense,English,106,244,1986,Vocal,Fitness
-943,Another One Bites the Dust (Acoustic),Queen,Rock,Intense,English,110,214,1980,Vocal,Fitness
-944,What Goes Around... Comes Around (Acoustic),Justin Timberlake,R&B,Sad,English,76,330,2006,Vocal,Dinner
-945,I Don't Care (Acoustic),Ed Sheeran & Justin Bieber,Pop,Happy,English,102,220,2019,Vocal,Cooking
-946,Get Up (I Feel Like Being a) Sex Machine (Acoustic),James Brown,R&B,Intense,English,106,320,1970,Vocal,Fitness
-947,Take a Chance on Me (Acoustic),ABBA,Pop,Happy,English,105,243,1977,Vocal,Party
-948,Basket Case (Acoustic),Green Day,Rock,Intense,English,171,181,1994,Vocal,Fitness
-949,Lose My Breath (Acoustic),Destiny's Child,R&B,Intense,English,120,242,2004,Vocal,Fitness
-950,California Gurls (Acoustic),Katy Perry ft. Snoop Dogg,Pop,Happy,English,125,236,2010,Vocal,Party
-951,One Way or Another (Acoustic),Blondie,Pop,Intense,English,161,190,1978,Vocal,Fitness
-952,I Will Survive (Acoustic),Gloria Gaynor,R&B,Happy,English,118,210,1978,Vocal,Party
-953,Uptown Funk (Acoustic),Mark Ronson ft. Bruno Mars,Pop,Happy,English,115,270,2014,Vocal,Party
-954,Vogue (Acoustic),Madonna,Pop,Intense,English,118,319,1990,Vocal,Fitness
-955,No Scrubs (Acoustic),TLC,R&B,Intense,English,93,222,1999,Vocal,Party
-956,All Night (Acoustic),Beyoncé,R&B,In_Love,English,65,321,2016,Vocal,Sleep
-957,All Along the Watchtower (Acoustic),Jimi Hendrix,Rock,Intense,English,116,240,1968,Vocal,Roadtrip
-958,Get Down Tonight (Acoustic),KC and the Sunshine Band,R&B,Happy,English,113,212,1975,Vocal,Party
-959,Don't Go Breaking My Heart (Acoustic),Elton John & Kiki Dee,Pop,Happy,English,127,268,1976,Vocal,Cooking
-960,Crazy Train (Acoustic),Ozzy Osbourne,Rock,Intense,English,138,280,1980,Vocal,Fitness
-961,Nirvana - Lithium (Acoustic),Nirvana,Rock,Intense,English,123,257,1991,Vocal,Fitness
-962,Can't Feel My Face (Acoustic),The Weeknd,Pop,Intense,English,108,215,2015,Vocal,Party
-963,Hey Joe (Acoustic),Jimi Hendrix,Rock,Intense,English,140,210,1966,Vocal,Fitness
-964,Respect (Acoustic),Aretha Franklin,R&B,Intense,English,115,148,1967,Vocal,Fitness
-965,California Girls (Acoustic),The Beach Boys,Pop,Happy,English,120,157,1965,Vocal,Party
-966,Stand by Me (Acoustic),Ben E. King,R&B,In_Love,English,110,178,1961,Vocal,Dinner
-967,Jumpman (Acoustic),Drake & Future,Rap/Hiphop,Intense,English,140,200,2015,Vocal,Fitness
-968,I'm Not the Only One (Acoustic),Sam Smith,R&B,Sad,English,80,237,2014,Vocal,Dinner
-969,I Wanna Be Your Lover (Acoustic),Prince,R&B,Intense,English,120,379,1979,Vocal,Fitness
-970,Don't Stop The Music (Acoustic),Rihanna,Pop,Intense,English,123,260,2007,Vocal,Fitness
-971,Seven Nation Army (Acoustic),The White Stripes,Rock,Intense,English,120,232,2003,Vocal,Fitness
-972,What's Up? (Acoustic),4 Non Blondes,Rock,Sad,English,102,285,1992,Vocal,Roadtrip
-973,Pusherman (Acoustic),Curtis Mayfield,R&B,Intense,English,118,350,1972,Vocal,Focus
-974,Despacito (Acoustic),Luis Fonsi ft. Daddy Yankee,Pop,Happy,English,89,228,2017,Vocal,Party
-975,I Put a Spell on You (Acoustic),Nina Simone,R&B,Intense,English,118,170,1965,Vocal,Dinner
-976,The Funeral (Acoustic),Band of Horses,Rock,Sad,English,140,321,2006,Vocal,Roadtrip
-977,A Hard Day's Night (Acoustic),The Beatles,Pop,Happy,English,139,154,1964,Vocal,Cooking
-978,Nuthin' but a 'G' Thang (Acoustic),Dr. Dre ft. Snoop Dogg,Rap/Hiphop,Calm,English,95,278,1992,Vocal,Roadtrip
-979,Sittin' on the Dock of the Bay (Acoustic),Otis Redding,R&B,Calm,English,104,163,1968,Vocal,Focus
-980,Creep (Acoustic),Radiohead,Rock,Sad,English,92,239,1992,Vocal,Sleep
-981,One Dance (Acoustic),Drake ft. Wizkid & Kyla,Pop,Happy,English,104,174,2016,Vocal,Party
-982,How Deep Is Your Love (Acoustic),Bee Gees,Pop,In_Love,English,105,245,1977,Vocal,Dinner
-983,Take on Me (Acoustic),a-ha,Pop,Intense,English,169,225,1985,Vocal,Fitness
-984,Love on Top (Acoustic),Beyoncé,R&B,Happy,English,188,268,2011,Vocal,Party
-985,So Lonely (Acoustic),The Police,Rock,Sad,English,168,270,1978,Vocal,Roadtrip
-986,All Star (Acoustic),Smash Mouth,Pop,Happy,English,104,198,1999,Vocal,Roadtrip
-987,Gold Digger (Acoustic),Kanye West ft. Jamie Foxx,Rap/Hiphop,Intense,English,93,208,2005,Vocal,Fitness
-988,Another Brick in the Wall (Acoustic),Pink Floyd,Rock,Sad,English,104,233,1979,Vocal,Focus
-989,Good Vibrations (Acoustic),The Beach Boys,Pop,Happy,English,135,217,1966,Vocal,Roadtrip
-990,Love Yourself (Acoustic),Justin Bieber,Pop,Calm,English,102,233,2015,Vocal,Dinner
-991,Jump (Acoustic),Van Halen,Rock,Intense,English,130,240,1984,Vocal,Fitness
-992,What Is Love (Acoustic),Haddaway,EDM,Intense,English,124,250,1993,Vocal,Party
-993,Stay (Acoustic),Rihanna ft. Mikky Ekko,Pop,Sad,English,112,240,2012,Vocal,Sleep
-994,Tequila Sunrise (Acoustic),Eagles,Rock,Calm,English,100,180,1973,Vocal,Cooking
-995,La Isla Bonita (Acoustic),Madonna,Pop,Happy,English,100,242,1987,Vocal,Cooking
-996,In Bloom (Acoustic),Nirvana,Rock,Intense,English,155,255,1991,Vocal,Fitness
-997,Piano Man (Acoustic),Billy Joel,Pop,Calm,English,75,336,1973,Vocal,Dinner
-998,The Girl Is Mine (Acoustic),Michael Jackson & Paul McCartney,Pop,In_Love,English,127,215,1982,Vocal,Dinner
-999,Mr. Brightside (Acoustic),The Killers,Rock,Happy,English,148,223,2003,Vocal,Fitness
-1000,Crazy (Acoustic),Gnarls Barkley,R&B,Intense,English,112,182,2006,Vocal,Roadtrip
+1,'Blinding Lights','The Weeknd',Pop,Intense,English,171,200,2019,Vocal,Fitness
+2,'Bohemian Rhapsody','Queen',Rock,Intense,English,144,354,1975,Vocal,Roadtrip
+3,'Take Five','Dave Brubeck Quartet',Jazz,Calm,English,172,324,1959,Instrumental,Dinner
+4,'Für Elise','Ludwig van Beethoven',Classical,Calm,Instrumental,75,180,1810,Instrumental,Focus
+5,'Shape of You','Ed Sheeran',Pop,Happy,English,96,233,2017,Vocal,Cooking
+6,'Lose Yourself','Eminem',Rap/Hiphop,Intense,English,171,326,2002,Vocal,Fitness
+7,'September','Earth, Wind & Fire',R&B,Happy,English,126,215,1978,Vocal,Party
+8,'Stairway to Heaven','Led Zeppelin',Rock,Sad,English,82,482,1971,Vocal,Roadtrip
+9,'One Kiss','Calvin Harris & Dua Lipa',EDM,Happy,English,124,214,2018,Vocal,Party
+10,'Hurt','Johnny Cash',Rock,Sad,English,80,237,2002,Vocal,Sleep
+11,'Fly Me to the Moon','Frank Sinatra',Jazz,In_Love,English,119,147,1964,Vocal,Dinner
+12,'Let It Be','The Beatles',Pop,Calm,English,143,243,1970,Vocal,Focus
+13,'Tiden Læger Alle Sår','Tobias Rahim',Pop,In_Love,Danish,103,165,2022,Vocal,Cooking
+14,'Lidt i 5','The Minds of 99',Rock,Intense,Danish,135,210,2018,Vocal,Roadtrip
+15,'Clair de Lune','Claude Debussy',Classical,Calm,Instrumental,68,270,1905,Instrumental,Sleep
+16,'Old Town Road','Lil Nas X',Rap/Hiphop,Happy,English,136,157,2019,Vocal,Party
+17,'Thinking Out Loud','Ed Sheeran',R&B,In_Love,English,79,281,2014,Vocal,Dinner
+18,'Smells Like Teen Spirit','Nirvana',Rock,Intense,English,118,301,1991,Vocal,Fitness
+19,'Happier','Marshmello ft. Bastille',EDM,Sad,English,100,214,2018,Vocal,Sleep
+20,'Kys Mig Nu','Gulddreng',Pop,Happy,Danish,128,198,2016,Vocal,Party
+21,'Billie Jean','Michael Jackson',Pop,Intense,English,117,294,1982,Vocal,Fitness
+22,'Hey Jude','The Beatles',Pop,Calm,English,148,425,1968,Vocal,Roadtrip
+23,'So What','Miles Davis',Jazz,Calm,English,136,561,1959,Instrumental,Dinner
+24,'Moonlight Sonata','Ludwig van Beethoven',Classical,Sad,Instrumental,60,400,1801,Instrumental,Focus
+25,'Hotline Bling','Drake',R&B,In_Love,English,135,268,2015,Vocal,Cooking
+26,'In Da Club','50 Cent',Rap/Hiphop,Intense,English,90,193,2003,Vocal,Party
+27,'Wonderwall','Oasis',Rock,Sad,English,174,258,1995,Vocal,Roadtrip
+28,'Titanium','David Guetta ft. Sia',EDM,Intense,English,126,245,2011,Vocal,Fitness
+29,'Lær Mig at Elske Dig','Sanne Salomonsen',Pop,In_Love,Danish,93,240,1996,Vocal,Dinner
+30,'Stille Før Storm','Rasmus Seebach',Pop,Sad,Danish,100,230,2011,Vocal,Sleep
+31,'God's Plan','Drake',Rap/Hiphop,Happy,English,77,199,2018,Vocal,Cooking
+32,'Come Away With Me','Norah Jones',Jazz,In_Love,English,85,238,2002,Vocal,Dinner
+33,'Toccata and Fugue in D minor','Johann Sebastian Bach',Classical,Intense,Instrumental,100,540,1703,Instrumental,Focus
+34,'Sweet Child o' Mine','Guns N' Roses',Rock,Happy,English,125,356,1987,Vocal,Party
+35,'Don't Start Now','Dua Lipa',Pop,Intense,English,124,183,2019,Vocal,Fitness
+36,'The Way You Make Me Feel','Michael Jackson',R&B,In_Love,English,115,269,1987,Vocal,Party
+37,'Du Er','Sivas',Rap/Hiphop,In_Love,Danish,120,180,2016,Vocal,Dinner
+38,'Levels','Avicii',EDM,Happy,English,126,332,2011,Vocal,Roadtrip
+39,'Imagine','John Lennon',Pop,Calm,English,75,187,1971,Vocal,Sleep
+40,'Hotel California','Eagles',Rock,Calm,English,147,390,1976,Vocal,Roadtrip
+41,'I Feel It Coming','The Weeknd',R&B,In_Love,English,93,269,2016,Vocal,Dinner
+42,'Symphony No. 5','Ludwig van Beethoven',Classical,Intense,Instrumental,120,400,1808,Instrumental,Focus
+43,'Crazy in Love','Beyoncé ft. Jay-Z',R&B,Intense,English,99,236,2003,Vocal,Fitness
+44,'Dope Dope','Suspekt',Rap/Hiphop,Intense,Danish,140,240,2007,Vocal,Party
+45,'Adore You','Harry Styles',Pop,In_Love,English,99,209,2019,Vocal,Cooking
+46,'Blue in Green','Miles Davis',Jazz,Sad,English,84,337,1959,Instrumental,Sleep
+47,'Wake Me Up','Avicii',EDM,Happy,English,124,249,2013,Vocal,Roadtrip
+48,'Perfect','Ed Sheeran',Pop,In_Love,English,95,263,2017,Vocal,Dinner
+49,'Sweet Dreams (Are Made of This)','Eurythmics',Pop,Intense,English,125,216,1983,Vocal,Fitness
+50,'With or Without You','U2',Rock,Sad,English,108,296,1987,Vocal,Roadtrip
+51,'What's Going On','Marvin Gaye',R&B,Calm,English,101,233,1971,Vocal,Focus
+52,'Watermelon Sugar','Harry Styles',Pop,Happy,English,95,174,2019,Vocal,Party
+53,'All of Me','John Legend',R&B,In_Love,English,120,270,2013,Vocal,Dinner
+54,'Hallelujah','Leonard Cohen',Pop,Sad,English,110,260,1984,Vocal,Sleep
+55,'Smukke Mennesker','Malurt',Rock,Happy,Danish,130,200,1982,Vocal,Roadtrip
+56,'No Diggity','Blackstreet ft. Dr. Dre',R&B,Happy,English,106,304,1996,Vocal,Party
+57,'Heartless','The Weeknd',R&B,Intense,English,100,205,2019,Vocal,Fitness
+58,'Overture (from The Marriage of Figaro)','Wolfgang Amadeus Mozart',Classical,Happy,Instrumental,140,270,1786,Instrumental,Focus
+59,'Vandmand','Icekiid',Rap/Hiphop,Happy,Danish,128,180,2020,Vocal,Party
+60,'Hello','Adele',Pop,Sad,English,78,295,2015,Vocal,Sleep
+61,'California Love','2Pac ft. Dr. Dre',Rap/Hiphop,Happy,English,91,269,1995,Vocal,Roadtrip
+62,'Don't Stop Believin'','Journey',Rock,Happy,English,119,268,1981,Vocal,Cooking
+63,'At Last','Etta James',Jazz,In_Love,English,95,182,1960,Vocal,Dinner
+64,'I Will Always Love You','Whitney Houston',R&B,Sad,English,133,271,1992,Vocal,Sleep
+65,'Africa','Toto',Rock,Calm,English,93,296,1982,Vocal,Focus
+66,'Bad Guy','Billie Eilish',Pop,Intense,English,135,194,2019,Vocal,Fitness
+67,'Let Her Go','Passenger',Pop,Sad,English,75,252,2012,Vocal,Roadtrip
+68,'My Heart Will Go On','Celine Dion',Pop,Sad,English,100,281,1997,Vocal,Sleep
+69,'En Lille Fugl','Kim Larsen',Pop,Happy,Danish,105,180,1979,Vocal,Cooking
+70,'Starlight','Muse',Rock,Intense,English,122,240,2006,Vocal,Party
+71,'River Flows in You','Yiruma',Classical,Calm,Instrumental,132,185,2001,Instrumental,Sleep
+72,'Get Lucky','Daft Punk ft. Pharrell Williams',Pop,Happy,English,116,247,2013,Vocal,Party
+73,'The Sound of Silence','Simon & Garfunkel',Pop,Calm,English,105,185,1966,Vocal,Focus
+74,'Back to Black','Amy Winehouse',Jazz,Sad,English,123,241,2006,Vocal,Dinner
+75,'In The End','Linkin Park',Rock,Intense,English,105,216,2000,Vocal,Fitness
+76,'Can't Hold Us','Macklemore & Ryan Lewis',Rap/Hiphop,Intense,English,146,260,2011,Vocal,Fitness
+77,'Vågner i Natten','Ray Dee Ohh',Pop,Happy,Danish,130,220,1989,Vocal,Party
+78,'Viva La Vida','Coldplay',Pop,Happy,English,138,241,2008,Vocal,Roadtrip
+79,'Nocturne in E-flat major','Op. 9 No. 2,Frédéric Chopin',Classical,Calm,Instrumental,50,270,1830,Instrumental,Dinner
+80,'Thriller','Michael Jackson',Pop,Intense,English,120,357,1982,Vocal,Party
+81,'A Change Is Gonna Come','Sam Cooke',R&B,Sad,English,82,192,1964,Vocal,Sleep
+82,'Sweet Caroline','Neil Diamond',Pop,Happy,English,126,203,1969,Vocal,Roadtrip
+83,'Højt over Jorden','Nephew',Rock,Intense,Danish,130,215,2004,Vocal,Fitness
+84,'Crazy Little Thing Called Love','Queen',Rock,Happy,English,168,162,1979,Vocal,Cooking
+85,'What a Wonderful World','Louis Armstrong',Jazz,Calm,English,80,140,1967,Vocal,Dinner
+86,'Where Are Ü Now','Skrillex & Diplo with Justin Bieber',EDM,Intense,English,140,250,2015,Vocal,Fitness
+87,'Stan','Eminem ft. Dido',Rap/Hiphop,Sad,English,80,444,2000,Vocal,Sleep
+88,'Boombayah','Blackpink',Pop,Intense,English,125,230,2016,Vocal,Party
+89,'Don't Worry','M.O.P.',Rap/Hiphop,Intense,English,98,212,1998,Vocal,Fitness
+90,'Respect','Aretha Franklin',R&B,Intense,English,115,148,1967,Vocal,Roadtrip
+91,'Fix You','Coldplay',Pop,Sad,English,138,295,2005,Vocal,Sleep
+92,'Ain't No Mountain High Enough','Marvin Gaye & Tammi Terrell',R&B,Happy,English,124,143,1967,Vocal,Cooking
+93,'Gymnopédie No. 1','Erik Satie',Classical,Calm,Instrumental,45,200,1888,Instrumental,Focus
+94,'The Real Slim Shady','Eminem',Rap/Hiphop,Intense,English,104,284,2000,Vocal,Party
+95,'Come Away With Me','Norah Jones',Jazz,Calm,English,85,238,2002,Vocal,Dinner
+96,'Purple Haze','Jimi Hendrix',Rock,Intense,English,135,170,1967,Vocal,Fitness
+97,'Du Kan Gøre Hvad Du Vil','Christian Brøns',Pop,Happy,Danish,100,180,2001,Vocal,Roadtrip
+98,'Wake Up','Arcade Fire',Rock,Intense,English,125,360,2004,Vocal,Fitness
+99,'Easy On Me','Adele',Pop,Sad,English,150,224,2021,Vocal,Sleep
+100,'Symphony No. 9 "Ode to Joy"','Ludwig van Beethoven',Classical,Happy,Instrumental,120,400,1824,Instrumental,Party
+101,'Mr. Brightside','The Killers',Rock,Happy,English,148,223,2003,Vocal,Fitness
+102,'Crazy','Gnarls Barkley',R&B,Intense,English,112,182,2006,Vocal,Roadtrip
+103,'Når Englene Græder','Maria Montell',Pop,Sad,Danish,115,245,1994,Vocal,Sleep
+104,'Get Into The Groove','Madonna',Pop,Intense,English,116,281,1985,Vocal,Party
+105,'Unforgettable','Nat King Cole',Jazz,In_Love,English,88,190,1951,Vocal,Dinner
+106,'Rhapsody in Blue','George Gershwin',Classical,Intense,Instrumental,135,1000,1924,Instrumental,Focus
+107,'Run This Town','Jay-Z ft. Rihanna',Rap/Hiphop,Intense,English,120,270,2009,Vocal,Fitness
+108,'I Wanna Dance with Somebody','Whitney Houston',Pop,Happy,English,120,272,1987,Vocal,Party
+109,'Rolling in the Deep','Adele',Pop,Intense,English,105,228,2010,Vocal,Roadtrip
+110,'Sexual Healing','Marvin Gaye',R&B,In_Love,English,98,240,1982,Vocal,Dinner
+111,'Back in Black','AC/DC',Rock,Intense,English,188,255,1980,Vocal,Fitness
+112,'Fast Car','Tracy Chapman',Pop,Sad,English,104,300,1988,Vocal,Roadtrip
+113,'Shining','DJ Khaled ft. Beyoncé & Jay-Z',Rap/Hiphop,Happy,English,130,260,2017,Vocal,Party
+114,'La Valse d'Amélie','Yann Tiersen',Classical,Calm,Instrumental,100,120,2001,Instrumental,Cooking
+115,'My Girl','The Temptations',R&B,Happy,English,105,165,1964,Vocal,Dinner
+116,'En Tur på Landet','De Nattergale',Pop,Happy,Danish,110,210,1991,Vocal,Roadtrip
+117,'Don't Stop Me Now','Queen',Rock,Happy,English,156,210,1978,Vocal,Party
+118,'Hurt So Good','Astrid S',Pop,Sad,English,115,200,2016,Vocal,Sleep
+119,'Smash Into Pieces','The Offspring',Rock,Intense,English,140,165,1998,Vocal,Fitness
+120,'One','U2',Rock,Sad,English,91,276,1991,Vocal,Sleep
+121,'It Was A Good Day','Ice Cube',Rap/Hiphop,Calm,English,82,270,1992,Vocal,Focus
+122,'Sweet Nothing','Calvin Harris ft. Florence Welch',EDM,Intense,English,126,220,2012,Vocal,Fitness
+123,'Killing Me Softly with His Song','Roberta Flack',R&B,Sad,English,108,266,1973,Vocal,Dinner
+124,'Grieg: Peer Gynt Suite No. 1','Morning Mood,Edvard Grieg',Classical,Calm,Instrumental,55,240,1876,Instrumental,Sleep
+125,'I Got You (I Feel Good)','James Brown',R&B,Happy,English,144,167,1965,Vocal,Party
+126,'Let's Get It Started','Black Eyed Peas',Pop,Intense,English,130,277,2003,Vocal,Fitness
+127,'Summertime','Ella Fitzgerald & Louis Armstrong',Jazz,Calm,English,75,285,1957,Vocal,Dinner
+128,'Hotellet','C.V. Jørgensen',Pop,Sad,Danish,100,280,1980,Vocal,Sleep
+129,'I Like It','Cardi B', Rap/Hiphop,Happy,English,136,253,2018,Vocal,Party
+130,'Someone Like You','Adele',Pop,Sad,English,67,285,2011,Vocal,Sleep
+131,'Lose Control','Missy Elliott',Rap/Hiphop,Intense,English,125,225,2005,Vocal,Fitness
+132,'Yesterday','The Beatles',Pop,Sad,English,96,125,1965,Vocal,Sleep
+133,'All Night Long (All Night)','Lionel Richie',R&B,Happy,English,108,256,1983,Vocal,Party
+134,'Stayin' Alive','Bee Gees',Pop,Intense,English,103,283,1977,Vocal,Fitness
+135,'La vie en rose','Louis Armstrong',Jazz,In_Love,English,75,205,1950,Vocal,Dinner
+136,'The Four Seasons - Spring','Antonio Vivaldi',Classical,Happy,Instrumental,120,180,1725,Instrumental,Roadtrip
+137,'7 Years','Lukas Graham',Pop,Calm,English,120,239,2015,Vocal,Focus
+138,'Ensom','Morten Breum',EDM,Intense,Danish,128,210,2010,Vocal,Party
+139,'Crazy Frog','Crazy Frog',EDM,Happy,English,130,170,2005,Instrumental,Party
+140,'Like a Rolling Stone','Bob Dylan',Rock,Calm,English,94,365,1965,Vocal,Roadtrip
+141,'Lovely','Billie Eilish ft. Khalid',Pop,Sad,English,115,200,2018,Vocal,Sleep
+142,'Empire State of Mind','Jay-Z ft. Alicia Keys',Rap/Hiphop,Intense,English,84,276,2009,Vocal,Roadtrip
+143,'Happy','Pharrell Williams',Pop,Happy,English,160,233,2013,Vocal,Party
+144,'Don't Speak','No Doubt',Rock,Sad,English,78,263,1995,Vocal,Sleep
+145,'Pony','Ginuwine',R&B,In_Love,English,128,260,1996,Vocal,Dinner
+146,'Clocks','Coldplay',Pop,Calm,English,130,307,2002,Vocal,Focus
+147,'Can't Help Falling in Love','Elvis Presley',Pop,In_Love,English,100,181,1961,Vocal,Dinner
+148,'Dansevisen','Grethe & Jørgen Ingmann',Pop,Happy,Danish,120,180,1963,Vocal,Party
+149,'Numb','Linkin Park',Rock,Intense,English,104,187,2003,Vocal,Fitness
+150,'I Gotta Feeling','Black Eyed Peas',Pop,Happy,English,128,269,2009,Vocal,Party
+151,'Unwritten','Natasha Bedingfield',Pop,Happy,English,105,258,2004,Vocal,Fitness
+152,'The Girl from Ipanema','Stan Getz & João Gilberto',Jazz,Calm,English,129,315,1964,Vocal,Dinner
+153,'Jump Around','House of Pain',Rap/Hiphop,Intense,English,126,214,1992,Vocal,Party
+154,'Halo','Beyoncé',R&B,In_Love,English,80,261,2008,Vocal,Dinner
+155,'The Scientist','Coldplay',Pop,Sad,English,150,310,2002,Vocal,Sleep
+156,'Livin' on a Prayer','Bon Jovi',Rock,Intense,English,123,249,1986,Vocal,Fitness
+157,'Stjernefald','Christopher',Pop,In_Love,Danish,100,190,2011,Vocal,Cooking
+158,'Concerto for Clarinet in A major','K. 622,Wolfgang Amadeus Mozart',Classical,Calm,Instrumental,90,450,1791,Instrumental,Sleep
+159,'Firework','Katy Perry',Pop,Happy,English,124,227,2010,Vocal,Fitness
+160,'Tears in Heaven','Eric Clapton',Rock,Sad,English,75,270,1992,Vocal,Sleep
+161,'Lose Yourself to Dance','Daft Punk ft. Pharrell Williams',Pop,Happy,English,100,353,2013,Vocal,Party
+162,'California Dreamin'','The Mamas & the Papas',Pop,Calm,English,110,158,1965,Vocal,Roadtrip
+163,'Changes','2Pac ft. Talent',Rap/Hiphop,Sad,English,110,269,1998,Vocal,Sleep
+164,'Ain't No Sunshine','Bill Withers',R&B,Sad,English,100,130,1971,Vocal,Dinner
+165,'The Dance','Garth Brooks',Pop,Sad,English,75,240,1989,Vocal,Roadtrip
+166,'Sweet Home Alabama','Lynyrd Skynyrd',Rock,Happy,English,100,283,1974,Vocal,Roadtrip
+167,'Blue Suede Shoes','Elvis Presley',Rock,Happy,English,190,120,1956,Vocal,Party
+168,'Don't You Worry 'bout a Thing','Stevie Wonder',R&B,Happy,English,121,224,1973,Vocal,Cooking
+169,'Skate','Bruno Mars,Anderson .Paak, Silk Sonic',R&B,Happy,English,112,203,2021,Vocal,Party
+170,'Blue Bossa','Kenny Dorham',Jazz,Calm,Instrumental,128,240,1963,Instrumental,Dinner
+171,'A Thousand Years','Christina Perry',Pop,In_Love,English,139,287,2011,Vocal,Dinner
+172,'Danish Delight','Dizzy Mizz Lizzy',Rock,Intense,English,130,220,1994,Vocal,Fitness
+173,'Vi Maler Byen Rød','Birthe Kjær',Pop,Happy,Danish,128,180,1989,Vocal,Party
+174,'Havana','Camila Cabello ft. Young Thug',Pop,Intense,English,105,217,2017,Vocal,Party
+175,'Concerto for Violin in E minor','Op. 64,Felix Mendelssohn',Classical,Intense,Instrumental,130,700,1844,Instrumental,Focus
+176,'Crazy in Love (Remix)','Beyoncé',EDM,Intense,English,128,240,2003,Vocal,Fitness
+177,'A Sky Full of Stars','Coldplay',Pop,Happy,English,125,268,2014,Vocal,Party
+178,'The Message','Grandmaster Flash and the Furious Five',Rap/Hiphop,Sad,English,100,444,1982,Vocal,Focus
+179,'I'm Yours','Jason Mraz',Pop,Happy,English,150,240,2008,Vocal,Roadtrip
+180,'Stay With Me','Sam Smith',R&B,Sad,English,84,172,2014,Vocal,Sleep
+181,'Imagine','Ariana Grande',R&B,In_Love,English,130,212,2018,Vocal,Dinner
+182,'Candle in the Wind','Elton John',Pop,Sad,English,73,228,1973,Vocal,Sleep
+183,'Purple Rain','Prince',Pop,Sad,English,60,520,1984,Vocal,Roadtrip
+184,'Stol På Dig Selv','Mads Langer',Pop,Calm,Danish,105,200,2009,Vocal,Focus
+185,'Walk This Way','Run-DMC ft. Aerosmith',Rap/Hiphop,Intense,English,106,244,1986,Vocal,Fitness
+186,'O Mio Babbino Caro','Giacomo Puccini',Classical,Sad,Vocal,90,120,1918,Vocal,Sleep
+187,'Another One Bites the Dust','Queen',Rock,Intense,English,110,214,1980,Vocal,Fitness
+188,'What Goes Around... Comes Around','Justin Timberlake',R&B,Sad,English,76,330,2006,Vocal,Dinner
+189,'I Don't Care','Ed Sheeran & Justin Bieber',Pop,Happy,English,102,220,2019,Vocal,Cooking
+190,'Get Up (I Feel Like Being a) Sex Machine','James Brown',R&B,Intense,English,106,320,1970,Vocal,Fitness
+191,'Take a Chance on Me','ABBA',Pop,Happy,English,105,243,1977,Vocal,Party
+192,'My Favorite Things','John Coltrane',Jazz,Calm,Instrumental,128,870,1961,Instrumental,Focus
+193,'Basket Case','Green Day',Rock,Intense,English,171,181,1994,Vocal,Fitness
+194,'Skibet Skal Sejle I Nat','Bjørn Tidmand',Pop,In_Love,Danish,100,180,1964,Vocal,Dinner
+195,'The Rite of Spring','Igor Stravinsky',Classical,Intense,Instrumental,120,2000,1913,Instrumental,Fitness
+196,'Lose My Mind','Dizzy Mizz Lizzy',Rock,Intense,English,130,240,1994,Vocal,Roadtrip
+197,'Sultans of Swing','Dire Straits',Rock,Calm,English,146,340,1978,Vocal,Roadtrip
+198,'Single Ladies (Put a Ring on It)','Beyoncé',R&B,Intense,English,96,210,2008,Vocal,Party
+199,'Hey Ya!','Outkast',Rap/Hiphop,Happy,English,160,235,2003,Vocal,Party
+200,'Don't Stop The Music','Rihanna',Pop,Intense,English,123,260,2007,Vocal,Fitness
+201,'Seven Nation Army','The White Stripes',Rock,Intense,English,120,232,2003,Vocal,Fitness
+202,'What's Up?','4 Non Blondes',Rock,Sad,English,102,285,1992,Vocal,Roadtrip
+203,'Smooth Operator','Sade',Jazz,Calm,English,120,256,1984,Vocal,Dinner
+204,'Let Me Love You','DJ Snake ft. Justin Bieber',EDM,Happy,English,100,205,2016,Vocal,Party
+205,'Pusherman','Curtis Mayfield',R&B,Intense,English,118,350,1972,Vocal,Focus
+206,'Ave Maria','Franz Schubert',Classical,Calm,Vocal,60,280,1825,Vocal,Sleep
+207,'Vi er Røde Vi er Hvide','Landsholdet',Pop,Happy,Danish,140,180,1986,Vocal,Party
+208,'Despacito','Luis Fonsi ft. Daddy Yankee',Pop,Happy,English,89,228,2017,Vocal,Party
+209,'I Put a Spell on You','Nina Simone',R&B,Intense,English,118,170,1965,Vocal,Dinner
+210,'Candlelight','Jack & Jones',Pop,Sad,English,100,220,2011,Vocal,Sleep
+211,'The Funeral','Band of Horses',Rock,Sad,English,140,321,2006,Vocal,Roadtrip
+212,'Lose Control','Meduza, Goodboys',EDM,Intense,English,124,180,2019,Vocal,Fitness
+213,'A Hard Day's Night','The Beatles',Pop,Happy,English,139,154,1964,Vocal,Cooking
+214,'Stan (Remix)','Eminem',EDM,Intense,English,130,240,2000,Vocal,Fitness
+215,'Miserere mei',' Deus,Gregorio Allegri',Classical,Sad,Vocal,60,600,1630,Vocal,Sleep
+216,'Run Away With Me','Carly Rae Jepsen',Pop,Intense,English,120,250,2015,Vocal,Party
+217,'Nuthin' but a 'G' Thang','Dr. Dre ft. Snoop Dogg',Rap/Hiphop,Calm,English,95,278,1992,Vocal,Roadtrip
+218,'Sittin' on the Dock of the Bay','Otis Redding',R&B,Calm,English,104,163,1968,Vocal,Focus
+219,'Creep','Radiohead',Rock,Sad,English,92,239,1992,Vocal,Sleep
+220,'One Dance','Drake ft. Wizkid & Kyla',Pop,Happy,English,104,174,2016,Vocal,Party
+221,'Vi To Er Ét','Dúné',Rock,Intense,Danish,130,200,2007,Vocal,Fitness
+222,'How Deep Is Your Love','Bee Gees',Pop,In_Love,English,105,245,1977,Vocal,Dinner
+223,'Take on Me','a-ha',Pop,Intense,English,169,225,1985,Vocal,Fitness
+224,'Imagine (Instrumental)','John Lennon',Pop,Calm,Instrumental,75,187,1971,Instrumental,Focus
+225,'Love on Top','Beyoncé',R&B,Happy,English,188,268,2011,Vocal,Party
+226,'So Lonely','The Police',Rock,Sad,English,168,270,1978,Vocal,Roadtrip
+227,'Mack the Knife','Louis Armstrong',Jazz,Happy,English,150,200,1956,Vocal,Dinner
+228,'All Star','Smash Mouth',Pop,Happy,English,104,198,1999,Vocal,Roadtrip
+229,'Du Gør Mig Skør','Burhan G',Pop,In_Love,Danish,100,210,2013,Vocal,Dinner
+230,'Dilemma','Nelly ft. Kelly Rowland',R&B,In_Love,English,168,270,2002,Vocal,Sleep
+231,'Stjerne til Støv','Niels Hausgaard',Pop,Calm,Danish,100,240,1974,Vocal,Focus
+232,'I Believe I Can Fly','R. Kelly',R&B,Happy,English,60,320,1996,Vocal,Roadtrip
+233,'Hurt (Acoustic)','Christina Aguilera',Pop,Sad,English,100,250,2006,Vocal,Sleep
+234,'Blue Danube Waltz','Johann Strauss II',Classical,Happy,Instrumental,180,600,1866,Instrumental,Party
+235,'Gold Digger','Kanye West ft. Jamie Foxx',Rap/Hiphop,Intense,English,93,208,2005,Vocal,Fitness
+236,'Another Brick in the Wall',' Pink Floyd',Rock,Sad,English,104,233,1979,Vocal,Focus
+237,'Good Vibrations','The Beach Boys',Pop,Happy,English,135,217,1966,Vocal,Roadtrip
+238,'Love Yourself','Justin Bieber',Pop,Calm,English,102,233,2015,Vocal,Dinner
+239,'Jump','Van Halen',Rock,Intense,English,130,240,1984,Vocal,Fitness
+240,'Killing Me Softly (with His Song)','The Fugees',Rap/Hiphop,Sad,English,108,278,1996,Vocal,Dinner
+241,'What Is Love','Haddaway',EDM,Intense,English,124,250,1993,Vocal,Party
+242,'Unge og Naive','Nik & Jay',Pop,Happy,Danish,120,210,2002,Vocal,Roadtrip
+243,'Stay','Rihanna ft. Mikky Ekko',Pop,Sad,English,112,240,2012,Vocal,Sleep
+244,'Tequila Sunrise','Eagles',Rock,Calm,English,100,180,1973,Vocal,Cooking
+245,'La Isla Bonita','Madonna',Pop,Happy,English,100,242,1987,Vocal,Cooking
+246,'In Bloom','Nirvana',Rock,Intense,English,155,255,1991,Vocal,Fitness
+247,'Piano Man','Billy Joel',Pop,Calm,English,75,336,1973,Vocal,Dinner
+248,'The Girl Is Mine','Michael Jackson & Paul McCartney',Pop,In_Love,English,127,215,1982,Vocal,Dinner
+249,'Lose My Breath','Destiny's Child',R&B,Intense,English,120,242,2004,Vocal,Fitness
+250,'The Entertainer','Scott Joplin',Classical,Happy,Instrumental,170,240,1902,Instrumental,Cooking
+251,'California Gurls','Katy Perry ft. Snoop Dogg',Pop,Happy,English,125,236,2010,Vocal,Party
+252,'The Way You Look Tonight','Frank Sinatra',Jazz,In_Love,English,90,190,1964,Vocal,Dinner
+253,'Hurt (Nine Inch Nails cover)','Johnny Cash',Rock,Sad,English,80,237,2002,Vocal,Sleep
+254,'One Way or Another','Blondie',Pop,Intense,English,161,190,1978,Vocal,Fitness
+255,'I Will Survive','Gloria Gaynor',R&B,Happy,English,118,210,1978,Vocal,Party
+256,'Grieg: Peer Gynt Suite No. 2','Anitra's Dance,Edvard Grieg',Classical,Happy,Instrumental,120,210,1876,Instrumental,Roadtrip
+257,'Don't Give Up','Peter Gabriel & Kate Bush',Pop,Sad,English,75,394,1986,Vocal,Sleep
+258,'Runaway','Kanye West ft. Pusha T',Rap/Hiphop,Sad,English,90,540,2010,Vocal,Focus
+259,'Sex on Fire','Kings of Leon',Rock,Intense,English,153,203,2008,Vocal,Fitness
+260,'Uptown Funk','Mark Ronson ft. Bruno Mars',Pop,Happy,English,115,270,2014,Vocal,Party
+261,'Fields of Gold','Sting',Pop,Calm,English,104,240,1993,Vocal,Dinner
+262,'Vogue','Madonna',Pop,Intense,English,118,319,1990,Vocal,Fitness
+263,'En Nat Bliver Til To','Sanne Salomonsen',Pop,In_Love,Danish,100,240,1987,Vocal,Dinner
+264,'No Scrubs','TLC',R&B,Intense,English,93,222,1999,Vocal,Party
+265,'All Night','Beyoncé',R&B,In_Love,English,65,321,2016,Vocal,Sleep
+266,'All Along the Watchtower','Jimi Hendrix',Rock,Intense,English,116,240,1968,Vocal,Roadtrip
+267,'Get Down Tonight','KC and the Sunshine Band',R&B,Happy,English,113,212,1975,Vocal,Party
+268,'Don't Go Breaking My Heart','Elton John & Kiki Dee',Pop,Happy,English,127,268,1976,Vocal,Cooking
+269,'Crazy Train','Ozzy Osbourne',Rock,Intense,English,138,280,1980,Vocal,Fitness
+270,'The Way You Make Me Feel','Michael Jackson',Pop,In_Love,English,115,269,1987,Vocal,Dinner
+271,'Stolen Dance','Milky Chance',Pop,Calm,English,118,313,2013,Vocal,Roadtrip
+272,'Waterfalls','TLC',R&B,Sad,English,100,279,1995,Vocal,Focus
+273,'The Entertainer (Ragtime)','Scott Joplin',Classical,Happy,Instrumental,170,240,1902,Instrumental,Cooking
+274,'Nirvana - Lithium','Nirvana',Rock,Intense,English,123,257,1991,Vocal,Fitness
+275,'Stay (Don't Go Away)','David Guetta ft. Raye',EDM,Happy,English,126,180,2019,Vocal,Party
+276,'The Real Slim Shady (Remix)','Eminem',EDM,Intense,English,130,240,2000,Vocal,Fitness
+277,'Don't Know Why','Norah Jones',Jazz,Calm,English,88,185,2002,Vocal,Sleep
+278,'Juicy','The Notorious B.I.G.',Rap/Hiphop,Happy,English,85,270,1994,Vocal,Roadtrip
+279,'Symphony No. 6 "Pastoral"','Ludwig van Beethoven',Classical,Calm,Instrumental,120,2400,1808,Instrumental,Sleep
+280,'September Song','Frank Sinatra',Jazz,Calm,English,110,180,1946,Vocal,Dinner
+281,'Can't Feel My Face','The Weeknd',Pop,Intense,English,108,215,2015,Vocal,Party
+282,'Hey Joe','Jimi Hendrix',Rock,Intense,English,140,210,1966,Vocal,Fitness
+283,'Respect (Aretha Franklin)','Aretha Franklin',R&B,Intense,English,115,148,1967,Vocal,Fitness
+284,'The Middle','Zedd, Maren Morris, Grey',EDM,Happy,English,107,184,2018,Vocal,Cooking
+285,'Candle in the Wind 1997','Elton John',Pop,Sad,English,73,354,1997,Vocal,Sleep
+286,'What If','Coldplay',Pop,Sad,English,130,300,2005,Vocal,Roadtrip
+287,'California Girls','The Beach Boys',Pop,Happy,English,120,157,1965,Vocal,Party
+288,'Vi Vandt I Dag','De Gyldne Løver',Pop,Happy,Danish,120,180,1970,Vocal,Roadtrip
+289,'Stand by Me','Ben E. King',R&B,In_Love,English,110,178,1961,Vocal,Dinner
+290,'Rolling Stone','The Weeknd',R&B,Sad,English,142,230,2011,Vocal,Sleep
+291,'Crazy (Patsy Cline)','Patsy Cline',Pop,Sad,English,105,165,1961,Vocal,Sleep
+292,'Jumpman','Drake & Future',Rap/Hiphop,Intense,English,140,200,2015,Vocal,Fitness
+293,'I'm Not the Only One','Sam Smith',R&B,Sad,English,80,237,2014,Vocal,Dinner
+294,'The Way You Are','Outlandish',Pop,Happy,English,100,210,2003,Vocal,Cooking
+295,'Symphony No. 40','Wolfgang Amadeus Mozart',Classical,Intense,Instrumental,120,420,1788,Instrumental,Focus
+296,'Mr. Vain','Culture Beat',EDM,Intense,English,130,350,1993,Vocal,Party
+297,'I Wanna Be Your Lover','Prince',R&B,Intense,English,120,379,1979,Vocal,Fitness
+298,'Let It Go','Idina Menzel',Pop,Happy,English,137,225,2013,Vocal,Roadtrip
+299,'Summertime Sadness','Lana Del Rey',Pop,Sad,English,126,252,2012,Vocal,Sleep
+300,'Smoke on the Water','Deep Purple',Rock,Intense,English,114,340,1972,Vocal,Fitness
+301,'Sweet Dreams (Are Made of This)','Eurythmics',EDM,Intense,English,125,216,1983,Vocal,Fitness
+302,'It's My Life','Bon Jovi',Rock,Intense,English,120,224,2000,Vocal,Fitness
+303,'My Kind of Town','Frank Sinatra',Jazz,Happy,English,120,180,1964,Vocal,Dinner
+304,'I Will Always Love You (Dolly Parton)','Dolly Parton',Pop,Sad,English,133,180,1974,Vocal,Sleep
+305,'Vi Lever','Rasmus Seebach',Pop,Happy,Danish,105,200,2017,Vocal,Party
+306,'Billie Jean (Remix)','Michael Jackson',EDM,Intense,English,128,240,1982,Vocal,Fitness
+307,'Hurt Somebody','Noah Kahan & Julia Michaels',Pop,Sad,English,100,180,2018,Vocal,Sleep
+308,'The Boxer','Simon & Garfunkel',Pop,Calm,English,105,308,1969,Vocal,Roadtrip
+309,'A Change Is Gonna Come (Instrumental)','Sam Cooke',R&B,Calm,Instrumental,82,192,1964,Instrumental,Focus
+310,'Lose Yourself (Remix)','Eminem',EDM,Intense,English,130,240,2002,Vocal,Fitness
+311,'I'm Still Standing','Elton John',Pop,Happy,English,105,185,1983,Vocal,Roadtrip
+312,'Du Har Tårer i Øjnene','Lars H.U.G.',Pop,Sad,Danish,110,210,1989,Vocal,Sleep
+313,'Rolling in the Deep (Acoustic)','Adele',Pop,Intense,English,105,228,2010,Vocal,Dinner
+314,'Symphony No. 3 "Eroica"','Ludwig van Beethoven',Classical,Intense,Instrumental,120,3000,1803,Instrumental,Focus
+315,'No Diggity (Acoustic)','Blackstreet',R&B,Happy,English,106,304,1996,Vocal,Dinner
+316,'The Power','Snap!',EDM,Intense,English,125,240,1990,Vocal,Fitness
+317,'Can't Hold Us (Acoustic)','Macklemore & Ryan Lewis',Rap/Hiphop,Intense,English,146,260,2011,Vocal,Fitness
+318,'Walk This Way (Aerosmith)','Aerosmith',Rock,Intense,English,106,244,1975,Vocal,Fitness
+319,'The Way You Make Me Feel (Remix)','Michael Jackson',EDM,Intense,English,128,240,1987,Vocal,Party
+320,'Imagine (Live)','John Lennon',Pop,Calm,English,75,187,1971,Vocal,Focus
+321,'Don't Stop Believin' (Live)','Journey',Rock,Happy,English,119,268,1981,Vocal,Roadtrip
+322,'Happy (Acoustic)','Pharrell Williams',Pop,Happy,English,160,233,2013,Vocal,Cooking
+323,'My Girl (Live)','The Temptations',R&B,Happy,English,105,165,1964,Vocal,Dinner
+324,'Hurt (Live)','Christina Aguilera',Pop,Sad,English,100,250,2006,Vocal,Sleep
+325,'Can't Help Falling in Love (Live)','Elvis Presley',Pop,In_Love,English,100,181,1961,Vocal,Dinner
+326,'Crazy Little Thing Called Love (Live)','Queen',Rock,Happy,English,168,162,1979,Vocal,Cooking
+327,'All of Me (Acoustic)','John Legend',R&B,In_Love,English,120,270,2013,Vocal,Dinner
+328,'The Sound of Silence (Acoustic)','Simon & Garfunkel',Pop,Calm,English,105,185,1966,Vocal,Sleep
+329,'Bohemian Rhapsody (Live)','Queen',Rock,Intense,English,144,354,1975,Vocal,Roadtrip
+330,'Stairway to Heaven (Live)','Led Zeppelin',Rock,Sad,English,82,482,1971,Vocal,Sleep
+331,'Stjernefald (Akustisk)','Christopher',Pop,In_Love,Danish,100,190,2011,Vocal,Dinner
+332,'Seven Nation Army (Remix)','The White Stripes',EDM,Intense,English,128,240,2003,Vocal,Fitness
+333,'Juicy (Remix)','The Notorious B.I.G.',EDM,Intense,English,130,240,1994,Vocal,Party
+334,'The Message (Remix)','Grandmaster Flash and the Furious Five',EDM,Intense,English,128,240,1982,Vocal,Fitness
+335,'Billie Jean (Instrumental)','Michael Jackson',Pop,Intense,Instrumental,117,294,1982,Instrumental,Fitness
+336,'Hurt (Instrumental)','Johnny Cash',Rock,Sad,Instrumental,80,237,2002,Instrumental,Sleep
+337,'Take Five (Vocal Version)','Dave Brubeck Quartet',Jazz,Calm,Vocal,172,324,1959,Vocal,Dinner
+338,'Für Elise (Remix)','Ludwig van Beethoven',EDM,Intense,Instrumental,130,240,1810,Instrumental,Party
+339,'Shape of You (Instrumental)','Ed Sheeran',Pop,Happy,Instrumental,96,233,2017,Instrumental,Cooking
+340,'Lose Yourself (Instrumental)','Eminem',Rap/Hiphop,Intense,Instrumental,171,326,2002,Instrumental,Fitness
+341,'September (Instrumental)','Earth, Wind & Fire',R&B,Happy,Instrumental,126,215,1978,Instrumental,Party
+342,'Stairway to Heaven (Instrumental)','Led Zeppelin',Rock,Sad,Instrumental,82,482,1971,Instrumental,Sleep
+343,'One Kiss (Instrumental)','Calvin Harris & Dua Lipa',EDM,Happy,Instrumental,124,214,2018,Instrumental,Party
+344,'Fly Me to the Moon (Instrumental)','Frank Sinatra',Jazz,In_Love,Instrumental,119,147,1964,Instrumental,Dinner
+345,'Let It Be (Instrumental)','The Beatles',Pop,Calm,Instrumental,143,243,1970,Instrumental,Focus
+346,'Old Town Road (Instrumental)','Lil Nas X',Rap/Hiphop,Happy,Instrumental,136,157,2019,Instrumental,Party
+347,'Thinking Out Loud (Instrumental)','Ed Sheeran',R&B,In_Love,Instrumental,79,281,2014,Instrumental,Dinner
+348,'Smells Like Teen Spirit (Instrumental)','Nirvana',Rock,Intense,Instrumental,118,301,1991,Instrumental,Fitness
+349,'Happier (Instrumental)','Marshmello ft. Bastille',EDM,Sad,Instrumental,100,214,2018,Instrumental,Sleep
+350,'Hello (Instrumental)','Adele',Pop,Sad,Instrumental,78,295,2015,Instrumental,Sleep
+351,'California Love (Instrumental)','2Pac ft. Dr. Dre',Rap/Hiphop,Happy,Instrumental,91,269,1995,Instrumental,Roadtrip
+352,'Don't Stop Believin' (Instrumental)','Journey',Rock,Happy,Instrumental,119,268,1981,Instrumental,Cooking
+353,'At Last (Instrumental)','Etta James',Jazz,In_Love,Instrumental,95,182,1960,Instrumental,Dinner
+354,'I Will Always Love You (Instrumental)','Whitney Houston',R&B,Sad,Instrumental,133,271,1992,Instrumental,Sleep
+355,'Africa (Instrumental)','Toto',Rock,Calm,Instrumental,93,296,1982,Instrumental,Focus
+356,'Bad Guy (Instrumental)','Billie Eilish',Pop,Intense,Instrumental,135,194,2019,Instrumental,Fitness
+357,'My Heart Will Go On (Instrumental)','Celine Dion',Pop,Sad,Instrumental,100,281,1997,Instrumental,Sleep
+358,'Starlight (Instrumental)','Muse',Rock,Intense,Instrumental,122,240,2006,Instrumental,Party
+359,'Waterfalls (Instrumental)','TLC',R&B,Sad,Instrumental,100,279,1995,Instrumental,Focus
+360,'God's Plan (Instrumental)','Drake',Rap/Hiphop,Happy,Instrumental,77,199,2018,Instrumental,Cooking
+361,'Come Away With Me (Instrumental)','Norah Jones',Jazz,In_Love,Instrumental,85,238,2002,Instrumental,Dinner
+362,'Crazy Little Thing Called Love (Instrumental)','Queen',Rock,Happy,Instrumental,168,162,1979,Instrumental,Cooking
+363,'What a Wonderful World (Instrumental)','Louis Armstrong',Jazz,Calm,Instrumental,80,140,1967,Instrumental,Dinner
+364,'Where Are Ü Now (Instrumental)','Skrillex & Diplo with Justin Bieber',EDM,Intense,Instrumental,140,250,2015,Instrumental,Fitness
+365,'Stan (Instrumental)','Eminem ft. Dido',Rap/Hiphop,Sad,Instrumental,80,444,2000,Instrumental,Sleep
+366,'Respect (Instrumental)','Aretha Franklin',R&B,Intense,Instrumental,115,148,1967,Instrumental,Fitness
+367,'Fix You (Instrumental)','Coldplay',Pop,Sad,Instrumental,138,295,2005,Instrumental,Sleep
+368,'Ain't No Mountain High Enough (Instrumental)','Marvin Gaye & Tammi Terrell',R&B,Happy,Instrumental,124,143,1967,Instrumental,Cooking
+369,'The Real Slim Shady (Instrumental)','Eminem',Rap/Hiphop,Intense,Instrumental,104,284,2000,Instrumental,Party
+370,'Purple Haze (Instrumental)','Jimi Hendrix',Rock,Intense,Instrumental,135,170,1967,Instrumental,Fitness
+371,'Numb (Instrumental)','Linkin Park',Rock,Intense,Instrumental,104,187,2003,Instrumental,Fitness
+372,'I Gotta Feeling (Instrumental)','Black Eyed Peas',Pop,Happy,Instrumental,128,269,2009,Instrumental,Party
+373,'Unwritten (Instrumental)','Natasha Bedingfield',Pop,Happy,Instrumental,105,258,2004,Instrumental,Fitness
+374,'The Girl from Ipanema (Instrumental)','Stan Getz & João Gilberto',Jazz,Calm,Instrumental,129,315,1964,Instrumental,Dinner
+375,'Jump Around (Instrumental)','House of Pain',Rap/Hiphop,Intense,Instrumental,126,214,1992,Instrumental,Party
+376,'Halo (Instrumental)','Beyoncé',R&B,In_Love,Instrumental,80,261,2008,Instrumental,Dinner
+377,'The Scientist (Instrumental)','Coldplay',Pop,Sad,Instrumental,150,310,2002,Instrumental,Sleep
+378,'Livin' on a Prayer (Instrumental)','Bon Jovi',Rock,Intense,Instrumental,123,249,1986,Instrumental,Fitness
+379,'Firework (Instrumental)','Katy Perry',Pop,Happy,Instrumental,124,227,2010,Instrumental,Fitness
+380,'Tears in Heaven (Instrumental)','Eric Clapton',Rock,Sad,Instrumental,75,270,1992,Instrumental,Sleep
+381,'California Dreamin' (Instrumental)','The Mamas & the Papas',Pop,Calm,Instrumental,110,158,1965,Instrumental,Roadtrip
+382,'Changes (Instrumental)','2Pac ft. Talent',Rap/Hiphop,Sad,Instrumental,110,269,1998,Instrumental,Sleep
+383,'Ain't No Sunshine (Instrumental)','Bill Withers',R&B,Sad,Instrumental,100,130,1971,Instrumental,Dinner
+384,'Sweet Home Alabama (Instrumental)','Lynyrd Skynyrd',Rock,Happy,Instrumental,100,283,1974,Instrumental,Roadtrip
+385,'Don't You Worry 'bout a Thing (Instrumental)','Stevie Wonder',R&B,Happy,Instrumental,121,224,1973,Instrumental,Cooking
+386,'Blue Bossa (Vocal Version)','Kenny Dorham',Jazz,Calm,Vocal,128,240,1963,Vocal,Dinner
+387,'A Thousand Years (Instrumental)','Christina Perry',Pop,In_Love,Instrumental,139,287,2011,Instrumental,Dinner
+388,'Havana (Instrumental)','Camila Cabello ft. Young Thug',Pop,Intense,Instrumental,105,217,2017,Instrumental,Party
+389,'A Sky Full of Stars (Instrumental)','Coldplay',Pop,Happy,Instrumental,125,268,2014,Instrumental,Party
+390,'I'm Yours (Instrumental)','Jason Mraz',Pop,Happy,Instrumental,150,240,2008,Instrumental,Roadtrip
+391,'Stay With Me (Instrumental)','Sam Smith',R&B,Sad,Instrumental,84,172,2014,Instrumental,Sleep
+392,'Walk This Way (Instrumental)','Run-DMC ft. Aerosmith',Rap/Hiphop,Intense,Instrumental,106,244,1986,Instrumental,Fitness
+393,'Another One Bites the Dust (Instrumental)','Queen',Rock,Intense,Instrumental,110,214,1980,Instrumental,Fitness
+394,'What Goes Around... Comes Around (Instrumental)','Justin Timberlake',R&B,Sad,Instrumental,76,330,2006,Instrumental,Dinner
+395,'I Don't Care (Instrumental)','Ed Sheeran & Justin Bieber',Pop,Happy,Instrumental,102,220,2019,Instrumental,Cooking
+396,'Get Up (I Feel Like Being a) Sex Machine (Instrumental)','James Brown',R&B,Intense,Instrumental,106,320,1970,Instrumental,Fitness
+397,'Take a Chance on Me (Instrumental)','ABBA',Pop,Happy,Instrumental,105,243,1977,Instrumental,Party
+398,'Basket Case (Instrumental)','Green Day',Rock,Intense,Instrumental,171,181,1994,Instrumental,Fitness
+399,'Lose My Breath (Instrumental)','Destiny's Child',R&B,Intense,Instrumental,120,242,2004,Instrumental,Fitness
+400,'California Gurls (Instrumental)','Katy Perry ft. Snoop Dogg',Pop,Happy,Instrumental,125,236,2010,Instrumental,Party
+401,'One Way or Another (Instrumental)','Blondie',Pop,Intense,Instrumental,161,190,1978,Instrumental,Fitness
+402,'I Will Survive (Instrumental)','Gloria Gaynor',R&B,Happy,Instrumental,118,210,1978,Instrumental,Party
+403,'Uptown Funk (Instrumental)','Mark Ronson ft. Bruno Mars',Pop,Happy,Instrumental,115,270,2014,Instrumental,Party
+404,'Vogue (Instrumental)','Madonna',Pop,Intense,Instrumental,118,319,1990,Instrumental,Fitness
+405,'No Scrubs (Instrumental)','TLC',R&B,Intense,Instrumental,93,222,1999,Instrumental,Party
+406,'All Night (Instrumental)','Beyoncé',R&B,In_Love,Instrumental,65,321,2016,Instrumental,Sleep
+407,'All Along the Watchtower (Instrumental)','Jimi Hendrix',Rock,Intense,Instrumental,116,240,1968,Instrumental,Roadtrip
+408,'Get Down Tonight (Instrumental)','KC and the Sunshine Band',R&B,Happy,Instrumental,113,212,1975,Instrumental,Party
+409,'Don't Go Breaking My Heart (Instrumental)','Elton John & Kiki Dee',Pop,Happy,Instrumental,127,268,1976,Instrumental,Cooking
+410,'Crazy Train (Instrumental)','Ozzy Osbourne',Rock,Intense,Instrumental,138,280,1980,Instrumental,Fitness
+411,'Nirvana - Lithium (Instrumental)','Nirvana',Rock,Intense,Instrumental,123,257,1991,Instrumental,Fitness
+412,'Can't Feel My Face (Instrumental)','The Weeknd',Pop,Intense,Instrumental,108,215,2015,Instrumental,Party
+413,'Hey Joe (Instrumental)','Jimi Hendrix',Rock,Intense,Instrumental,140,210,1966,Instrumental,Fitness
+414,'Respect (Instrumental)','Aretha Franklin',R&B,Intense,Instrumental,115,148,1967,Instrumental,Fitness
+415,'California Girls (Instrumental)','The Beach Boys',Pop,Happy,Instrumental,120,157,1965,Instrumental,Party
+416,'Stand by Me (Instrumental)','Ben E. King',R&B,In_Love,Instrumental,110,178,1961,Instrumental,Dinner
+417,'Jumpman (Instrumental)','Drake & Future',Rap/Hiphop,Intense,Instrumental,140,200,2015,Instrumental,Fitness
+418,'I'm Not the Only One (Instrumental)','Sam Smith',R&B,Sad,Instrumental,80,237,2014,Instrumental,Dinner
+419,'I Wanna Be Your Lover (Instrumental)','Prince',R&B,Intense,Instrumental,120,379,1979,Instrumental,Fitness
+420,'Don't Stop The Music (Instrumental)','Rihanna',Pop,Intense,Instrumental,123,260,2007,Instrumental,Fitness
+421,'Seven Nation Army (Instrumental)','The White Stripes',Rock,Intense,Instrumental,120,232,2003,Instrumental,Fitness
+422,'What's Up? (Instrumental)','4 Non Blondes',Rock,Sad,Instrumental,102,285,1992,Instrumental,Roadtrip
+423,'Pusherman (Instrumental)','Curtis Mayfield',R&B,Intense,Instrumental,118,350,1972,Instrumental,Focus
+424,'Vi er Røde Vi er Hvide (Instrumental)','Landsholdet',Pop,Happy,Instrumental,140,180,1986,Instrumental,Party
+425,'Despacito (Instrumental)','Luis Fonsi ft. Daddy Yankee',Pop,Happy,Instrumental,89,228,2017,Instrumental,Party
+426,'I Put a Spell on You (Instrumental)','Nina Simone',R&B,Intense,Instrumental,118,170,1965,Instrumental,Dinner
+427,'The Funeral (Instrumental)','Band of Horses',Rock,Sad,Instrumental,140,321,2006,Instrumental,Roadtrip
+428,'A Hard Day's Night (Instrumental)','The Beatles',Pop,Happy,Instrumental,139,154,1964,Instrumental,Cooking
+429,'Nuthin' but a 'G' Thang (Instrumental)','Dr. Dre ft. Snoop Dogg',Rap/Hiphop,Calm,Instrumental,95,278,1992,Instrumental,Roadtrip
+430,'Sittin' on the Dock of the Bay (Instrumental)','Otis Redding',R&B,Calm,Instrumental,104,163,1968,Instrumental,Focus
+431,'Creep (Instrumental)','Radiohead',Rock,Sad,Instrumental,92,239,1992,Instrumental,Sleep
+432,'One Dance (Instrumental)','Drake ft. Wizkid & Kyla',Pop,Happy,Instrumental,104,174,2016,Instrumental,Party
+433,'Vi To Er Ét (Instrumental)','Dúné',Rock,Intense,Instrumental,130,200,2007,Instrumental,Fitness
+434,'How Deep Is Your Love (Instrumental)','Bee Gees',Pop,In_Love,Instrumental,105,245,1977,Instrumental,Dinner
+435,'Take on Me (Instrumental)','a-ha',Pop,Intense,Instrumental,169,225,1985,Instrumental,Fitness
+436,'Love on Top (Instrumental)','Beyoncé',R&B,Happy,Instrumental,188,268,2011,Instrumental,Party
+437,'So Lonely (Instrumental)','The Police',Rock,Sad,Instrumental,168,270,1978,Instrumental,Roadtrip
+438,'All Star (Instrumental)','Smash Mouth',Pop,Happy,Instrumental,104,198,1999,Instrumental,Roadtrip
+439,'Gold Digger (Instrumental)','Kanye West ft. Jamie Foxx',Rap/Hiphop,Intense,Instrumental,93,208,2005,Instrumental,Fitness
+440,'Another Brick in the Wall (Instrumental)','Pink Floyd',Rock,Sad,Instrumental,104,233,1979,Instrumental,Focus
+441,'Good Vibrations (Instrumental)','The Beach Boys',Pop,Happy,Instrumental,135,217,1966,Instrumental,Roadtrip
+442,'Love Yourself (Instrumental)','Justin Bieber',Pop,Calm,Instrumental,102,233,2015,Instrumental,Dinner
+443,'Jump (Instrumental)','Van Halen',Rock,Intense,Instrumental,130,240,1984,Instrumental,Fitness
+444,'What Is Love (Instrumental)','Haddaway',EDM,Intense,Instrumental,124,250,1993,Instrumental,Party
+445,'Stay (Instrumental)','Rihanna ft. Mikky Ekko',Pop,Sad,Instrumental,112,240,2012,Instrumental,Sleep
+446,'Tequila Sunrise (Instrumental)','Eagles',Rock,Calm,Instrumental,100,180,1973,Instrumental,Cooking
+447,'La Isla Bonita (Instrumental)','Madonna',Pop,Happy,Instrumental,100,242,1987,Instrumental,Cooking
+448,'In Bloom (Instrumental)','Nirvana',Rock,Intense,Instrumental,155,255,1991,Instrumental,Fitness
+449,'Piano Man (Instrumental)','Billy Joel',Pop,Calm,Instrumental,75,336,1973,Instrumental,Dinner
+450,'The Girl Is Mine (Instrumental)','Michael Jackson & Paul McCartney',Pop,In_Love,Instrumental,127,215,1982,Instrumental,Dinner
+451,'Mr. Brightside (Instrumental','The Killers',Rock,Happy,Instrumental,148,223,2003,Instrumental,Fitness
+452,'Crazy (Instrumental)','Gnarls Barkley',R&B,Intense,Instrumental,112,182,2006,Instrumental,Roadtrip
+453,'Get Into The Groove (Instrumental)','Madonna',Pop,Intense,Instrumental,116,281,1985,Instrumental,Party
+454,'Run This Town (Instrumental)','Jay-Z ft. Rihanna',Rap/Hiphop,Intense,Instrumental,120,270,2009,Instrumental,Fitness
+455,'I Wanna Dance with Somebody (Instrumental)','Whitney Houston',Pop,Happy,Instrumental,120,272,1987,Instrumental,Party
+456,'Rolling in the Deep (Instrumental)','Adele',Pop,Intense,Instrumental,105,228,2010,Instrumental,Roadtrip
+457,'Sexual Healing (Instrumental)','Marvin Gaye',R&B,In_Love,Instrumental,98,240,1982,Instrumental,Dinner
+458,'Back in Black (Instrumental)','AC/DC',Rock,Intense,Instrumental,188,255,1980,Instrumental,Fitness
+459,'Fast Car (Instrumental)','Tracy Chapman',Pop,Sad,Instrumental,104,300,1988,Instrumental,Roadtrip
+460,'Shining (Instrumental)','DJ Khaled ft. Beyoncé & Jay-Z',Rap/Hiphop,Happy,Instrumental,130,260,2017,Instrumental,Party
+461,'My Girl (Instrumental)','The Temptations',R&B,Happy,Instrumental,105,165,1964,Instrumental,Dinner
+462,'Don't Stop Me Now (Instrumental)','Queen',Rock,Happy,Instrumental,156,210,1978,Instrumental,Party
+463,'Smash Into Pieces (Instrumental)','The Offspring',Rock,Intense,Instrumental,140,165,1998,Instrumental,Fitness
+464,'One (Instrumental)','U2',Rock,Sad,Instrumental,91,276,1991,Instrumental,Sleep
+465,'It Was A Good Day (Instrumental)','Ice Cube',Rap/Hiphop,Calm,Instrumental,82,270,1992,Instrumental,Focus
+466,'Sweet Nothing (Instrumental)','Calvin Harris ft. Florence Welch',EDM,Intense,Instrumental,126,220,2012,Instrumental,Fitness
+467,'Killing Me Softly with His Song (Instrumental)','Roberta Flack',R&B,Sad,Instrumental,108,266,1973,Instrumental,Dinner
+468,'Let's Get It Started (Instrumental)','Black Eyed Peas',Pop,Intense,Instrumental,130,277,2003,Instrumental,Fitness
+469,'Summertime (Instrumental)','Ella Fitzgerald & Louis Armstrong',Jazz,Calm,Instrumental,75,285,1957,Instrumental,Dinner
+470,'I Like It (Instrumental)','Cardi B', Rap/Hiphop,Happy,Instrumental,136,253,2018,Instrumental,Party
+471,'Someone Like You (Instrumental)','Adele',Pop,Sad,Instrumental,67,285,2011,Instrumental,Sleep
+472,'Lose Control (Instrumental)','Missy Elliott',Rap/Hiphop,Intense,Instrumental,125,225,2005,Instrumental,Fitness
+473,'Yesterday (Instrumental)','The Beatles',Pop,Sad,Instrumental,96,125,1965,Instrumental,Sleep
+474,'All Night Long (All Night) (Instrumental)','Lionel Richie',R&B,Happy,Instrumental,108,256,1983,Instrumental,Party
+475,'Stayin' Alive (Instrumental)','Bee Gees',Pop,Intense,Instrumental,103,283,1977,Instrumental,Fitness
+476,'Empire State of Mind (Instrumental)','Jay-Z ft. Alicia Keys',Rap/Hiphop,Intense,Instrumental,84,276,2009,Instrumental,Roadtrip
+477,'Happy (Instrumental)','Pharrell Williams',Pop,Happy,Instrumental,160,233,2013,Instrumental,Party
+478,'Pony (Instrumental)','Ginuwine',R&B,In_Love,Instrumental,128,260,1996,Instrumental,Dinner
+479,'Clocks (Instrumental)','Coldplay',Pop,Calm,Instrumental,130,307,2002,Instrumental,Focus
+480,'The Way You Make Me Feel (Instrumental)','Michael Jackson',Pop,In_Love,Instrumental,115,269,1987,Instrumental,Dinner
+481,'Don't Speak (Instrumental)','No Doubt',Rock,Sad,Instrumental,78,263,1995,Instrumental,Sleep
+482,'Can't Help Falling in Love (Instrumental)','Elvis Presley',Pop,In_Love,Instrumental,100,181,1961,Instrumental,Dinner
+483,'Sex on Fire (Instrumental)','Kings of Leon',Rock,Intense,Instrumental,153,203,2008,Instrumental,Fitness
+484,'Uptown Funk (Instrumental)','Mark Ronson ft. Bruno Mars',Pop,Happy,Instrumental,115,270,2014,Instrumental,Party
+485,'Fields of Gold (Instrumental)','Sting',Pop,Calm,Instrumental,104,240,1993,Instrumental,Dinner
+486,'Watermelon Sugar (Instrumental)','Harry Styles',Pop,Happy,Instrumental,95,174,2019,Instrumental,Party
+487,'All of Me (Instrumental)','John Legend',R&B,In_Love,Instrumental,120,270,2013,Instrumental,Dinner
+488,'Hallelujah (Instrumental)','Leonard Cohen',Pop,Sad,Instrumental,110,260,1984,Instrumental,Sleep
+489,'No Diggity (Instrumental)','Blackstreet ft. Dr. Dre',R&B,Happy,Instrumental,106,304,1996,Instrumental,Party
+490,'Heartless (Instrumental)','The Weeknd',R&B,Intense,Instrumental,100,205,2019,Instrumental,Fitness
+491,'Bad Guy (Remix)','Billie Eilish',EDM,Intense,English,130,240,2019,Vocal,Fitness
+492,'Boombayah (Instrumental)','Blackpink',Pop,Intense,Instrumental,125,230,2016,Instrumental,Party
+493,'Don't Worry (Instrumental)','M.O.P.',Rap/Hiphop,Intense,Instrumental,98,212,1998,Instrumental,Fitness
+494,'Fix You (Live)','Coldplay',Pop,Sad,English,138,295,2005,Vocal,Sleep
+495,'The Real Slim Shady (Live)','Eminem',Rap/Hiphop,Intense,English,104,284,2000,Vocal,Party
+496,'Numb (Live)','Linkin Park',Rock,Intense,English,104,187,2003,Vocal,Fitness
+497,'I Gotta Feeling (Live)','Black Eyed Peas',Pop,Happy,English,128,269,2009,Vocal,Party
+498,'The Girl from Ipanema (Vocal Version)','Stan Getz & João Gilberto',Jazz,Calm,Vocal,129,315,1964,Vocal,Dinner
+499,'Halo (Live)','Beyoncé',R&B,In_Love,English,80,261,2008,Vocal,Dinner
+500,'The Scientist (Live)','Coldplay',Pop,Sad,English,150,310,2002,Vocal,Sleep
+501,'Livin' on a Prayer (Live)','Bon Jovi',Rock,Intense,English,123,249,1986,Vocal,Fitness
+502,'Firework (Live)','Katy Perry',Pop,Happy,English,124,227,2010,Vocal,Fitness
+503,'Tears in Heaven (Live)','Eric Clapton',Rock,Sad,English,75,270,1992,Vocal,Sleep
+504,'California Dreamin' (Live)','The Mamas & the Papas',Pop,Calm,English,110,158,1965,Vocal,Roadtrip
+505,'Changes (Live)','2Pac ft. Talent',Rap/Hiphop,Sad,English,110,269,1998,Vocal,Sleep
+506,'Ain't No Sunshine (Live)','Bill Withers',R&B,Sad,English,100,130,1971,Vocal,Dinner
+507,'Sweet Home Alabama (Live)','Lynyrd Skynyrd',Rock,Happy,English,100,283,1974,Vocal,Roadtrip
+508,'Don't You Worry 'bout a Thing (Live)','Stevie Wonder',R&B,Happy,English,121,224,1973,Vocal,Cooking
+509,'A Thousand Years (Live)','Christina Perry',Pop,In_Love,English,139,287,2011,Vocal,Dinner
+510,'Havana (Live)','Camila Cabello ft. Young Thug',Pop,Intense,English,105,217,2017,Vocal,Party
+511,'A Sky Full of Stars (Live)','Coldplay',Pop,Happy,English,125,268,2014,Vocal,Party
+512,'I'm Yours (Live)','Jason Mraz',Pop,Happy,English,150,240,2008,Vocal,Roadtrip
+513,'Stay With Me (Live)','Sam Smith',R&B,Sad,English,84,172,2014,Vocal,Sleep
+514,'Walk This Way (Live)','Run-DMC ft. Aerosmith',Rap/Hiphop,Intense,English,106,244,1986,Vocal,Fitness
+515,'Another One Bites the Dust (Live)','Queen',Rock,Intense,English,110,214,1980,Vocal,Fitness
+516,'What Goes Around... Comes Around (Live)','Justin Timberlake',R&B,Sad,English,76,330,2006,Vocal,Dinner
+517,'I Don't Care (Live)','Ed Sheeran & Justin Bieber',Pop,Happy,English,102,220,2019,Vocal,Cooking
+518,'Get Up (I Feel Like Being a) Sex Machine (Live)','James Brown',R&B,Intense,English,106,320,1970,Vocal,Fitness
+519,'Take a Chance on Me (Live)','ABBA',Pop,Happy,English,105,243,1977,Vocal,Party
+520,'Basket Case (Live)','Green Day',Rock,Intense,English,171,181,1994,Vocal,Fitness
+521,'Lose My Breath (Live)','Destiny's Child',R&B,Intense,English,120,242,2004,Vocal,Fitness
+522,'California Gurls (Live)','Katy Perry ft. Snoop Dogg',Pop,Happy,English,125,236,2010,Vocal,Party
+523,'One Way or Another (Live)','Blondie',Pop,Intense,English,161,190,1978,Vocal,Fitness
+524,'I Will Survive (Live)','Gloria Gaynor',R&B,Happy,English,118,210,1978,Vocal,Party
+525,'Uptown Funk (Live)','Mark Ronson ft. Bruno Mars',Pop,Happy,English,115,270,2014,Vocal,Party
+526,'Vogue (Live)','Madonna',Pop,Intense,English,118,319,1990,Vocal,Fitness
+527,'No Scrubs (Live)','TLC',R&B,Intense,English,93,222,1999,Vocal,Party
+528,'All Night (Live)','Beyoncé',R&B,In_Love,English,65,321,2016,Vocal,Sleep
+529,'All Along the Watchtower (Live)','Jimi Hendrix',Rock,Intense,English,116,240,1968,Vocal,Roadtrip
+530,'Get Down Tonight (Live)','KC and the Sunshine Band',R&B,Happy,English,113,212,1975,Vocal,Party
+531,'Don't Go Breaking My Heart (Live)','Elton John & Kiki Dee',Pop,Happy,English,127,268,1976,Vocal,Cooking
+532,'Crazy Train (Live)','Ozzy Osbourne',Rock,Intense,English,138,280,1980,Vocal,Fitness
+533,'Nirvana - Lithium (Live)','Nirvana',Rock,Intense,English,123,257,1991,Vocal,Fitness
+534,'Can't Feel My Face (Live)','The Weeknd',Pop,Intense,English,108,215,2015,Vocal,Party
+535,'Hey Joe (Live)','Jimi Hendrix',Rock,Intense,English,140,210,1966,Vocal,Fitness
+536,'Respect (Live)','Aretha Franklin',R&B,Intense,English,115,148,1967,Vocal,Fitness
+537,'California Girls (Live)','The Beach Boys',Pop,Happy,English,120,157,1965,Vocal,Party
+538,'Stand by Me (Live)','Ben E. King',R&B,In_Love,English,110,178,1961,Vocal,Dinner
+539,'Jumpman (Live)','Drake & Future',Rap/Hiphop,Intense,English,140,200,2015,Vocal,Fitness
+540,'I'm Not the Only One (Live)','Sam Smith',R&B,Sad,English,80,237,2014,Vocal,Dinner
+541,'I Wanna Be Your Lover (Live)','Prince',R&B,Intense,English,120,379,1979,Vocal,Fitness
+542,'Don't Stop The Music (Live)','Rihanna',Pop,Intense,English,123,260,2007,Vocal,Fitness
+543,'Seven Nation Army (Live)','The White Stripes',Rock,Intense,English,120,232,2003,Vocal,Fitness
+544,'What's Up? (Live)','4 Non Blondes',Rock,Sad,English,102,285,1992,Vocal,Roadtrip
+545,'Pusherman (Live)','Curtis Mayfield',R&B,Intense,English,118,350,1972,Vocal,Focus
+546,'Despacito (Live)','Luis Fonsi ft. Daddy Yankee',Pop,Happy,English,89,228,2017,Vocal,Party
+547,'I Put a Spell on You (Live)','Nina Simone',R&B,Intense,English,118,170,1965,Vocal,Dinner
+548,'The Funeral (Live)','Band of Horses',Rock,Sad,English,140,321,2006,Vocal,Roadtrip
+549,'A Hard Day's Night (Live)','The Beatles',Pop,Happy,English,139,154,1964,Vocal,Cooking
+550,'Nuthin' but a 'G' Thang (Live)','Dr. Dre ft. Snoop Dogg',Rap/Hiphop,Calm,English,95,278,1992,Vocal,Roadtrip
+551,'Sittin' on the Dock of the Bay (Live)','Otis Redding',R&B,Calm,English,104,163,1968,Vocal,Focus
+552,'Creep (Live)','Radiohead',Rock,Sad,English,92,239,1992,Vocal,Sleep
+553,'One Dance (Live)','Drake ft. Wizkid & Kyla',Pop,Happy,English,104,174,2016,Vocal,Party
+554,'How Deep Is Your Love (Live)','Bee Gees',Pop,In_Love,English,105,245,1977,Vocal,Dinner
+555,'Take on Me (Live)','a-ha',Pop,Intense,English,169,225,1985,Vocal,Fitness
+556,'Love on Top (Live)','Beyoncé',R&B,Happy,English,188,268,2011,Vocal,Party
+557,'So Lonely (Live)','The Police',Rock,Sad,English,168,270,1978,Vocal,Roadtrip
+558,'All Star (Live)','Smash Mouth',Pop,Happy,English,104,198,1999,Vocal,Roadtrip
+559,'Gold Digger (Live)','Kanye West ft. Jamie Foxx',Rap/Hiphop,Intense,English,93,208,2005,Vocal,Fitness
+560,'Another Brick in the Wall (Live)','Pink Floyd',Rock,Sad,English,104,233,1979,Vocal,Focus
+561,'Good Vibrations (Live)','The Beach Boys',Pop,Happy,English,135,217,1966,Vocal,Roadtrip
+562,'Love Yourself (Live)','Justin Bieber',Pop,Calm,English,102,233,2015,Vocal,Dinner
+563,'Jump (Live)','Van Halen',Rock,Intense,English,130,240,1984,Vocal,Fitness
+564,'What Is Love (Live)','Haddaway',EDM,Intense,English,124,250,1993,Vocal,Party
+565,'Stay (Live)','Rihanna ft. Mikky Ekko',Pop,Sad,English,112,240,2012,Vocal,Sleep
+566,'Tequila Sunrise (Live)','Eagles',Rock,Calm,English,100,180,1973,Vocal,Cooking
+567,'La Isla Bonita (Live)','Madonna',Pop,Happy,English,100,242,1987,Vocal,Cooking
+568,'In Bloom (Live)','Nirvana',Rock,Intense,English,155,255,1991,Vocal,Fitness
+569,'Piano Man (Live)','Billy Joel',Pop,Calm,English,75,336,1973,Vocal,Dinner
+570,'The Girl Is Mine (Live)','Michael Jackson & Paul McCartney',Pop,In_Love,English,127,215,1982,Vocal,Dinner
+571,'Mr. Brightside (Live)','The Killers',Rock,Happy,English,148,223,2003,Vocal,Fitness
+572,'Crazy (Live)','Gnarls Barkley',R&B,Intense,English,112,182,2006,Vocal,Roadtrip
+573,'Get Into The Groove (Live)','Madonna',Pop,Intense,English,116,281,1985,Vocal,Party
+574,'Run This Town (Live)','Jay-Z ft. Rihanna',Rap/Hiphop,Intense,English,120,270,2009,Vocal,Fitness
+575,'I Wanna Dance with Somebody (Live)','Whitney Houston',Pop,Happy,English,120,272,1987,Vocal,Party
+576,'Rolling in the Deep (Live)','Adele',Pop,Intense,English,105,228,2010,Vocal,Roadtrip
+577,'Sexual Healing (Live)','Marvin Gaye',R&B,In_Love,English,98,240,1982,Vocal,Dinner
+578,'Back in Black (Live)','AC/DC',Rock,Intense,English,188,255,1980,Vocal,Fitness
+579,'Fast Car (Live)','Tracy Chapman',Pop,Sad,English,104,300,1988,Vocal,Roadtrip
+580,'Shining (Live)','DJ Khaled ft. Beyoncé & Jay-Z',Rap/Hiphop,Happy,English,130,260,2017,Vocal,Party
+581,'My Girl (Acoustic)','The Temptations',R&B,Happy,English,105,165,1964,Vocal,Dinner
+582,'Don't Stop Me Now (Live)','Queen',Rock,Happy,English,156,210,1978,Vocal,Party
+583,'Smash Into Pieces (Live)','The Offspring',Rock,Intense,English,140,165,1998,Vocal,Fitness
+584,'One (Live)','U2',Rock,Sad,English,91,276,1991,Vocal,Sleep
+585,'It Was A Good Day (Live)','Ice Cube',Rap/Hiphop,Calm,English,82,270,1992,Vocal,Focus
+586,'Sweet Nothing (Live','Calvin Harris ft. Florence Welch',EDM,Intense,English,126,220,2012,Vocal,Fitness
+587,'Killing Me Softly with His Song (Live)','Roberta Flack',R&B,Sad,English,108,266,1973,Vocal,Dinner
+588,'Let's Get It Started (Live)','Black Eyed Peas',Pop,Intense,English,130,277,2003,Vocal,Fitness
+589,'Summertime (Live)','Ella Fitzgerald & Louis Armstrong',Jazz,Calm,English,75,285,1957,Vocal,Dinner
+590,'I Like It (Live)','Cardi B', Rap/Hiphop,Happy,English,136,253,2018,Vocal,Party
+591,'Someone Like You (Live)','Adele',Pop,Sad,English,67,285,2011,Vocal,Sleep
+592,'Lose Control (Live)','Missy Elliott',Rap/Hiphop,Intense,English,125,225,2005,Vocal,Fitness
+593,'Yesterday (Live)','The Beatles',Pop,Sad,English,96,125,1965,Vocal,Sleep
+594,'All Night Long (All Night) (Live','Lionel Richie',R&B,Happy,English,108,256,1983,Vocal,Party
+595,'Stayin' Alive (Live)','Bee Gees',Pop,Intense,English,103,283,1977,Vocal,Fitness
+596,'Empire State of Mind (Live)','Jay-Z ft. Alicia Keys',Rap/Hiphop,Intense,English,84,276,2009,Vocal,Roadtrip
+597,'Happy (Live)','Pharrell Williams',Pop,Happy,English,160,233,2013,Vocal,Party
+598,'Pony (Live)','Ginuwine',R&B,In_Love,English,128,260,1996,Vocal,Dinner
+599,'Clocks (Live)','Coldplay',Pop,Calm,English,130,307,2002,Vocal,Focus
+600,'The Way You Make Me Feel (Live)','Michael Jackson',Pop,In_Love,English,115,269,1987,Vocal,Dinner
+601,'Don't Speak (Live)','No Doubt',Rock,Sad,English,78,263,1995,Vocal,Sleep
+602,'Can't Help Falling in Love (Live)','Elvis Presley',Pop,In_Love,English,100,181,1961,Vocal,Dinner
+603,'Sex on Fire (Live)','Kings of Leon',Rock,Intense,English,153,203,2008,Vocal,Fitness
+604,'Uptown Funk (Live)','Mark Ronson ft. Bruno Mars',Pop,Happy,English,115,270,2014,Vocal,Party
+605,'Fields of Gold (Live)','Sting',Pop,Calm,English,104,240,1993,Vocal,Dinner
+606,'Watermelon Sugar (Live)','Harry Styles',Pop,Happy,English,95,174,2019,Vocal,Party
+607,'All of Me (Live)','John Legend',R&B,In_Love,English,120,270,2013,Vocal,Dinner
+608,'Hallelujah (Live)','Leonard Cohen',Pop,Sad,English,110,260,1984,Vocal,Sleep
+609,'No Diggity (Live)','Blackstreet ft. Dr. Dre',R&B,Happy,English,106,304,1996,Vocal,Party
+610,'Heartless (Live)','The Weeknd',R&B,Intense,English,100,205,2019,Vocal,Fitness
+611,'Bad Guy (Live)','Billie Eilish',Pop,Intense,English,135,194,2019,Vocal,Fitness
+612,'Boombayah (Live)','Blackpink',Pop,Intense,English,125,230,2016,Vocal,Party
+613,'Don't Worry (Live)','M.O.P.',Rap/Hiphop,Intense,English,98,212,1998,Vocal,Fitness
+614,'I Got You (I Feel Good) (Instrumental)','James Brown',R&B,Happy,Instrumental,144,167,1965,Instrumental,Party
+615,'Tequila Sunrise (Acoustic)','Eagles',Rock,Calm,English,100,180,1973,Vocal,Cooking
+616,'Smooth Operator (Instrumental)','Sade',Jazz,Calm,Instrumental,120,256,1984,Instrumental,Dinner
+617,'What If (Instrumental)','Coldplay',Pop,Sad,Instrumental,130,300,2005,Instrumental,Roadtrip
+618,'La Valse d'Amélie (Orchestral)','Yann Tiersen',Classical,Calm,Instrumental,100,120,2001,Instrumental,Cooking
+619,'One Dance (Remix)','Drake ft. Wizkid & Kyla',EDM,Happy,English,124,240,2016,Vocal,Party
+620,'Sweet Caroline (Instrumental)','Neil Diamond',Pop,Happy,Instrumental,126,203,1969,Instrumental,Roadtrip
+621,'Lose Control (Instrumental)','Meduza, Goodboys',EDM,Intense,Instrumental,124,180,2019,Instrumental,Fitness
+622,'Don't Give Up (Instrumental)','Peter Gabriel & Kate Bush',Pop,Sad,Instrumental,75,394,1986,Instrumental,Sleep
+623,'Runaway (Instrumental)','Kanye West ft. Pusha T',Rap/Hiphop,Sad,Instrumental,90,540,2010,Instrumental,Focus
+624,'Let Me Love You (Instrumental)','DJ Snake ft. Justin Bieber',EDM,Happy,Instrumental,100,205,2016,Instrumental,Party
+625,'Thriller (Instrumental)','Michael Jackson',Pop,Intense,Instrumental,120,357,1982,Instrumental,Party
+626,'A Change Is Gonna Come (Live)','Sam Cooke',R&B,Sad,English,82,192,1964,Vocal,Sleep
+627,'Sweet Caroline (Live)','Neil Diamond',Pop,Happy,English,126,203,1969,Vocal,Roadtrip
+628,'Don't Stop The Music (Remix)','Rihanna',EDM,Intense,English,128,240,2007,Vocal,Fitness
+629,'The Power (Instrumental)','Snap!',EDM,Intense,Instrumental,125,240,1990,Instrumental,Fitness
+630,'The Scientist (Acoustic)','Coldplay',Pop,Sad,English,150,310,2002,Vocal,Sleep
+631,'Easy On Me (Instrumental)','Adele',Pop,Sad,Instrumental,150,224,2021,Instrumental,Sleep
+632,'I Believe I Can Fly (Instrumental)','R. Kelly',R&B,Happy,Instrumental,60,320,1996,Instrumental,Roadtrip
+633,'Juicy (Acoustic)','The Notorious B.I.G.',Rap/Hiphop,Happy,English,85,270,1994,Vocal,Roadtrip
+634,'Don't Stop Believin' (Acoustic)','Journey',Rock,Happy,English,119,268,1981,Vocal,Cooking
+635,'Empire State of Mind (Acoustic)','Jay-Z ft. Alicia Keys',Rap/Hiphop,Intense,English,84,276,2009,Vocal,Roadtrip
+636,'Love Yourself (Acoustic)','Justin Bieber',Pop,Calm,English,102,233,2015,Vocal,Dinner
+637,'Stay (Acoustic)','Rihanna ft. Mikky Ekko',Pop,Sad,English,112,240,2012,Vocal,Sleep
+638,'One Dance (Acoustic)','Drake ft. Wizkid & Kyla',Pop,Happy,English,104,174,2016,Vocal,Party
+639,'The Boxer (Instrumental)','Simon & Garfunkel',Pop,Calm,Instrumental,105,308,1969,Instrumental,Roadtrip
+640,'The Boxer (Acoustic)','Simon & Garfunkel',Pop,Calm,English,105,308,1969,Vocal,Roadtrip
+641,'My Favorite Things (Vocal Version)','John Coltrane',Jazz,Calm,Vocal,128,870,1961,Vocal,Focus
+642,'Smooth Operator (Acoustic)','Sade',Jazz,Calm,English,120,256,1984,Vocal,Dinner
+643,'What If (Acoustic)','Coldplay',Pop,Sad,English,130,300,2005,Vocal,Roadtrip
+644,'Lose Control (Acoustic)','Meduza, Goodboys',EDM,Intense,English,124,180,2019,Vocal,Fitness
+645,'Don't Give Up (Acoustic)','Peter Gabriel & Kate Bush',Pop,Sad,English,75,394,1986,Vocal,Sleep
+646,'Runaway (Acoustic)','Kanye West ft. Pusha T',Rap/Hiphop,Sad,English,90,540,2010,Vocal,Focus
+647,'Thriller (Acoustic)','Michael Jackson',Pop,Intense,English,120,357,1982,Vocal,Party
+648,'My Kind of Town (Instrumental)','Frank Sinatra',Jazz,Happy,Instrumental,120,180,1964,Instrumental,Dinner
+649,'I Will Always Love You (Instrumental)','Dolly Parton',Pop,Sad,Instrumental,133,180,1974,Instrumental,Sleep
+650,'Stol På Dig Selv (Instrumental)','Mads Langer',Pop,Calm,Instrumental,105,200,2009,Instrumental,Focus
+651,'Hurt (Acoustic Instrumental)','Christina Aguilera',Pop,Sad,Instrumental,100,250,2006,Instrumental,Sleep
+652,'The Four Seasons - Spring (Violin Solo)','Antonio Vivaldi',Classical,Happy,Instrumental,120,180,1725,Instrumental,Roadtrip
+653,'Jump Around (Remix)','House of Pain',EDM,Intense,English,130,240,1992,Vocal,Party
+654,'Halo (Remix)','Beyoncé',EDM,In_Love,English,126,240,2008,Vocal,Dinner
+655,'Someone Like You (Acoustic)','Adele',Pop,Sad,English,67,285,2011,Vocal,Sleep
+656,'Lose Control (Remix)','Missy Elliott',EDM,Intense,English,130,240,2005,Vocal,Fitness
+657,'Yesterday (Acoustic)','The Beatles',Pop,Sad,English,96,125,1965,Vocal,Sleep
+658,'All Night Long (All Night) (Remix)','Lionel Richie',EDM,Happy,English,128,240,1983,Vocal,Party
+659,'Stayin' Alive (Remix)','Bee Gees',EDM,Intense,English,125,240,1977,Vocal,Fitness
+660,'Empire State of Mind (Remix)','Jay-Z ft. Alicia Keys',EDM,Intense,English,128,240,2009,Vocal,Roadtrip
+661,'Happy (Remix)','Pharrell Williams',EDM,Happy,English,128,240,2013,Vocal,Party
+662,'Pony (Remix)','Ginuwine',EDM,In_Love,English,130,240,1996,Vocal,Dinner
+663,'Clocks (Remix)','Coldplay',EDM,Calm,English,126,240,2002,Vocal,Focus
+664,'The Way You Make Me Feel (Acoustic)','Michael Jackson',Pop,In_Love,English,115,269,1987,Vocal,Dinner
+665,'Don't Speak (Acoustic)','No Doubt',Rock,Sad,English,78,263,1995,Vocal,Sleep
+666,'Can't Help Falling in Love (Acoustic)','Elvis Presley',Pop,In_Love,English,100,181,1961,Vocal,Dinner
+667,'Sex on Fire (Acoustic)','Kings of Leon',Rock,Intense,English,153,203,2008,Vocal,Fitness
+668,'Uptown Funk (Remix)','Mark Ronson ft. Bruno Mars',EDM,Happy,English,128,240,2014,Vocal,Party
+669,'Fields of Gold (Acoustic)','Sting',Pop,Calm,English,104,240,1993,Vocal,Dinner
+670,'Watermelon Sugar (Remix)','Harry Styles',EDM,Happy,English,124,240,2019,Vocal,Party
+671,'All of Me (Remix)','John Legend',EDM,In_Love,English,128,240,2013,Vocal,Dinner
+672,'Hallelujah (Acoustic)','Leonard Cohen',Pop,Sad,English,110,260,1984,Vocal,Sleep
+673,'No Diggity (Remix)','Blackstreet ft. Dr. Dre',EDM,Happy,English,125,240,1996,Vocal,Party
+674,'Heartless (Remix)','The Weeknd',EDM,Intense,English,128,240,2019,Vocal,Fitness
+675,'Bad Guy (Acoustic)','Billie Eilish',Pop,Intense,English,135,194,2019,Vocal,Fitness
+676,'Boombayah (Remix)','Blackpink',EDM,Intense,English,128,240,2016,Vocal,Party
+677,'Don't Worry (Remix)','M.O.P.',EDM,Intense,English,126,240,1998,Vocal,Fitness
+678,'Fix You (Acoustic)','Coldplay',Pop,Sad,English,138,295,2005,Vocal,Sleep
+679,'The Real Slim Shady (Acoustic)','Eminem',Rap/Hiphop,Intense,English,104,284,2000,Vocal,Party
+680,'Numb (Acoustic)','Linkin Park',Rock,Intense,English,104,187,2003,Vocal,Fitness
+681,'I Gotta Feeling (Remix)','Black Eyed Peas',EDM,Happy,English,130,240,2009,Vocal,Party
+682,'The Girl from Ipanema (Acoustic)','Stan Getz & João Gilberto',Jazz,Calm,English,129,315,1964,Vocal,Dinner
+683,'Halo (Acoustic)','Beyoncé',R&B,In_Love,English,80,261,2008,Vocal,Dinner
+684,'The Scientist (Remix)','Coldplay',EDM,Sad,English,128,240,2002,Vocal,Sleep
+685,'Livin' on a Prayer (Remix)','Bon Jovi',EDM,Intense,English,130,240,1986,Vocal,Fitness
+686,'Firework (Remix)','Katy Perry',EDM,Happy,English,128,240,2010,Vocal,Fitness
+687,'Tears in Heaven (Acoustic)','Eric Clapton',Rock,Sad,English,75,270,1992,Vocal,Sleep
+688,'California Dreamin' (Acoustic)','The Mamas & the Papas',Pop,Calm,English,110,158,1965,Vocal,Roadtrip
+689,'Changes (Acoustic)','2Pac ft. Talent',Rap/Hiphop,Sad,English,110,269,1998,Vocal,Sleep
+690,'Ain't No Sunshine (Acoustic)','Bill Withers',R&B,Sad,English,100,130,1971,Vocal,Dinner
+691,'Sweet Home Alabama (Acoustic)','Lynyrd Skynyrd',Rock,Happy,English,100,283,1974,Vocal,Roadtrip
+692,'Don't You Worry 'bout a Thing (Acoustic)','Stevie Wonder',R&B,Happy,English,121,224,1973,Vocal,Cooking
+693,'A Thousand Years (Acoustic)','Christina Perry',Pop,In_Love,English,139,287,2011,Vocal,Dinner
+694,'Havana (Remix)','Camila Cabello ft. Young Thug',EDM,Intense,English,128,240,2017,Vocal,Party
+695,'A Sky Full of Stars (Remix)','Coldplay',EDM,Happy,English,128,240,2014,Vocal,Party
+696,'I'm Yours (Acoustic)','Jason Mraz',Pop,Happy,English,150,240,2008,Vocal,Roadtrip
+697,'Stay With Me (Acoustic)','Sam Smith',R&B,Sad,English,84,172,2014,Vocal,Sleep
+698,'Walk This Way (Remix)','Run-DMC ft. Aerosmith',EDM,Intense,English,128,240,1986,Vocal,Fitness
+699,'Another One Bites the Dust (Remix)','Queen',EDM,Intense,English,128,240,1980,Vocal,Fitness
+700,'What Goes Around... Comes Around (Acoustic)','Justin Timberlake',R&B,Sad,English,76,330,2006,Vocal,Dinner
+701,'I Don't Care (Remix)','Ed Sheeran & Justin Bieber',EDM,Happy,English,128,240,2019,Vocal,Cooking
+702,'Get Up (I Feel Like Being a) Sex Machine (Remix)','James Brown',EDM,Intense,English,130,240,1970,Vocal,Fitness
+703,'Take a Chance on Me (Remix)','ABBA',EDM,Happy,English,128,240,1977,Vocal,Party
+704,'Basket Case (Acoustic)','Green Day',Rock,Intense,English,171,181,1994,Vocal,Fitness
+705,'Lose My Breath (Remix)','Destiny's Child',EDM,Intense,English,128,240,2004,Vocal,Fitness
+706,'California Gurls (Remix)','Katy Perry ft. Snoop Dogg',EDM,Happy,English,128,240,2010,Vocal,Party
+707,'One Way or Another (Remix)','Blondie',EDM,Intense,English,128,240,1978,Vocal,Fitness
+708,'I Will Survive (Remix)','Gloria Gaynor',EDM,Happy,English,128,240,1978,Vocal,Party
+709,'Uptown Funk (Acoustic)','Mark Ronson ft. Bruno Mars',Pop,Happy,English,115,270,2014,Vocal,Party
+710,'Vogue (Remix)','Madonna',EDM,Intense,English,128,240,1990,Vocal,Fitness
+711,'No Scrubs (Acoustic)','TLC',R&B,Intense,English,93,222,1999,Vocal,Party
+712,'All Night (Remix)','Beyoncé',EDM,In_Love,English,128,240,2016,Vocal,Sleep
+713,'All Along the Watchtower (Acoustic)','Jimi Hendrix',Rock,Intense,English,116,240,1968,Vocal,Roadtrip
+714,'Get Down Tonight (Remix)','KC and the Sunshine Band',EDM,Happy,English,128,240,1975,Vocal,Party
+715,'Don't Go Breaking My Heart (Acoustic)','Elton John & Kiki Dee',Pop,Happy,English,127,268,1976,Vocal,Cooking
+716,'Crazy Train (Acoustic)','Ozzy Osbourne',Rock,Intense,English,138,280,1980,Vocal,Fitness
+717,'Nirvana - Lithium (Acoustic)','Nirvana',Rock,Intense,English,123,257,1991,Vocal,Fitness
+718,'Can't Feel My Face (Remix)','The Weeknd',EDM,Intense,English,128,240,2015,Vocal,Party
+719,'Hey Joe (Acoustic)','Jimi Hendrix',Rock,Intense,English,140,210,1966,Vocal,Fitness
+720,'Respect (Acoustic)','Aretha Franklin',R&B,Intense,English,115,148,1967,Vocal,Fitness
+721,'California Girls (Acoustic)','The Beach Boys',Pop,Happy,English,120,157,1965,Vocal,Party
+722,'Stand by Me (Acoustic)','Ben E. King',R&B,In_Love,English,110,178,1961,Vocal,Dinner
+723,'Jumpman (Remix)','Drake & Future',EDM,Intense,English,130,240,2015,Vocal,Fitness
+724,'I'm Not the Only One (Acoustic)','Sam Smith',R&B,Sad,English,80,237,2014,Vocal,Dinner
+725,'I Wanna Be Your Lover (Remix)','Prince',EDM,Intense,English,128,240,1979,Vocal,Fitness
+726,'Don't Stop The Music (Acoustic)','Rihanna',Pop,Intense,English,123,260,2007,Vocal,Fitness
+727,'Seven Nation Army (Acoustic)','The White Stripes',Rock,Intense,English,120,232,2003,Vocal,Fitness
+728,'What's Up? (Acoustic)','4 Non Blondes',Rock,Sad,English,102,285,1992,Vocal,Roadtrip
+729,'Pusherman (Acoustic)','Curtis Mayfield',R&B,Intense,English,118,350,1972,Vocal,Focus
+730,'Despacito (Remix)','Luis Fonsi ft. Daddy Yankee',EDM,Happy,English,128,240,2017,Vocal,Party
+731,'I Put a Spell on You (Acoustic)','Nina Simone',R&B,Intense,English,118,170,1965,Vocal,Dinner
+732,'The Funeral (Acoustic)','Band of Horses',Rock,Sad,English,140,321,2006,Vocal,Roadtrip
+733,'A Hard Day's Night (Acoustic)','The Beatles',Pop,Happy,English,139,154,1964,Vocal,Cooking
+734,'Nuthin' but a 'G' Thang (Acoustic)','Dr. Dre ft. Snoop Dogg',Rap/Hiphop,Calm,English,95,278,1992,Vocal,Roadtrip
+735,'Sittin' on the Dock of the Bay (Acoustic)','Otis Redding',R&B,Calm,English,104,163,1968,Vocal,Focus
+736,'Creep (Acoustic)','Radiohead',Rock,Sad,English,92,239,1992,Vocal,Sleep
+737,'One Dance (Remix)','Drake ft. Wizkid & Kyla',EDM,Happy,English,128,240,2016,Vocal,Party
+738,'How Deep Is Your Love (Acoustic)','Bee Gees',Pop,In_Love,English,105,245,1977,Vocal,Dinner
+739,'Take on Me (Acoustic)','a-ha',Pop,Intense,English,169,225,1985,Vocal,Fitness
+740,'Love on Top (Acoustic)','Beyoncé',R&B,Happy,English,188,268,2011,Vocal,Party
+741,'So Lonely (Acoustic)','The Police',Rock,Sad,English,168,270,1978,Vocal,Roadtrip
+742,'All Star (Acoustic)','Smash Mouth',Pop,Happy,English,104,198,1999,Vocal,Roadtrip
+743,'Gold Digger (Remix)','Kanye West ft. Jamie Foxx',EDM,Intense,English,130,240,2005,Vocal,Fitness
+744,'Another Brick in the Wall (Acoustic)','Pink Floyd',Rock,Sad,English,104,233,1979,Vocal,Focus
+745,'Good Vibrations (Acoustic)','The Beach Boys',Pop,Happy,English,135,217,1966,Vocal,Roadtrip
+746,'Love Yourself (Remix)','Justin Bieber',EDM,Calm,English,128,240,2015,Vocal,Dinner
+747,'Jump (Remix)','Van Halen',EDM,Intense,English,130,240,1984,Vocal,Fitness
+748,'What Is Love (Remix)','Haddaway',EDM,Intense,English,128,240,1993,Vocal,Party
+749,'Stay (Remix)','Rihanna ft. Mikky Ekko',EDM,Sad,English,128,240,2012,Vocal,Sleep
+750,'Tequila Sunrise (Remix)','Eagles',EDM,Calm,English,126,240,1973,Vocal,Cooking
+751,'La Isla Bonita (Remix)','Madonna',EDM,Happy,English,128,240,1987,Vocal,Cooking
+752,'In Bloom (Acoustic)','Nirvana',Rock,Intense,English,155,255,1991,Vocal,Fitness
+753,'Piano Man (Acoustic)','Billy Joel',Pop,Calm,English,75,336,1973,Vocal,Dinner
+754,'The Girl Is Mine (Acoustic)','Michael Jackson & Paul McCartney',Pop,In_Love,English,127,215,1982,Vocal,Dinner
+755,'Mr. Brightside (Remix)','The Killers',EDM,Happy,English,128,240,2003,Vocal,Fitness
+756,'Crazy (Acoustic)','Gnarls Barkley',R&B,Intense,English,112,182,2006,Vocal,Roadtrip
+757,'Get Into The Groove (Remix)','Madonna',EDM,Intense,English,128,240,1985,Vocal,Party
+758,'Run This Town (Remix)','Jay-Z ft. Rihanna',EDM,Intense,English,128,240,2009,Vocal,Fitness
+759,'I Wanna Dance with Somebody (Remix)','Whitney Houston',EDM,Happy,English,128,240,1987,Vocal,Party
+760,'Rolling in the Deep (Remix)','Adele',EDM,Intense,English,128,240,2010,Vocal,Roadtrip
+761,'Sexual Healing (Acoustic)','Marvin Gaye',R&B,In_Love,English,98,240,1982,Vocal,Dinner
+762,'Back in Black (Remix)','AC/DC',EDM,Intense,English,130,240,1980,Vocal,Fitness
+763,'Fast Car (Remix)','Tracy Chapman',EDM,Sad,English,128,240,1988,Vocal,Roadtrip
+764,'Shining (Remix)','DJ Khaled ft. Beyoncé & Jay-Z',EDM,Happy,English,128,240,2017,Vocal,Party
+765,'My Girl (Instrumental Remix)','The Temptations',EDM,Happy,Instrumental,128,240,1964,Instrumental,Dinner
+766,'Don't Stop Me Now (Remix)','Queen',EDM,Happy,English,128,240,1978,Vocal,Party
+767,'Smash Into Pieces (Remix)','The Offspring',EDM,Intense,English,128,240,1998,Vocal,Fitness
+768,'One (Acoustic)','U2',Rock,Sad,English,91,276,1991,Vocal,Sleep
+769,'It Was A Good Day (Remix)','Ice Cube',EDM,Calm,English,128,240,1992,Vocal,Focus
+770,'Sweet Nothing (Remix)','Calvin Harris ft. Florence Welch',EDM,Intense,English,128,240,2012,Vocal,Fitness
+771,'Killing Me Softly with His Song (Acoustic)','Roberta Flack',R&B,Sad,English,108,266,1973,Vocal,Dinner
+772,'Let's Get It Started (Remix)','Black Eyed Peas',EDM,Intense,English,128,240,2003,Vocal,Fitness
+773,'Summertime (Acoustic)','Ella Fitzgerald & Louis Armstrong',Jazz,Calm,English,75,285,1957,Vocal,Dinner
+774,'I Like It (Remix)','Cardi B, Rap/Hiphop',EDM,Happy,English,128,240,2018,Vocal,Party
+775,'Someone Like You (Remix)','Adele',EDM,Sad,English,128,240,2011,Vocal,Sleep
+776,'Lose Control (Remix)','Missy Elliott',EDM,Intense,English,128,240,2005,Vocal,Fitness
+777,'Yesterday (Remix)','The Beatles',Pop,Sad,English,128,240,1965,Vocal,Sleep
+778,'All Night Long (All Night) (Acoustic)','Lionel Richie',R&B,Happy,English,108,256,1983,Vocal,Party
+779,'Stayin' Alive (Acoustic)','Bee Gees',Pop,Intense,English,103,283,1977,Vocal,Fitness
+780,'Empire State of Mind (Acoustic)','Jay-Z ft. Alicia Keys',Rap/Hiphop,Intense,English,84,276,2009,Vocal,Roadtrip
+781,'Happy (Acoustic)','Pharrell Williams',Pop,Happy,English,160,233,2013,Vocal,Party
+782,'Pony (Acoustic)','Ginuwine',R&B,In_Love,English,128,260,1996,Vocal,Dinner
+783,'Clocks (Acoustic)','Coldplay',Pop,Calm,English,130,307,2002,Vocal,Focus
+784,'The Way You Make Me Feel (Remix)','Michael Jackson',EDM,In_Love,English,128,240,1987,Vocal,Dinner
+785,'Don't Speak (Remix)','No Doubt',EDM,Sad,English,128,240,1995,Vocal,Sleep
+786,'Can't Help Falling in Love (Remix)','Elvis Presley',EDM,In_Love,English,128,240,1961,Vocal,Dinner
+787,'Sex on Fire (Remix)','Kings of Leon',EDM,Intense,English,128,240,2008,Vocal,Fitness
+788,'Uptown Funk (Remix)','Mark Ronson ft. Bruno Mars',EDM,Happy,English,128,240,2014,Vocal,Party
+789,'Fields of Gold (Remix)','Sting',EDM,Calm,English,128,240,1993,Vocal,Dinner
+790,'Watermelon Sugar (Acoustic)','Harry Styles',Pop,Happy,English,95,174,2019,Vocal,Party
+791,'All of Me (Acoustic)','John Legend',R&B,In_Love,English,120,270,2013,Vocal,Dinner
+792,'Hallelujah (Remix)','Leonard Cohen',EDM,Sad,English,128,240,1984,Vocal,Sleep
+793,'No Diggity (Acoustic)','Blackstreet ft. Dr. Dre',R&B,Happy,English,106,304,1996,Vocal,Party
+794,'Heartless (Acoustic)','The Weeknd',R&B,Intense,English,100,205,2019,Vocal,Fitness
+795,'Bohemian Rhapsody (Acoustic)','Queen',Rock,Intense,English,144,354,1975,Vocal,Roadtrip
+796,'September (Acoustic)','Earth, Wind & Fire',R&B,Happy,English,126,215,1978,Vocal,Party
+797,'One Kiss (Acoustic)','Calvin Harris & Dua Lipa',EDM,Happy,English,124,214,2018,Vocal,Party
+798,'Stairway to Heaven (Acoustic)','Led Zeppelin',Rock,Sad,English,82,482,1971,Vocal,Sleep
+799,'Blinding Lights (Acoustic)','The Weeknd',Pop,Intense,English,171,200,2019,Vocal,Fitness
+800,'Imagine (Acoustic)','John Lennon',Pop,Calm,English,75,187,1971,Vocal,Sleep
+801,'Sweet Child o' Mine (Acoustic)','Guns N' Roses',Rock,Happy,English,125,356,1987,Vocal,Party
+802,'Let It Be (Acoustic)','The Beatles',Pop,Calm,English,143,243,1970,Vocal,Focus
+803,'Crazy in Love (Acoustic)','Beyoncé ft. Jay-Z',R&B,Intense,English,99,236,2003,Vocal,Fitness
+804,'The Way You Make Me Feel (Acoustic)','Michael Jackson',R&B,In_Love,English,115,269,1987,Vocal,Party
+805,'One (Acoustic)','U2',Rock,Sad,English,91,276,1991,Vocal,Sleep
+806,'Starlight (Acoustic)','Muse',Rock,Intense,English,122,240,2006,Vocal,Party
+807,'Love on Top (Remix)','Beyoncé',EDM,Happy,English,128,240,2011,Vocal,Party
+808,'Bad Guy (Remix)','Billie Eilish',EDM,Intense,English,130,240,2019,Vocal,Fitness
+809,'Boombayah (Acoustic)','Blackpink',Pop,Intense,English,125,230,2016,Vocal,Party
+810,'Don't Worry (Acoustic)','M.O.P.',Rap/Hiphop,Intense,English,98,212,1998,Vocal,Fitness
+811,'The Real Slim Shady (Remix)','Eminem',EDM,Intense,English,130,240,2000,Vocal,Party
+812,'Numb (Remix)','Linkin Park',EDM,Intense,English,128,240,2003,Vocal,Fitness
+813,'I Gotta Feeling (Acoustic)','Black Eyed Peas',Pop,Happy,English,128,269,2009,Vocal,Party
+814,'Halo (Remix)','Beyoncé',EDM,In_Love,English,126,240,2008,Vocal,Dinner
+815,'The Scientist (Acoustic)','Coldplay',Pop,Sad,English,150,310,2002,Vocal,Sleep
+816,'Livin' on a Prayer (Acoustic)','Bon Jovi',Rock,Intense,English,123,249,1986,Vocal,Fitness
+817,'Firework (Acoustic)','Katy Perry',Pop,Happy,English,124,227,2010,Vocal,Fitness
+818,'Tears in Heaven (Remix)','Eric Clapton',EDM,Sad,English,128,240,1992,Vocal,Sleep
+819,'California Dreamin' (Remix)','The Mamas & the Papas',EDM,Calm,English,128,240,1965,Vocal,Roadtrip
+820,'Changes (Remix)','2Pac ft. Talent',EDM,Sad,English,128,240,1998,Vocal,Sleep
+821,'Ain't No Sunshine (Remix)','Bill Withers',EDM,Sad,English,126,240,1971,Vocal,Dinner
+822,'Sweet Home Alabama (Remix)','Lynyrd Skynyrd',EDM,Happy,English,128,240,1974,Vocal,Roadtrip
+823,'Don't You Worry 'bout a Thing (Remix)','Stevie Wonder',EDM,Happy,English,128,240,1973,Vocal,Cooking
+824,'A Thousand Years (Remix)','Christina Perry',EDM,In_Love,English,128,240,2011,Vocal,Dinner
+825,'Havana (Acoustic)','Camila Cabello ft. Young Thug',Pop,Intense,English,105,217,2017,Vocal,Party
+826,'A Sky Full of Stars (Acoustic)','Coldplay',Pop,Happy,English,125,268,2014,Vocal,Party
+827,'I'm Yours (Remix)','Jason Mraz',EDM,Happy,English,128,240,2008,Vocal,Roadtrip
+828,'Stay With Me (Remix)','Sam Smith',EDM,Sad,English,128,240,2014,Vocal,Sleep
+829,'Walk This Way (Acoustic)','Run-DMC ft. Aerosmith',Rap/Hiphop,Intense,English,106,244,1986,Vocal,Fitness
+830,'Another One Bites the Dust (Acoustic)','Queen',Rock,Intense,English,110,214,1980,Vocal,Fitness
+831,'What Goes Around... Comes Around (Remix)','Justin Timberlake',EDM,Sad,English,128,240,2006,Vocal,Dinner
+832,'I Don't Care (Acoustic)','Ed Sheeran & Justin Bieber',Pop,Happy,English,102,220,2019,Vocal,Cooking
+833,'Get Up (I Feel Like Being a) Sex Machine (Acoustic)','James Brown',R&B,Intense,English,106,320,1970,Vocal,Fitness
+834,'Take a Chance on Me (Acoustic)','ABBA',Pop,Happy,English,105,243,1977,Vocal,Party
+835,'Basket Case (Remix)','Green Day',EDM,Intense,English,130,240,1994,Vocal,Fitness
+836,'Lose My Breath (Acoustic)','Destiny's Child',R&B,Intense,English,120,242,2004,Vocal,Fitness
+837,'California Gurls (Acoustic)','Katy Perry ft. Snoop Dogg',Pop,Happy,English,125,236,2010,Vocal,Party
+838,'One Way or Another (Acoustic)','Blondie',Pop,Intense,English,161,190,1978,Vocal,Fitness
+839,'I Will Survive (Acoustic)','Gloria Gaynor',R&B,Happy,English,118,210,1978,Vocal,Party
+840,'Uptown Funk (Remix)','Mark Ronson ft. Bruno Mars',EDM,Happy,English,128,240,2014,Vocal,Party
+841,'Vogue (Acoustic)','Madonna',Pop,Intense,English,118,319,1990,Vocal,Fitness
+842,'No Scrubs (Remix)','TLC',EDM,Intense,English,128,240,1999,Vocal,Party
+843,'All Night (Acoustic)','Beyoncé',R&B,In_Love,English,65,321,2016,Vocal,Sleep
+844,'All Along the Watchtower (Remix)','Jimi Hendrix',EDM,Intense,English,128,240,1968,Vocal,Roadtrip
+845,'Get Down Tonight (Acoustic)','KC and the Sunshine Band',R&B,Happy,English,113,212,1975,Vocal,Party
+846,'Don't Go Breaking My Heart (Remix)','Elton John & Kiki Dee',EDM,Happy,English,128,240,1976,Vocal,Cooking
+847,'Crazy Train (Remix)','Ozzy Osbourne',EDM,Intense,English,130,240,1980,Vocal,Fitness
+848,'Nirvana - Lithium (Remix)','Nirvana',EDM,Intense,English,128,240,1991,Vocal,Fitness
+849,'Can't Feel My Face (Acoustic)','The Weeknd',Pop,Intense,English,108,215,2015,Vocal,Party
+850,'Hey Joe (Remix)','Jimi Hendrix',EDM,Intense,English,128,240,1966,Vocal,Fitness
+851,'Respect (Remix)','Aretha Franklin',EDM,Intense,English,128,240,1967,Vocal,Fitness
+852,'California Girls (Remix)','The Beach Boys',EDM,Happy,English,128,240,1965,Vocal,Party
+853,'Stand by Me (Remix)','Ben E. King',EDM,In_Love,English,126,240,1961,Vocal,Dinner
+854,'Jumpman (Acoustic)','Drake & Future',Rap/Hiphop,Intense,English,140,200,2015,Vocal,Fitness
+855,'I'm Not the Only One (Remix)','Sam Smith',EDM,Sad,English,128,240,2014,Vocal,Dinner
+856,'I Wanna Be Your Lover (Acoustic)','Prince',R&B,Intense,English,120,379,1979,Vocal,Fitness
+857,'Don't Stop The Music (Remix)','Rihanna',EDM,Intense,English,128,240,2007,Vocal,Fitness
+858,'Seven Nation Army (Remix)','The White Stripes',EDM,Intense,English,128,240,2003,Vocal,Fitness
+859,'What's Up? (Remix)','4 Non Blondes',EDM,Sad,English,128,240,1992,Vocal,Roadtrip
+860,'Pusherman (Remix)','Curtis Mayfield',EDM,Intense,English,128,240,1972,Vocal,Focus
+861,'I Put a Spell on You (Remix)','Nina Simone',EDM,Intense,English,128,240,1965,Vocal,Dinner
+862,'The Funeral (Remix)','Band of Horses',EDM,Sad,English,128,240,2006,Vocal,Roadtrip
+863,'A Hard Day's Night (Remix)','The Beatles',EDM,Happy,English,128,240,1964,Vocal,Cooking
+864,'Nuthin' but a 'G' Thang (Remix)','Dr. Dre ft. Snoop Dogg',EDM,Calm,English,128,240,1992,Vocal,Roadtrip
+865,'Sittin' on the Dock of the Bay (Remix)','Otis Redding',EDM,Calm,English,128,240,1968,Vocal,Focus
+866,'Creep (Remix)','Radiohead',EDM,Sad,English,128,240,1992,Vocal,Sleep
+867,'How Deep Is Your Love (Remix)','Bee Gees',EDM,In_Love,English,128,240,1977,Vocal,Dinner
+868,'Take on Me (Remix)','a-ha',EDM,Intense,English,128,240,1985,Vocal,Fitness
+869,'So Lonely (Remix)','The Police',EDM,Sad,English,128,240,1978,Vocal,Roadtrip
+870,'All Star (Remix)','Smash Mouth',EDM,Happy,English,128,240,1999,Vocal,Roadtrip
+871,'Another Brick in the Wall (Remix)','Pink Floyd',EDM,Sad,English,128,240,1979,Vocal,Focus
+872,'Good Vibrations (Remix)','The Beach Boys',EDM,Happy,English,128,240,1966,Vocal,Roadtrip
+873,'Jump (Acoustic)','Van Halen',Rock,Intense,English,130,240,1984,Vocal,Fitness
+874,'What Is Love (Acoustic)','Haddaway',EDM,Intense,English,124,250,1993,Vocal,Party
+875,'Tequila Sunrise (Acoustic)','Eagles',Rock,Calm,English,100,180,1973,Vocal,Cooking
+876,'La Isla Bonita (Acoustic)','Madonna',Pop,Happy,English,100,242,1987,Vocal,Cooking
+877,'In Bloom (Remix)','Nirvana',EDM,Intense,English,128,240,1991,Vocal,Fitness
+878,'Piano Man (Remix)','Billy Joel',EDM,Calm,English,128,240,1973,Vocal,Dinner
+879,'The Girl Is Mine (Remix)','Michael Jackson & Paul McCartney',EDM,In_Love,English,128,240,1982,Vocal,Dinner
+880,'Mr. Brightside (Acoustic)','The Killers',Rock,Happy,English,148,223,2003,Vocal,Fitness
+881,'Crazy (Remix)','Gnarls Barkley',EDM,Intense,English,128,240,2006,Vocal,Roadtrip
+882,'Get Into The Groove (Acoustic)','Madonna',Pop,Intense,English,116,281,1985,Vocal,Party
+883,'Run This Town (Acoustic)','Jay-Z ft. Rihanna',Rap/Hiphop,Intense,English,120,270,2009,Vocal,Fitness
+884,'I Wanna Dance with Somebody (Acoustic)','Whitney Houston',Pop,Happy,English,120,272,1987,Vocal,Party
+885,'Rolling in the Deep (Acoustic)','Adele',Pop,Intense,English,105,228,2010,Vocal,Roadtrip
+886,'Sexual Healing (Remix)','Marvin Gaye',EDM,In_Love,English,128,240,1982,Vocal,Dinner
+887,'Back in Black (Acoustic)','AC/DC',Rock,Intense,English,188,255,1980,Vocal,Fitness
+888,'Fast Car (Acoustic)','Tracy Chapman',Pop,Sad,English,104,300,1988,Vocal,Roadtrip
+889,'Shining (Acoustic)','DJ Khaled ft. Beyoncé & Jay-Z',Rap/Hiphop,Happy,English,130,260,2017,Vocal,Party
+890,'My Girl (Remix)','The Temptations',EDM,Happy,English,128,240,1964,Vocal,Dinner
+891,'Don't Stop Me Now (Acoustic)','Queen',Rock,Happy,English,156,210,1978,Vocal,Party
+892,'Smash Into Pieces (Acoustic)','The Offspring',Rock,Intense,English,140,165,1998,Vocal,Fitness
+893,'It Was A Good Day (Acoustic)','Ice Cube',Rap/Hiphop,Calm,English,82,270,1992,Vocal,Focus
+894,'Sweet Nothing (Acoustic)','Calvin Harris ft. Florence Welch',EDM,Intense,English,126,220,2012,Vocal,Fitness
+895,'Killing Me Softly with His Song (Remix)','Roberta Flack',EDM,Sad,English,128,240,1973,Vocal,Dinner
+896,'Let's Get It Started (Acoustic)','Black Eyed Peas',Pop,Intense,English,130,277,2003,Vocal,Fitness
+897,'Summertime (Remix)','Ella Fitzgerald & Louis Armstrong',EDM,Calm,English,128,240,1957,Vocal,Dinner
+898,'I Like It (Acoustic)','Cardi B', Rap/Hiphop,Happy,English,136,253,2018,Vocal,Party
+899,'Someone Like You (Acoustic)','Adele',Pop,Sad,English,67,285,2011,Vocal,Sleep
+900,'Lose Control (Acoustic)','Missy Elliott',Rap/Hiphop,Intense,English,125,225,2005,Vocal,Fitness
+901,'Yesterday (Acoustic)','The Beatles',Pop,Sad,English,96,125,1965,Vocal,Sleep
+902,'All Night Long (All Night) (Remix)','Lionel Richie',EDM,Happy,English,128,240,1983,Vocal,Party
+903,'Stayin' Alive (Remix)','Bee Gees',EDM,Intense,English,128,240,1977,Vocal,Fitness
+904,'Empire State of Mind (Remix)','Jay-Z ft. Alicia Keys',EDM,Intense,English,128,240,2009,Vocal,Roadtrip
+905,'Happy (Remix)','Pharrell Williams',EDM,Happy,English,128,240,2013,Vocal,Party
+906,'Pony (Remix)','Ginuwine',EDM,In_Love,English,130,240,1996,Vocal,Dinner
+907,'Clocks (Remix)','Coldplay',EDM,Calm,English,128,240,2002,Vocal,Focus
+908,'The Way You Make Me Feel (Remix)','Michael Jackson',EDM,In_Love,English,128,240,1987,Vocal,Dinner
+909,'Don't Speak (Remix)','No Doubt',EDM,Sad,English,128,240,1995,Vocal,Sleep
+910,'Can't Help Falling in Love (Remix)','Elvis Presley',EDM,In_Love,English,128,240,1961,Vocal,Dinner
+911,'Sex on Fire (Remix)','Kings of Leon',EDM,Intense,English,128,240,2008,Vocal,Fitness
+912,'Uptown Funk (Acoustic)','Mark Ronson ft. Bruno Mars',Pop,Happy,English,115,270,2014,Vocal,Party
+913,'Fields of Gold (Acoustic)','Sting',Pop,Calm,English,104,240,1993,Vocal,Dinner
+914,'Watermelon Sugar (Remix)','Harry Styles',EDM,Happy,English,128,240,2019,Vocal,Party
+915,'All of Me (Remix)','John Legend',EDM,In_Love,English,128,240,2013,Vocal,Dinner
+916,'Hallelujah (Acoustic)','Leonard Cohen',Pop,Sad,English,110,260,1984,Vocal,Sleep
+917,'No Diggity (Remix)','Blackstreet ft. Dr. Dre',EDM,Happy,English,128,240,1996,Vocal,Party
+918,'Heartless (Remix)','The Weeknd',EDM,Intense,English,128,240,2019,Vocal,Fitness
+919,'Bad Guy (Acoustic)','Billie Eilish',Pop,Intense,English,135,194,2019,Vocal,Fitness
+920,'Boombayah (Remix)','Blackpink',EDM,Intense,English,128,240,2016,Vocal,Party
+921,'Don't Worry (Remix)','M.O.P.',EDM,Intense,English,128,240,1998,Vocal,Fitness
+922,'Fix You (Remix)','Coldplay',EDM,Sad,English,128,240,2005,Vocal,Sleep
+923,'The Real Slim Shady (Acoustic)','Eminem',Rap/Hiphop,Intense,English,104,284,2000,Vocal,Party
+924,'Numb (Acoustic)','Linkin Park',Rock,Intense,English,104,187,2003,Vocal,Fitness
+925,'I Gotta Feeling (Remix)','Black Eyed Peas',EDM,Happy,English,128,240,2009,Vocal,Party
+926,'The Girl from Ipanema (Remix)','Stan Getz & João Gilberto',EDM,Calm,English,128,240,1964,Vocal,Dinner
+927,'Halo (Acoustic)','Beyoncé',R&B,In_Love,English,80,261,2008,Vocal,Dinner
+928,'The Scientist (Remix)','Coldplay',EDM,Sad,English,128,240,2002,Vocal,Sleep
+929,'Livin' on a Prayer (Acoustic)','Bon Jovi',Rock,Intense,English,123,249,1986,Vocal,Fitness
+930,'Firework (Acoustic)','Katy Perry',Pop,Happy,English,124,227,2010,Vocal,Fitness
+931,'Tears in Heaven (Remix)','Eric Clapton',EDM,Sad,English,128,240,1992,Vocal,Sleep
+932,'California Dreamin' (Acoustic)','The Mamas & the Papas',Pop,Calm,English,110,158,1965,Vocal,Roadtrip
+933,'Changes (Acoustic)','2Pac ft. Talent',Rap/Hiphop,Sad,English,110,269,1998,Vocal,Sleep
+934,'Ain't No Sunshine (Acoustic)','Bill Withers',R&B,Sad,English,100,130,1971,Vocal,Dinner
+935,'Sweet Home Alabama (Acoustic)','Lynyrd Skynyrd',Rock,Happy,English,100,283,1974,Vocal,Roadtrip
+936,'Don't You Worry 'bout a Thing (Acoustic)','Stevie Wonder',R&B,Happy,English,121,224,1973,Vocal,Cooking
+937,'A Thousand Years (Acoustic)','Christina Perry',Pop,In_Love,English,139,287,2011,Vocal,Dinner
+938,'Havana (Acoustic)','Camila Cabello ft. Young Thug',Pop,Intense,English,105,217,2017,Vocal,Party
+939,'A Sky Full of Stars (Acoustic)','Coldplay',Pop,Happy,English,125,268,2014,Vocal,Party
+940,'I'm Yours (Acoustic)','Jason Mraz',Pop,Happy,English,150,240,2008,Vocal,Roadtrip
+941,'Stay With Me (Acoustic)','Sam Smith',R&B,Sad,English,84,172,2014,Vocal,Sleep
+942,'Walk This Way (Acoustic)','Run-DMC ft. Aerosmith',Rap/Hiphop,Intense,English,106,244,1986,Vocal,Fitness
+943,'Another One Bites the Dust (Acoustic)','Queen',Rock,Intense,English,110,214,1980,Vocal,Fitness
+944,'What Goes Around... Comes Around (Acoustic)','Justin Timberlake',R&B,Sad,English,76,330,2006,Vocal,Dinner
+945,'I Don't Care (Acoustic)','Ed Sheeran & Justin Bieber',Pop,Happy,English,102,220,2019,Vocal,Cooking
+946,'Get Up (I Feel Like Being a) Sex Machine (Acoustic)','James Brown',R&B,Intense,English,106,320,1970,Vocal,Fitness
+947,'Take a Chance on Me (Acoustic)','ABBA',Pop,Happy,English,105,243,1977,Vocal,Party
+948,'Basket Case (Acoustic)','Green Day',Rock,Intense,English,171,181,1994,Vocal,Fitness
+949,'Lose My Breath (Acoustic)','Destiny's Child',R&B,Intense,English,120,242,2004,Vocal,Fitness
+950,'California Gurls (Acoustic)','Katy Perry ft. Snoop Dogg',Pop,Happy,English,125,236,2010,Vocal,Party
+951,'One Way or Another (Acoustic)','Blondie',Pop,Intense,English,161,190,1978,Vocal,Fitness
+952,'I Will Survive (Acoustic)','Gloria Gaynor',R&B,Happy,English,118,210,1978,Vocal,Party
+953,'Uptown Funk (Acoustic)','Mark Ronson ft. Bruno Mars',Pop,Happy,English,115,270,2014,Vocal,Party
+954,'Vogue (Acoustic)','Madonna',Pop,Intense,English,118,319,1990,Vocal,Fitness
+955,'No Scrubs (Acoustic)','TLC',R&B,Intense,English,93,222,1999,Vocal,Party
+956,'All Night (Acoustic)','Beyoncé',R&B,In_Love,English,65,321,2016,Vocal,Sleep
+957,'All Along the Watchtower (Acoustic)','Jimi Hendrix',Rock,Intense,English,116,240,1968,Vocal,Roadtrip
+958,'Get Down Tonight (Acoustic)','KC and the Sunshine Band',R&B,Happy,English,113,212,1975,Vocal,Party
+959,'Don't Go Breaking My Heart (Acoustic)','Elton John & Kiki Dee',Pop,Happy,English,127,268,1976,Vocal,Cooking
+960,'Crazy Train (Acoustic)','Ozzy Osbourne',Rock,Intense,English,138,280,1980,Vocal,Fitness
+961,'Nirvana - Lithium (Acoustic)','Nirvana',Rock,Intense,English,123,257,1991,Vocal,Fitness
+962,'Can't Feel My Face (Acoustic)','The Weeknd',Pop,Intense,English,108,215,2015,Vocal,Party
+963,'Hey Joe (Acoustic)','Jimi Hendrix',Rock,Intense,English,140,210,1966,Vocal,Fitness
+964,'Respect (Acoustic)','Aretha Franklin',R&B,Intense,English,115,148,1967,Vocal,Fitness
+965,'California Girls (Acoustic)','The Beach Boys',Pop,Happy,English,120,157,1965,Vocal,Party
+966,'Stand by Me (Acoustic)','Ben E. King',R&B,In_Love,English,110,178,1961,Vocal,Dinner
+967,'Jumpman (Acoustic)','Drake & Future',Rap/Hiphop,Intense,English,140,200,2015,Vocal,Fitness
+968,'I'm Not the Only One (Acoustic)','Sam Smith',R&B,Sad,English,80,237,2014,Vocal,Dinner
+969,'I Wanna Be Your Lover (Acoustic)','Prince',R&B,Intense,English,120,379,1979,Vocal,Fitness
+970,'Don't Stop The Music (Acoustic)','Rihanna',Pop,Intense,English,123,260,2007,Vocal,Fitness
+971,'Seven Nation Army (Acoustic)','The White Stripes',Rock,Intense,English,120,232,2003,Vocal,Fitness
+972,'What's Up? (Acoustic)','4 Non Blondes',Rock,Sad,English,102,285,1992,Vocal,Roadtrip
+973,'Pusherman (Acoustic)','Curtis Mayfield',R&B,Intense,English,118,350,1972,Vocal,Focus
+974,'Despacito (Acoustic)','Luis Fonsi ft. Daddy Yankee',Pop,Happy,English,89,228,2017,Vocal,Party
+975,'I Put a Spell on You (Acoustic)','Nina Simone',R&B,Intense,English,118,170,1965,Vocal,Dinner
+976,'The Funeral (Acoustic)','Band of Horses',Rock,Sad,English,140,321,2006,Vocal,Roadtrip
+977,'A Hard Day's Night (Acoustic)','The Beatles',Pop,Happy,English,139,154,1964,Vocal,Cooking
+978,'Nuthin' but a 'G' Thang (Acoustic)','Dr. Dre ft. Snoop Dogg',Rap/Hiphop,Calm,English,95,278,1992,Vocal,Roadtrip
+979,'Sittin' on the Dock of the Bay (Acoustic)','Otis Redding',R&B,Calm,English,104,163,1968,Vocal,Focus
+980,'Creep (Acoustic)','Radiohead',Rock,Sad,English,92,239,1992,Vocal,Sleep
+981,'One Dance (Acoustic)','Drake ft. Wizkid & Kyla',Pop,Happy,English,104,174,2016,Vocal,Party
+982,'How Deep Is Your Love (Acoustic)','Bee Gees',Pop,In_Love,English,105,245,1977,Vocal,Dinner
+983,'Take on Me (Acoustic)','a-ha',Pop,Intense,English,169,225,1985,Vocal,Fitness
+984,'Love on Top (Acoustic)','Beyoncé',R&B,Happy,English,188,268,2011,Vocal,Party
+985,'So Lonely (Acoustic)','The Police',Rock,Sad,English,168,270,1978,Vocal,Roadtrip
+986,'All Star (Acoustic)','Smash Mouth',Pop,Happy,English,104,198,1999,Vocal,Roadtrip
+987,'Gold Digger (Acoustic)','Kanye West ft. Jamie Foxx',Rap/Hiphop,Intense,English,93,208,2005,Vocal,Fitness
+988,'Another Brick in the Wall (Acoustic)','Pink Floyd',Rock,Sad,English,104,233,1979,Vocal,Focus
+989,'Good Vibrations (Acoustic)','The Beach Boys',Pop,Happy,English,135,217,1966,Vocal,Roadtrip
+990,'Love Yourself (Acoustic)','Justin Bieber',Pop,Calm,English,102,233,2015,Vocal,Dinner
+991,'Jump (Acoustic)','Van Halen',Rock,Intense,English,130,240,1984,Vocal,Fitness
+992,'What Is Love (Acoustic)','Haddaway',EDM,Intense,English,124,250,1993,Vocal,Party
+993,'Stay (Acoustic)','Rihanna ft. Mikky Ekko',Pop,Sad,English,112,240,2012,Vocal,Sleep
+994,'Tequila Sunrise (Acoustic)','Eagles',Rock,Calm,English,100,180,1973,Vocal,Cooking
+995,'La Isla Bonita (Acoustic)','Madonna',Pop,Happy,English,100,242,1987,Vocal,Cooking
+996,'In Bloom (Acoustic)','Nirvana',Rock,Intense,English,155,255,1991,Vocal,Fitness
+997,'Piano Man (Acoustic)','Billy Joel',Pop,Calm,English,75,336,1973,Vocal,Dinner
+998,'The Girl Is Mine (Acoustic)','Michael Jackson & Paul McCartney',Pop,In_Love,English,127,215,1982,Vocal,Dinner
+999,'Mr. Brightside (Acoustic)','The Killers',Rock,Happy,English,148,223,2003,Vocal,Fitness
+1000,'Crazy (Acoustic)','Gnarls Barkley',R&B,Intense,English,112,182,2006,Vocal,Roadtrip
