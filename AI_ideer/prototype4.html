@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>n3xtTrack Music Player</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+  body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #f7f8fa;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .player {
+    width: 360px;
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 8px 24px rgb(0 0 0 / 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .dot {
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(45deg, #ff5722, #ff5722);
+    border-radius: 50%;
+  }
+  /* Buttons Grid */
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+  .btn {
+    border-radius: 14px;
+    padding: 22px 0;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+  }
+  .btn svg {
+    width: 24px;
+    height: 24px;
+    fill: white;
+  }
+  .vibe {
+    background: linear-gradient(45deg, #ff7e5f, #fd3a69);
+  }
+  .mode {
+    background: linear-gradient(45deg, #4b6cb7, #182848);
+  }
+  .genre {
+    background: #ff6600;
+  }
+  .language {
+    background: #2979ff;
+  }
+  .decade {
+    background: #b14aff;
+  }
+  .newmusic {
+    background: #009874;
+  }
+  /* Player info */
+  .player-info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .album-art {
+    background: linear-gradient(45deg, #ff6600, #ff6600);
+    border-radius: 14px;
+    width: 56px;
+    height: 56px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .song-details {
+    flex-grow: 1;
+  }
+  .song-title {
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .artist {
+    font-size: 14px;
+    color: #888;
+    margin-top: 4px;
+  }
+  .favorite {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    fill: #888;
+  }
+  /* Progress bar */
+  .progress-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+  }
+  .time {
+    font-size: 12px;
+    color: #999;
+    width: 32px;
+    text-align: center;
+  }
+  .progress-bar {
+    flex-grow: 1;
+    height: 6px;
+    background: #ddd;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    width: 42%;
+    background: #ff6600;
+    border-radius: 3px 0 0 3px;
+  }
+  /* Controls */
+  .controls {
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .control-btn {
+    cursor: pointer;
+    fill: #999;
+    width: 28px;
+    height: 28px;
+    transition: fill 0.3s;
+  }
+  .control-btn.playpause {
+    background: linear-gradient(45deg, #7b38ff, #4d6aff);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 16px;
+    fill: white;
+  }
+  .control-btn:hover {
+    fill: #ff6600;
+  }
+  /* Volume bar */
+  .volume-bar {
+    margin-top: 18px;
+    height: 6px;
+    background: #ddd;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .volume-fill {
+    height: 100%;
+    width: 42%;
+    background: #7b38ff;
+    border-radius: 3px 0 0 3px;
+  }
+  /* Nav Bar */
+  .nav-bar {
+    margin-top: 28px;
+    border-top: 1px solid #eee;
+    padding-top: 14px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .nav-item {
+    text-align: center;
+    color: #999;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .nav-item.active {
+    color: #7b38ff;
+  }
+  .nav-item svg {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 4px;
+    fill: currentColor;
+  }
+</style>
+</head>
+<body>
+  <div class="player">
+    <!-- Header -->
+    <div class="header">
+      <div>n3xtTrack</div>
+      <div class="dot"></div>
+    </div>
+
+    <!-- Buttons -->
+    <div class="buttons">
+      <div class="btn vibe">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+        Vibe
+      </div>
+      <div class="btn mode">
+        <svg viewBox="0 0 24 24"><path d="M7 2l8 20"/></svg>
+        Mode
+      </div>
+      <div class="btn genre">
+        <svg viewBox="0 0 24 24"><path d="M12 3v14l9-5z"/></svg>
+        Genre
+      </div>
+      <div class="btn language">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+        Language
+      </div>
+      <div class="btn decade">
+        <svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12"/></svg>
+        Decade
+      </div>
+      <div class="btn newmusic">
+        <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+        New Music
+      </div>
+    </div>
+
+    <!-- Player Info -->
+    <div class="player-info">
+      <div class="album-art">360</div>
+      <div class="song-details">
+        <div class="song-title">360</div>
+        <div class="artist">Charli XCX</div>
+      </div>
+      <svg class="favorite" viewBox="0 0 24 24">
+        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42
+          4.42 3 7.5 3c1.74 0 3.41 0.81 4.5 2.09
+          C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5
+          c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+      </svg>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="progress-container">
+      <div class="time">1:32</div>
+      <div class="progress-bar">
+        <div class="progress-fill"></div>
+      </div>
+      <div class="time">3:24</div>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls">
+      <svg class="control-btn" viewBox="0 0 24 24" title="Shuffle">
+        <path d="M16 3h5v5l-2-2-3.5 3.5-4-4-3 3"/>
+      </svg>
+      <svg class="control-btn" viewBox="0 0 24 24" title="Previous">
+        <path d="M6 19V5l12 7-12 7z"/>
+      </svg>
+      <svg class="control-btn playpause" viewBox="0 0 24 24" title="Play/Pause">
+        <path d="M8 5v14l11-7z"/>
+      </svg>
+      <svg class="control-btn" viewBox="0 0 24 24" title="Next">
+        <path d="M18 19V5l-12 7 12 7z"/>
+      </svg>
+      <svg class="control-btn" viewBox="0 0 24 24" title="Repeat">
+        <path d="M7 7h10v10h-3l4 4 4-4h-3V7z"/>
+      </svg>
+    </div>
+
+    <!-- Volume Bar -->
+    <div class="volume-bar">
+      <div class="volume-fill"></div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="nav-bar">
+      <div class="nav-item active">
+        <svg viewBox="0 0 24 24">
+          <path d="M3 12l9-9 9 9v9a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3v-9z"/>
+        </svg>
+        Home
+      </div>
+      <div class="nav-item">
+        <svg viewBox="0 0 24 24">
+          <circle cx="10.5" cy="10.5" r="7.5" />
+          <line x1="21" y1="21" x2="15.8" y2="15.8"/>
+        </svg>
+        Search
+      </div>
+      <div class="nav-item">
+        <svg viewBox="0 0 24 24">
+          <rect x="3" y="6" width="18" height="2"/>
+          <rect x="3" y="11" width="18" height="2"/>
+          <rect x="3" y="16" width="18" height="2"/>
+        </svg>
+        Playlists
+      </div>
+      <div class="nav-item">
+        <svg viewBox="0 0 24 24">
+          <path d="M18 8l-6 6-6-6"/>
+        </svg>
+        Share
+      </div>
+    </div>
+  </div>
+</body>
+</html>
