@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>n3xtTrack</title>
+  <style>
+    :root{
+      /* Vibe-farver fra billede 1 */
+      --happy: #FF8A00;   /* orange */
+      --sad:   #3A87FF;   /* blå */
+      --love:  #FF4D8D;   /* pink */
+      --intense:#7A3DF2;  /* lilla */
+      --relaxed:#2EC98D;  /* grøn */
+
+      /* UI-neutrale */
+      --bg: #f7f8fb;
+      --text: #0f172a;
+      --muted: #64748b;
+      --card: #ffffff;
+      --shadow: 0 6px 24px rgba(16,24,40,0.08);
+      --radius: 18px;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial;
+      display: grid;
+      min-height: 100vh;
+      grid-template-rows: auto 1fr auto auto; /* topbar, content, player, nav */
+    }
+
+    /* Topbar */
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 16px;
+      position: sticky;
+      top: 0;
+      background: var(--bg);
+      z-index: 10;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      letter-spacing: 0.4px;
+    }
+    .brand .logo-dot {
+      width: 14px; height: 14px; border-radius: 50%;
+      background: var(--intense);
+      box-shadow: 0 0 0 4px rgba(122,61,242,0.15);
+    }
+    .actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .avatar {
+      width: 34px; height: 34px; border-radius: 50%;
+      background: linear-gradient(135deg, var(--happy), var(--love));
+      box-shadow: var(--shadow);
+    }
+    .gear {
+      width: 34px; height: 34px; border-radius: 50%;
+      background: var(--card);
+      box-shadow: var(--shadow);
+      display: grid; place-items: center;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    /* Content container */
+    .content {
+      padding: 12px 16px 100px;
+      max-width: 720px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    /* Primary tiles: vibe / mode (layout som billede 2) */
+    .tile-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-top: 6px;
+    }
+    .tile {
+      border-radius: var(--radius);
+      padding: 22px 18px;
+      color: #fff;
+      box-shadow: var(--shadow);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      cursor: pointer;
+      transition: transform .12s ease, box-shadow .12s ease;
+      user-select: none;
+    }
+    .tile:active { transform: scale(0.98); }
+    .tile .bubble {
+      width: 42px; height: 42px; border-radius: 50%;
+      background: rgba(255,255,255,0.18);
+      display: grid; place-items: center;
+      font-size: 20px;
+    }
+    .tile.vibe { background: linear-gradient(135deg, var(--happy), var(--love)); }
+    .tile.mode { background: linear-gradient(135deg, var(--intense), var(--sad)); }
+
+    .tile h2 {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: 0.2px;
+    }
+
+    /* Secondary filters under hver tile (genre, language, decade, new music) */
+    .filter-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-top: 14px;
+    }
+    .filter-card {
+      background: var(--card);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 14px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .pill {
+      border-radius: 14px;
+      padding: 10px 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 700;
+      color: #fff;
+      cursor: pointer;
+      transition: transform .12s ease, filter .12s ease;
+      user-select: none;
+    }
+    .pill:active { transform: translateY(1px); }
+    .pill .icon {
+      width: 26px; height: 26px; border-radius: 50%;
+      background: rgba(255,255,255,0.22);
+      display: grid; place-items: center;
+      font-size: 16px;
+    }
+
+    /* Farvekoder pr. pill for at matche “Vibes”-stil */
+    .pill.genre    { background: var(--happy);   }
+    .pill.language { background: var(--sad);     }
+    .pill.decade   { background: var(--intense); }
+    .pill.new      { background: var(--relaxed); }
+
+    /* Now playing mini player (ligger over bundnav) */
+    .player {
+      position: fixed;
+      left: 0; right: 0; bottom: 72px;
+      margin: 0 auto;
+      max-width: 720px;
+      background: var(--card);
+      box-shadow: var(--shadow);
+      border-radius: 16px;
+      padding: 10px 12px;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 12px;
+    }
+    .cover {
+      width: 46px; height: 46px; border-radius: 8px;
+      background: linear-gradient(135deg, var(--love), var(--happy));
+      box-shadow: var(--shadow);
+    }
+    .track-meta {
+      display: flex; flex-direction: column; gap: 2px;
+      min-width: 0;
+    }
+    .track-title {
+      font-weight: 800;
+      font-size: 14px;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .track-sub {
+      color: var(--muted);
+      font-size: 12px;
+      display: flex; align-items: center; gap: 8px;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .badge {
+      background: var(--relaxed);
+      color: #fff; font-weight: 800; font-size: 10px;
+      padding: 2px 6px; border-radius: 999px;
+      letter-spacing: 0.3px;
+    }
+    .player-ctrl {
+      display: flex; align-items: center; gap: 10px;
+    }
+    .btn {
+      width: 38px; height: 38px; border-radius: 50%;
+      background: var(--bg);
+      display: grid; place-items: center;
+      color: var(--text);
+      box-shadow: var(--shadow);
+      cursor: pointer;
+      transition: transform .12s ease;
+    }
+    .btn:active { transform: scale(0.96); }
+
+    /* Bottom nav (layout som billede 2) */
+    .bottom-nav {
+      position: fixed;
+      left: 0; right: 0; bottom: 0;
+      background: var(--card);
+      box-shadow: 0 -8px 24px rgba(16,24,40,0.08);
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 6px;
+      padding: 8px 10px 10px;
+      z-index: 9;
+    }
+    .nav-item {
+      display: flex; flex-direction: column; align-items: center; gap: 6px;
+      color: var(--muted);
+      font-size: 12px;
+      padding: 8px 0;
+      border-radius: 12px;
+      cursor: pointer;
+    }
+    .nav-item .ni {
+      width: 28px; height: 28px; border-radius: 50%;
+      display: grid; place-items: center;
+      background: var(--bg);
+      box-shadow: var(--shadow);
+      color: var(--text);
+      font-size: 16px;
+    }
+    .nav-item.active { color: var(--text); }
+    .nav-item.active .ni { background: linear-gradient(135deg, var(--sad), var(--intense)); color: #fff; }
+
+    /* Responsive tweaks */
+    @media (max-width: 420px){
+      .tile h2 { font-size: 18px; }
+      .tile .bubble { width: 36px; height: 36px; }
+      .pill { padding: 10px; font-size: 14px; }
+      .player { bottom: 68px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Topbar -->
+  <header class="topbar" aria-label="Top bar">
+    <div class="brand">
+      <span class="logo-dot" aria-hidden="true"></span>
+      <span>n3xtTrack</span>
+    </div>
+    <div class="actions">
+      <div class="avatar" aria-label="Profil"></div>
+      <div class="gear" aria-label="Indstillinger">⚙️</div>
+    </div>
+  </header>
+
+  <!-- Content: layout PRÆCIS som billede 2 -->
+  <main class="content">
+
+    <!-- Hovedknapper -->
+    <div class="tile-row">
+      <div class="tile vibe" role="button" aria-label="Vibe">
+        <div class="bubble" aria-hidden="true">😊</div>
+        <h2>vibe</h2>
+      </div>
+      <div class="tile mode" role="button" aria-label="Mode">
+        <div class="bubble" aria-hidden="true">⚡</div>
+        <h2>mode</h2>
+      </div>
+    </div>
+
+    <!-- Under vibe: genre + language -->
+    <section class="filter-section" aria-label="Vibe filters">
+      <div class="filter-card">
+        <div class="pill genre" role="button" aria-label="Genre">
+          <span class="icon" aria-hidden="true">🎵</span>
+          <span>genre</span>
+        </div>
+        <div class="pill language" role="button" aria-label="Sprog">
+          <span class="icon" aria-hidden="true">🗣️</span>
+          <span>language</span>
+        </div>
+      </div>
+
+      <!-- Under mode: decade + New music -->
+      <div class="filter-card">
+        <div class="pill decade" role="button" aria-label="Årti">
+          <span class="icon" aria-hidden="true">📀</span>
+          <span>decade</span>
+        </div>
+        <div class="pill new" role="button" aria-label="Ny musik">
+          <span class="icon" aria-hidden="true">✨</span>
+          <span>New music</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Mini player -->
+  <div class="player" role="region" aria-label="Afspiller">
+    <div class="cover" aria-hidden="true"></div>
+    <div class="track-meta">
+      <div class="track-title">360 — Charli XCX</div>
+      <div class="track-sub">
+        <span class="badge">brat</span>
+        <span>Charli XCX</span>
+      </div>
+    </div>
+    <div class="player-ctrl">
+      <div class="btn" aria-label="Afspil/pause">⏯️</div>
+      <div class="btn" aria-label="Lydstyrke">🔊</div>
+    </div>
+  </div>
+
+  <!-- Bottom navigation -->
+  <nav class="bottom-nav" aria-label="Bundnavigation">
+    <div class="nav-item active" role="button" aria-label="Home">
+      <div class="ni">🏠</div>
+      <div>Home</div>
+    </div>
+    <div class="nav-item" role="button" aria-label="Search">
+      <div class="ni">🔎</div>
+      <div>Search</div>
+    </div>
+    <div class="nav-item" role="button" aria-label="Playlists">
+      <div class="ni">🎚️</div>
+      <div>Playlists</div>
+    </div>
+    <div class="nav-item" role="button" aria-label="Share">
+      <div class="ni">📤</div>
+      <div>Share</div>
+    </div>
+  </nav>
+
+  <script>
+    // Minimal interaktivitet (valgfrit): toggle active på nav og pill hover-effekter
+    document.querySelectorAll('.nav-item').forEach(item=>{
+      item.addEventListener('click', ()=>{
+        document.querySelectorAll('.nav-item').forEach(i=>i.classList.remove('active'));
+        item.classList.add('active');
+      });
+    });
+
+    // Simuler filterklik
+    document.querySelectorAll('.pill, .tile').forEach(el=>{
+      el.addEventListener('click', ()=>{
+        el.style.filter = 'brightness(1.05)';
+        setTimeout(()=>{ el.style.filter='none'; }, 120);
+      });
+    });
+  </script>
+</body>
+</html>
