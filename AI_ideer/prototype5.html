@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>n3xtTrack UI</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f5f5f5;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .container {
+        max-width: 420px;
+        margin: auto;
+        background: white;
+        border-radius: 16px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+        margin: 0 0 20px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .btn {
+        padding: 25px;
+        border-radius: 14px;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+        font-size: 18px;
+        user-select: none;
+    }
+
+    .dropdown {
+        display: none;
+        margin-top: 8px;
+        background: #fff;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .dropdown div {
+        padding: 6px 0;
+        cursor: pointer;
+    }
+
+    .song-box {
+        margin-top: 20px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .playback {
+        margin: 20px 0;
+    }
+
+    .controls {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .controls button {
+        font-size: 22px;
+        margin: 0 10px;
+        padding: 12px;
+        border-radius: 50%;
+        border: none;
+        cursor: pointer;
+    }
+
+    .bottom-nav {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        padding-top: 15px;
+        border-top: 1px solid #ddd;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+  <h2>n3xtTrack</h2>
+
+  <div class="grid">
+    <div class="btn" style="background:#ff4fb2" onclick="toggleDrop('vibe')">Vibe</div>
+    <div class="btn" style="background:#193fbd" onclick="toggleDrop('mode')">Mode</div>
+    <div class="btn" style="background:#ff5a00" onclick="toggleDrop('genre')">Genre</div>
+    <div class="btn" style="background:#1e63ff" onclick="toggleDrop('language')">Language</div>
+    <div class="btn" style="background:#a032ff" onclick="toggleDrop('decade')">Decade</div>
+    <div class="btn" style="background:#0c8c72" onclick="toggleDrop('newmusic')">New Music</div>
+  </div>
+
+  <div id="vibe" class="dropdown">
+    <div>Chill</div>
+    <div>Sad</div>
+    <div>Party</div>
+  </div>
+  <div id="mode" class="dropdown">
+    <div>Workout</div>
+    <div>Focus</div>
+  </div>
+  <div id="genre" class="dropdown">
+    <div>Pop</div>
+    <div>Rock</div>
+    <div>Rap</div>
+  </div>
+  <div id="language" class="dropdown">
+    <div>English</div>
+    <div>Danish</div>
+  </div>
+  <div id="decade" class="dropdown">
+    <div>80's</div>
+    <div>90's</div>
+    <div>00's</div>
+  </div>
+  <div id="newmusic" class="dropdown">
+    <div>Latest Singles</div>
+    <div>Trending Now</div>
+  </div>
+
+  <div class="song-box">
+    <div style="background:#ff5a00; padding:10px; border-radius:10px; color:white;">360</div>
+    <div>
+      <strong>360</strong><br>
+      Charli XCX
+    </div>
+  </div>
+
+  <input type="range" min="0" max="100" value="45" style="width:100%; margin-top:20px;" />
+
+  <div class="controls">
+    <button>⏮️</button>
+    <button>⏯️</button>
+    <button>⏭️</button>
+  </div>
+
+  <div class="bottom-nav">
+    <div>🏠 Home</div>
+    <div>🔍 Search</div>
+    <div>📄 Playlists</div>
+    <div>🔗 Share</div>
+  </div>
+
+</div>
+
+<script>
+function toggleDrop(id) {
+  const box = document.getElementById(id);
+  box.style.display = box.style.display === 'block' ? 'none' : 'block';
+}
+</script>
+</body>
+</html>
