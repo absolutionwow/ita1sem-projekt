@@ -1,7 +1,7 @@
   /* Buttons Grid */
   .buttons {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr); /* 2 columns  1fr = meaning each column gets an equal share of the remaining horizontal space aka. 1/columns of the space */
     gap: 14px;
   }
   .btn {
