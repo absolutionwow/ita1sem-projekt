@@ -1,0 +1,38 @@
+  /* Buttons Grid */
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+  .btn {
+    border-radius: 14px;
+    padding: 22px 0;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+  }
+  .vibe {
+    background: linear-gradient(45deg, #ff7e5f, #fd3a69);
+  }
+  .mode {
+    background: linear-gradient(45deg, #4b6cb7, #182848);
+  }
+  .genre {
+    background: #ff6600;
+  }
+  .language {
+    background: #2979ff;
+  }
+  .decade {
+    background: #b14aff;
+  }
+  .newmusic {
+    background: #009874;
+  }
