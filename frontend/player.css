@@ -1,0 +1,73 @@
+
+.player {
+        width: 360px;
+        background: white;
+        padding: 25px;
+        border-radius: 22px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .info h2 {
+        margin: 0;
+        font-size: 19px;
+    }
+
+    .info p {
+        margin: 0;
+        font-size: 14px;
+        color: #666;
+    }
+
+    .progress {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 40px 1fr 40px;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    .bar {
+        height: 7px;
+        background: #ddd;
+        border-radius: 5px;
+        overflow: hidden;
+        cursor: pointer;
+        margin: 0 10px;
+    }
+
+    .bar-fill {
+        height: 100%;
+        width: 0%;
+        background: orange;
+    }
+
+    .controls {
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 26px;
+    }
+
+    .play {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background: #5a4fff;
+        color: white;
+        border: none;
+        font-size: 30px;
+        cursor: pointer;
+    }
