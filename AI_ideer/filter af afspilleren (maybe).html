@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>next-track.com</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="button_styles.css">
+    <link rel="stylesheet" href="player.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+</head>
+
+<body>
+
+<div class="buttons">
+
+    <div class="btn vibe">
+        Vibe
+        <div class="dropdown">
+            <select id="Vibe">
+                <option value="any">All</option>
+                <option value="happy">Happy</option>
+                <option value="in love">Love</option>
+                <option value="sad">Sad</option>
+                <option value="intense">Intense</option>
+                <option value="calm">Calm</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="btn mode">
+        Mode
+        <div class="dropdown">
+            <select id="Mode">
+                <option value="any">All</option>
+                <option value="fitness">Fitness</option>
+                <option value="sleep">Sleepy</option>
+                <option value="cooking">Cooking</option>
+                <option value="dinner">Dinner</option>
+                <option value="focus">Focus</option>
+                <option value="road trip">Road Trip</option>
+                <option value="party">Party</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="btn genre">
+        Genre
+        <div class="dropdown">
+            <select id="Genre">
+                <option value="any">All</option>
+                <option value="pop">Pop</option>
+                <option value="rock">Rock</option>
+                <option value="hiphop">Hiphop</option>
+                <option value="classical">Classical</option>
+                <option value="jazz">Jazz</option>
+                <option value="country">Country</option>
+                <option value="EDM">EDM</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="btn language">
+        Language
+        <div class="dropdown">
+            <select id="Language">
+                <option value="any">All</option>
+                <option value="dansk">Danish</option>
+                <option value="engelsk">English</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="btn decade">
+        Decade
+        <div class="dropdown">
+            <select id="Decade">
+                <option value="any">All</option>
+                <option value="60s">1960s</option>
+                <option value="70s">1970s</option>
+                <option value="80s">1980s</option>
+                <option value="90s">1990s</option>
+                <option value="00s">2000s</option>
+                <option value="10s">2010s</option>
+                <option value="20s">2020s</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="btn newmusic">
+        New Music (Released This Year)
+        <div class="dropdown">
+            <select id="NewMusic">
+                <option value="any">All</option>
+                <option value="on">On</option>
+                <option value="off">Off</option>
+            </select>
+        </div>
+    </div>
+
+</div>
+
+<div id="content"></div>
+
+<div class="player">
+    <div class="top">
+        <div class="info">
+            <h2 id="songTitle">Choose A Song</h2>
+            <p id="songArtist"> </p>
+        </div>
+    </div>
+
+    <div class="progress">
+        <span id="currentTime">0:00</span>
+        <div class="bar" id="progressBar">
+            <div class="bar-fill" id="barFill"></div>
+        </div>
+        <span id="duration">0:00</span>
+    </div>
+
+    <div class="controls">
+        <button class="play_btn" id="prevBtn">⏮</button>
+        <button class="play" id="playBtn">▶</button>
+        <button class="play_btn" id="nextBtn">⏭</button>
+    </div>
+
+    <audio id="audio">
+        <source id="audioSource" src="" type="audio/mpeg">
+    </audio>
+</div>
+
+
+
+<script>
+const songs = [
+    {
+        title: "Six Seven",
+        artist: "Taylor Swift",
+        file: "sixseven.mp3",
+        vibe: "sad",
+        mode: "party",
+        genre: "rock",
+        language: "engelsk",
+        decade: "20s",
+        newmusic: "off"
+    },
+    {
+        title: "Eight Nine",
+        artist: "Taylor Swift",
+        file: "sunshine.mp3",
+        vibe: "happy",
+        mode: "fitness",
+        genre: "pop",
+        language: "dansk",
+        decade: "80s",
+        newmusic: "off"
+    }
+];
+
+
+let filters = {};
+
+function updateFilter(key, value) {
+    filters[key.toLowerCase()] = value.toLowerCase();
+    renderSongs();
+}
+
+function filterSongs(list, filters) {
+    const active = Object.entries(filters).filter(([_, v]) => v !== "any");
+
+    return list.filter(song =>
+        active.every(([key, value]) => song[key] === value)
+    );
+}
+
+let filteredSongs = songs;
+let currentIndex = 0;
+
+function renderSongs() {
+    const cont = document.getElementById("content");
+    cont.innerHTML = "";
+
+    filteredSongs = filterSongs(songs, filters);
+
+    filteredSongs.forEach((song, i) => {
+        const item = document.createElement("div");
+        item.className = "song-item";
+        item.style.padding = "12px";
+        item.style.cursor = "pointer";
+        item.innerHTML = `<strong>${song.title}</strong><br>${song.artist}`;
+        item.onclick = () => playSong(i);
+        cont.appendChild(item);
+    });
+
+    if (filteredSongs.length === 0) {
+        cont.innerHTML = "<p style='padding:10px;'>No Songs Match The Filter..... </p>";
+    }
+}
+
+
+const audio  = document.getElementById("audio");
+const songTitle = document.getElementById("songTitle");
+const songArtist = document.getElementById("songArtist");
+const playBtn = document.getElementById("playBtn");
+const prevBtn = document.getElementById("prevBtn");
+const nextBtn = document.getElementById("nextBtn");
+const barFill = document.getElementById("barFill");
+const progressBar = document.getElementById("progressBar");
+const currentTimeEl = document.getElementById("currentTime");
+const durationEl = document.getElementById("duration");
+
+function playSong(i) {
+    currentIndex = i;
+    const s = filteredSongs[i];
+
+    songTitle.innerText = s.title;
+    songArtist.innerText = s.artist;
+
+    audio.src = s.file;
+    audio.play();
+    playBtn.innerText = "⏸";
+}
+
+playBtn.onclick = () => {
+    if (audio.paused) {
+        audio.play();
+        playBtn.innerText = "⏸";
+    } else {
+        audio.pause();
+        playBtn.innerText = "▶";
+    }
+};
+
+prevBtn.onclick = () => {
+    currentIndex = (currentIndex - 1 + filteredSongs.length) % filteredSongs.length;
+    playSong(currentIndex);
+};
+
+nextBtn.onclick = () => {
+    currentIndex = (currentIndex + 1) % filteredSongs.length;
+    playSong(currentIndex);
+};
+
+audio.addEventListener("timeupdate", () => {
+    if (!audio.duration) return;
+
+    barFill.style.width = (audio.currentTime / audio.duration) * 100 + "%";
+    currentTimeEl.innerText = formatTime(audio.currentTime);
+    durationEl.innerText = formatTime(audio.duration);
+});
+
+progressBar.onclick = (e) => {
+    const percent = e.offsetX / progressBar.offsetWidth;
+    audio.currentTime = percent * audio.duration;
+};
+
+function formatTime(sec) {
+    const m = Math.floor(sec / 60);
+    const s = Math.floor(sec % 60).toString().padStart(2, "0");
+    return `${m}:${s}`;
+}
+
+
+document.getElementById("Vibe").onchange = e => updateFilter("vibe", e.target.value);
+document.getElementById("Mode").onchange = e => updateFilter("mode", e.target.value);
+document.getElementById("Genre").onchange = e => updateFilter("genre", e.target.value);
+document.getElementById("Language").onchange = e => updateFilter("language", e.target.value);
+document.getElementById("Decade").onchange = e => updateFilter("decade", e.target.value);
+document.getElementById("NewMusic").onchange = e => updateFilter("newmusic", e.target.value);
+
+renderSongs();
+
+</script>
+</body>
+</html>
