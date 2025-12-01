@@ -3,6 +3,8 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 columns  1fr = meaning each column gets an equal share of the remaining horizontal space aka. 1/columns of the space */
     gap: 14px;
+    padding-left: 8px;
+    padding-right: 8px;
   }
   .btn {
     border-radius: 14px;
@@ -19,10 +21,10 @@
     font-size: 14px;
   }
   .vibe {
-    background: linear-gradient(45deg, #ff7e5f, #fd3a69);
+    background: linear-gradient(90deg,rgba(237, 126, 78, 1) 0%, rgba(199, 87, 158, 1) 50%, rgba(232, 16, 16, 1) 100%);
   }
   .mode {
-    background: linear-gradient(45deg, #4b6cb7, #182848);
+    background: linear-gradient(90deg,rgba(78, 136, 237, 1) 0%, rgba(199, 57, 227, 1) 50%, rgba(99, 16, 232, 1) 100%);
   }
   .genre {
     background: #ff6600;
@@ -35,4 +37,10 @@
   }
   .newmusic {
     background: #009874;
+  }
+
+  .dropdown select{
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
   }

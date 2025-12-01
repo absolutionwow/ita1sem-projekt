@@ -1,0 +1,22 @@
+.header {
+    font-size: 24px;
+    padding-left: 12px;
+    padding-top: 4px;
+    padding-bottom: 24px;
+    padding-right: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profileHeader{
+    background-color: orange;
+    border: none;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    color: #ffffff;
+}
+
+
+

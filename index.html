@@ -2,13 +2,26 @@
 <html>
     <head>
         <title>next-track.com</title>
-        <link rel="icon" type="image/x-icon" href="favicon.ico">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="button_styles.css">
-        <link rel="stylesheet" href="player.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+        <link rel="icon" type="image/x-icon" href="frontend/favicon.ico">
+        <link rel="stylesheet" href="frontend/styles.css">
+        <link rel="stylesheet" href="frontend/button_styles.css">
+        <link rel="stylesheet" href="frontend/player.css">
+        <link rel="stylesheet" href="frontend/header.css">
+        <link rel="stylesheet" href="frontend/icons.css">
+        <link rel="stylesheet" href="frontend/footer.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     </head>
     <body>
+<div class="topContent">
+    <div class="header">
+       <p>n3xtTrack</p>
+       <button class="profileHeader">
+            <span class="material-symbols-outlined">
+                person
+            </span>
+        </button>
+    </div>
             <!-- Buttons -->
     <div class="buttons">
         <div class="btn vibe">
@@ -86,14 +99,19 @@
     </div>
     </div>
     <div id="content"></div>
-        <div> hej</div>
-
+</div>
+<divbottomContent>
+<div class="playerAlignment">
 <div class="player">
 <div class="top">
-        <div class="info">
+    <div class="songMain">
+        <div class="songImage"></div>
+        <div class="songInfo">
             <h2 id="songTitle">Six Seven</h2>
             <p id="songArtist">Taylor Swift</p>
         </div>
+        </div>
+        <div class="songLike"><span class="material-symbols-outlined size-30">favorite</span></div>
     </div>
 
     <div class="progress">
@@ -104,15 +122,26 @@
         <span id="duration">67:00</span>
     </div>
     <div class="controls">
-        <button class="play_btn" id="prevBtn">⏮</button>
-        <button class="play" id="playBtn">▶</button>
-        <button class="play_btn" id="nextBtn">⏭</button>
+        <button class="toggle_btn" id="shuffleBtn"><span class="material-symbols-outlined size-20">shuffle</span></button>
+        <button class="play_btn" id="prevBtn"><span class="material-symbols-outlined size-30">skip_previous</span></button>
+        <button class="play" id="playBtn"><span class="material-symbols-outlined">pause</span></button>
+        <button class="play_btn" id="nextBtn"><span class="material-symbols-outlined size-30">skip_next</span></button>
+        <button class="toggle_btn" id="repeatBtn"><span class="material-symbols-outlined size-20">repeat</span></button>
     </div>
      
     <audio id="audio">
       <source src="sixseven.mp3" type="audio/mpeg">
     </audio>
 
+</div>
+</div>
+
+<div class="footer">
+    <button><span class="material-symbols-outlined">home</span></button>
+    <button><span class="material-symbols-outlined">search</span></button>
+    <button><span class="material-symbols-outlined">list</span></button>
+    <button><span class="material-symbols-outlined">share</span></button>
+</div>
 </div>
 
 
