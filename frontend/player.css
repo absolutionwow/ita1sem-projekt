@@ -20,7 +20,8 @@
         height: 48px;
         width: 48px;
         border-radius: 12px;
-        background-color: orange;
+        background-size: cover;
+        background-position: center;
         margin-right: 8px;
     }
 

@@ -30,9 +30,23 @@ async function pollForCurrentTrackAt(partyCode) {
     setTimeout(() => pollForCurrentTrackAt(partyCode), 1000); // refresh every 1000ms
 }
 
+//image const for albums
+const images = [
+  "images/album1.jpg",
+  "images/album2.jpg",
+  "images/album3.jpg",
+  "images/album4.jpg",
+  "images/album5.jpg"
+];
+
 // update HTML to reflect party ID and current track
 function renderCurrentTrack(partyId, track) {
-    const contentDiv = document.getElementById('content');
-    contentDiv.textContent = `Party ${partyId} is now listening to ${track.title} by ${track.artist}`
-}
+    const contentDiv =
+    document.getElementById('songTitle').textContent = track.title;
+    document.getElementById('songArtist').textContent = track.artist;
 
+    const imageDiv = document.querySelector('.songImage');
+    const randomImage = images[Math.floor(Math.random() * images.length)];
+
+    imageDiv.style.backgroundImage = `url(${randomImage})`;
+}
