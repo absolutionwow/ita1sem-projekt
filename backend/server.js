@@ -7,6 +7,7 @@ import { play } from './player.js';
 const db = await connect();
 const tracks = await loadTracks();
 const currentTracks = new Map(); // maps partyCode to index in tracks
+let currentFilters = {};
 
 const port = process.env.PORT || 3003;
 const server = express();
@@ -15,6 +16,7 @@ server.use(express.static('frontend'));
 server.use(express.json());
 server.use(onEachRequest);
 server.get('/api/party/:partyCode/currentTrack', onGetCurrentTrackAtParty);
+server.get('/api/nextTrackFromFilters', onPickNextTrackFromFFilters);
 server.get(/\/[a-zA-Z0-9-_/]+/, onFallback); // serve index.html on any other simple path
 server.listen(port, onServerReady);
 
@@ -55,4 +57,70 @@ function pickNextTrackFor(partyCode) {
     const track = tracks[trackIndex];
     play(partyCode, track.track_id, track.length_sec, Date.now(), () => currentTracks.delete(partyCode));
     return trackIndex;
+}
+
+//our code below
+
+
+async function onPickNextTrackFromFFilters(request, response){
+    // checks if filters have changed and gets new filtered tracks if so
+    const filters = request.query;  // NOT 'request.query'
+    console.log("Vibe:", filters.vibe);
+    console.log("Genre:", filters.genre);
+    console.log("Mode:", filters.mode);
+    console.log("Language:", filters.language);
+    console.log("New Music:", filters.newMusic);
+    console.log("decade: " + filters.decade);
+    if (request.query != currentFilters){
+        tracks = await getTracksByFilter(filters)
+        currentFilters = request.query;
+    }
+    console.log("Filtered tracks: ", tracks);
+    if (tracks.length === 0){
+        response.status(404).send("No tracks found for the selected filters.");
+        return;
+    }
+    const randomTrack = tracks[Math.floor(Math.random() * tracks.length)];
+    console.log("randomTrack: " + randomTrack);
+    response.status(200).json(randomTrack);
+    return randomTrack;
+}
+
+async function getTracksByFilter(filters) {
+    const vibeField = filters.vibe;          // 'happy'
+    const modeField = filters.mode;          // 'fitness'
+    const genreField = filters.genre;        // 'pop'
+    const languageValue = filters.language.toLowerCase();  
+let languageField;
+switch (languageValue) {
+  case 'engelsk':
+    languageField = 'english';
+    break;
+  case 'dansk':
+    languageField = 'danish';
+    break;
+  default:
+    languageField = 'all';
+}
+    const decadeField = filters.decade === 'All' ? 'All' : parseInt(filters.decade.slice(0, -1)); // '60s' -> 60
+    
+    const newMusicField = filters.newMusic;  // 'on'
+  
+  // Get the current year if newMusicField is true
+  //need toestimg todo
+  const currentYear = (newMusicField == "on") ? new Date().getFullYear() : null;
+
+  const dbResult = await db.query(`
+    SELECT track_id, title, artist, length_sec
+    FROM tracks
+    WHERE LOWER(mood) = LOWER($1)
+     AND (LOWER($2) = 'all' OR LOWER(mode) = LOWER($2))
+     AND (LOWER($3) = 'all' OR LOWER(genre) = LOWER($3))
+     AND (LOWER($4) = 'all' OR LOWER(language) = LOWER($4))
+     AND (LOWER($5) = 'all' OR (FLOOR((release_year % 100) / 10)) * 10 = CAST($5 AS INT))
+     AND (LOWER($6) = 'all' OR (LOWER($6) = 'on' AND release_year = EXTRACT(YEAR FROM CURRENT_DATE))
+                            OR LOWER($6) = 'off')`
+     ,
+    [vibeField, modeField, genreField, languageField, decadeField, newMusicField] );
+  return dbResult.rows;
 }

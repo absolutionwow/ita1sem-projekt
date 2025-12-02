@@ -50,3 +50,157 @@ function renderCurrentTrack(partyId, track) {
 
     imageDiv.style.backgroundImage = `url(${randomImage})`;
 }
+
+
+
+// autoplayer
+const playerDiv = document.querySelector(".player"); // single element
+const songTitle = playerDiv.querySelector("#songTitle");
+const songArtist = playerDiv.querySelector("#songArtist");
+const currentTime = playerDiv.querySelector("#currentTime");
+const barFill = playerDiv.querySelector("#barFill");
+const duration = playerDiv.querySelector("#duration");
+
+function autopickNextSong(){
+    
+};
+
+
+
+function handleTrackNotFound(){
+    //todo show message to user
+        const popup = document.getElementById("popup-message");
+    popup.style.display = "block";
+
+    isPlaying = false;
+    playBtn.textContent = "▶";
+    // Hide it after 3 seconds
+    setTimeout(() => {
+        popup.style.display = "none";
+    }, 9000);
+};
+
+async function pickNextTrack(){
+    const filters = getSelectedFilter();
+    //(URLSearchParams) convert an object of key-value pairs into a query string for a URL
+    const query = new URLSearchParams(filters).toString();
+    const path = `/api/nextTrackFromFilters?${query}`;
+    console.log("Fetching next track with path: ", path);
+    const response = await fetch(path);
+    if (!response.ok) {
+        if (response.status === 404) {
+                // not found any tracks for the selected filters
+                handleTrackNotFound();
+                return null;
+            }
+        throw new Error(`GET ${path} failed with ${response.status} ${response.statusText}`);
+    }
+    console.log("Rendering response: ", response);
+    const track = await response.json()
+    console.log("Rendering track: ", track);
+    renderPlayingSong(track);
+    currentTrack = track;
+    return track;
+}
+
+//gets the selected options 
+function getSelectedFilter(){
+    const selected = {};
+
+    document.querySelectorAll('.buttons select').forEach(select => {
+        selected[select.id] = select.value;
+    });
+
+    return selected;
+}
+
+
+// PLayer button 
+let isPlaying = false;
+playBtn.onclick = () => {
+    if (!isPlaying) {
+        playBtn.textContent = "❚❚";
+        isPlaying = true;
+        playSong()
+
+    } else {
+        playBtn.textContent = "▶";
+        isPlaying = false;
+    }
+};
+
+// PLayer button 
+let prevSongList = [];
+let currentTrack = null;
+prevBtn.onclick = () => {
+    if(prevSongList.length > 0){
+        currentTrack = prevSongList.pop();
+        renderPlayingSong(currentTrack);
+    }
+};
+
+nextBtn.onclick = () => {
+    prevSongList.push(currentTrack);
+    pickNextTrack();
+};
+
+async function playSong(){
+    if(currentTrack === null) {
+       await pickNextTrack()
+    };
+    isPlaying = true;
+    if(currentTrack !== null) {
+        lastUpdateTime = performance.now();
+        updateTime();
+    };
+}
+
+let playTimeCurrent = 0;
+
+let lastUpdateTime = null; // timestamp of last update
+
+async function updateTime() {
+    if (!isPlaying) return; // Stop if paused
+
+    const now = performance.now(); // high-res timestamp in ms
+
+    if (lastUpdateTime !== null) {
+        const deltaSeconds = (now - lastUpdateTime) / 1000; // convert ms to seconds
+        playTimeCurrent += deltaSeconds;
+    }
+
+    lastUpdateTime = now;
+    // Calculate minutes and seconds
+    const minutes = Math.floor(playTimeCurrent / 60)
+        .toString()
+        .padStart(2, '0');
+    const seconds = Math.floor(playTimeCurrent % 60)
+        .toString()
+        .padStart(2, '0');
+
+    // Update UI
+    currentTime.textContent = `${minutes}:${seconds}`;
+
+    renderProgressBar();
+    if (playTimeCurrent >= currentTrack.length_sec) {
+        // Song ended, pick next track
+        playTimeCurrent = 0;
+        await pickNextTrack();
+        if (!isPlaying) return; // Stop if paused after picking next track
+    }
+    setTimeout(() => updateTime(), 1000); // refresh every 1000ms
+}
+
+function renderProgressBar(){
+    //todo
+    return;
+}
+
+
+function renderPlayingSong(track){
+    console.log("Rendering track: ", track);
+    songTitle.textContent = track.title;
+    songArtist.textContent = track.artist;
+    duration.textContent = `${Math.floor(track.length_sec/60)}:${(track.length_sec % 60).toString().padStart(2, '0')}`;
+    playTimeCurrent = 0;
+}
