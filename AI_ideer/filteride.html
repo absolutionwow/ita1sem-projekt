@@ -37,7 +37,7 @@
                 <option value="cooking">Cooking</option>
                 <option value="dinner">Dinner</option>
                 <option value="focus">Focus</option>
-                <option value="road trip">Road Trip</option>
+                <option value="roadtrip">Road Trip</option>
                 <option value="party">Party</option>
             </select>
         </div>
@@ -54,7 +54,7 @@
                 <option value="classical">Classical</option>
                 <option value="jazz">Jazz</option>
                 <option value="country">Country</option>
-                <option value="EDM">EDM</option>
+                <option value="edm">EDM</option>
             </select>
         </div>
     </div>
@@ -130,35 +130,60 @@
 
 
 
+<!-- ░░░ JAVASCRIPT START ░░░ -->
 <script>
-const songs = [
-    {
-        title: "Six Seven",
-        artist: "Taylor Swift",
-        file: "sixseven.mp3",
-        vibe: "sad",
-        mode: "party",
-        genre: "rock",
-        language: "engelsk",
-        decade: "20s",
-        newmusic: "off"
-    },
-    {
-        title: "Eight Nine",
-        artist: "Taylor Swift",
-        file: "sunshine.mp3",
-        vibe: "happy",
-        mode: "fitness",
-        genre: "pop",
-        language: "dansk",
-        decade: "80s",
-        newmusic: "off"
-    }
-];
+
+// --------------------------------------------------
+// 1) CSV LOADER – indlæser music.csv automatisk
+// --------------------------------------------------
+async function loadCSV() {
+    const file = await fetch("music.csv");
+    const text = await file.text();
+
+    const lines = text.split("\n").map(l => l.trim()).filter(l => l);
+    const headers = lines[0].split(",").map(h => h.trim().toLowerCase());
+
+    return lines.slice(1).map(line => {
+        const values = line.match(/(".*?"|[^,]+)(?=,|$)/g)
+            .map(v => v.replace(/"/g, "").trim());
+
+        const obj = {};
+        headers.forEach((h, i) => obj[h] = values[i]);
+
+        return {
+            title: obj.title,
+            artist: obj.artist,
+            file: obj.title + ".mp3",  // HER: ændr hvis dine MP3 hedder noget andet
+            vibe: obj.mood?.toLowerCase() || "any",
+            mode: obj.mode?.toLowerCase() || "any",
+            genre: obj.genre?.toLowerCase() || "any",
+            language: obj.language?.toLowerCase() || "any",
+            decade: getDecade(obj.release_year),
+            newmusic: parseInt(obj.release_year) >= 2024 ? "on" : "off"
+        };
+    });
+}
+
+function getDecade(year) {
+    const y = parseInt(year);
+    if (isNaN(y)) return "any";
+    const d = Math.floor(y / 10) * 10;
+    return (d % 100) + "s";
+}
 
 
+// --------------------------------------------------
+// 2) VARIABLES
+// --------------------------------------------------
+let songs = [];
+let filteredSongs = [];
 let filters = {};
+let currentIndex = 0;
 
+
+// --------------------------------------------------
+// 3) FILTER SYSTEM
+// --------------------------------------------------
 function updateFilter(key, value) {
     filters[key.toLowerCase()] = value.toLowerCase();
     renderSongs();
@@ -166,15 +191,15 @@ function updateFilter(key, value) {
 
 function filterSongs(list, filters) {
     const active = Object.entries(filters).filter(([_, v]) => v !== "any");
-
     return list.filter(song =>
-        active.every(([key, value]) => song[key] === value)
+        active.every(([k, v]) => song[k] === v)
     );
 }
 
-let filteredSongs = songs;
-let currentIndex = 0;
 
+// --------------------------------------------------
+// 4) RENDER SONG LIST
+// --------------------------------------------------
 function renderSongs() {
     const cont = document.getElementById("content");
     cont.innerHTML = "";
@@ -192,11 +217,14 @@ function renderSongs() {
     });
 
     if (filteredSongs.length === 0) {
-        cont.innerHTML = "<p style='padding:10px;'>No Songs Match The Filter..... </p>";
+        cont.innerHTML = "<p style='padding:10px;'>No Songs Match The Filter.....</p>";
     }
 }
 
 
+// --------------------------------------------------
+// 5) AUDIO PLAYER
+// --------------------------------------------------
 const audio  = document.getElementById("audio");
 const songTitle = document.getElementById("songTitle");
 const songArtist = document.getElementById("songArtist");
@@ -214,8 +242,8 @@ function playSong(i) {
 
     songTitle.innerText = s.title;
     songArtist.innerText = s.artist;
-
     audio.src = s.file;
+
     audio.play();
     playBtn.innerText = "⏸";
 }
@@ -242,7 +270,6 @@ nextBtn.onclick = () => {
 
 audio.addEventListener("timeupdate", () => {
     if (!audio.duration) return;
-
     barFill.style.width = (audio.currentTime / audio.duration) * 100 + "%";
     currentTimeEl.innerText = formatTime(audio.currentTime);
     durationEl.innerText = formatTime(audio.duration);
@@ -260,6 +287,9 @@ function formatTime(sec) {
 }
 
 
+// --------------------------------------------------
+// 6) FILTER EVENT LISTENERS
+// --------------------------------------------------
 document.getElementById("Vibe").onchange = e => updateFilter("vibe", e.target.value);
 document.getElementById("Mode").onchange = e => updateFilter("mode", e.target.value);
 document.getElementById("Genre").onchange = e => updateFilter("genre", e.target.value);
@@ -267,8 +297,17 @@ document.getElementById("Language").onchange = e => updateFilter("language", e.t
 document.getElementById("Decade").onchange = e => updateFilter("decade", e.target.value);
 document.getElementById("NewMusic").onchange = e => updateFilter("newmusic", e.target.value);
 
-renderSongs();
+
+// --------------------------------------------------
+// 7) INITIAL START
+// --------------------------------------------------
+loadCSV().then(list => {
+    songs = list;
+    renderSongs();
+});
 
 </script>
+<!-- ░░░ JAVASCRIPT SLUT ░░░ -->
+
 </body>
 </html>
