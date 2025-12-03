@@ -65,12 +65,12 @@ function pickNextTrackFor(partyCode) {
 async function onPickNextTrackFromFFilters(request, response){
     // checks if filters have changed and gets new filtered tracks if so
     const filters = request.query;  // NOT 'request.query'
-    console.log("Vibe:", filters.vibe);
-    console.log("Genre:", filters.genre);
-    console.log("Mode:", filters.mode);
-    console.log("Language:", filters.language);
-    console.log("New Music:", filters.newMusic);
-    console.log("decade: " + filters.decade);
+    console.log("Vibe:", filters.Vibe);
+    console.log("Genre:", filters.Genre);
+    console.log("Mode:", filters.Mode);
+    console.log("Language:", filters.Language);
+    console.log("New Music:", filters.NewMusic);
+    console.log("decade: " + filters.Decade);
     if (request.query != currentFilters){
         tracks = await getTracksByFilter(filters)
         currentFilters = request.query;
@@ -87,10 +87,10 @@ async function onPickNextTrackFromFFilters(request, response){
 }
 
 async function getTracksByFilter(filters) {
-    const vibeField = filters.vibe;          // 'happy'
-    const modeField = filters.mode;          // 'fitness'
-    const genreField = filters.genre;        // 'pop'
-    const languageValue = filters.language.toLowerCase();  
+    const vibeField = filters.Vibe;          // 'happy'
+    const modeField = filters.Mode;          // 'fitness'
+    const genreField = filters.Genre;        // 'pop'
+    const languageValue = filters.Language.toLowerCase();  
 let languageField;
 switch (languageValue) {
   case 'engelsk':
@@ -102,14 +102,10 @@ switch (languageValue) {
   default:
     languageField = 'all';
 }
-    const decadeField = filters.decade === 'All' ? 'All' : parseInt(filters.decade.slice(0, -1)); // '60s' -> 60
+    const decadeField = filters.Decade.toLowerCase() === 'all' ? 'all' : parseInt(filters.Decade.slice(0, -1)); // '60s' -> 60
     
-    const newMusicField = filters.newMusic;  // 'on'
+    const newMusicField = filters.NewMusic;
   
-  // Get the current year if newMusicField is true
-  //need toestimg todo
-  const currentYear = (newMusicField == "on") ? new Date().getFullYear() : null;
-
   const dbResult = await db.query(`
     SELECT track_id, title, artist, length_sec
     FROM tracks

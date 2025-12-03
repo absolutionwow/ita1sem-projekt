@@ -1,4 +1,4 @@
-addEventListener("DOMContentLoaded", () => {
+/*addEventListener("DOMContentLoaded", () => {
     let partyCode = establishPartyCode();
     history.replaceState(null, '', partyCode);
     addEventListener('popstate', () => {
@@ -28,7 +28,7 @@ async function pollForCurrentTrackAt(partyCode) {
     const track = await response.json();
     renderCurrentTrack(partyCode, track);
     setTimeout(() => pollForCurrentTrackAt(partyCode), 1000); // refresh every 1000ms
-}
+}*/
 
 //image const for albums
 const images = [
@@ -61,12 +61,6 @@ const currentTime = playerDiv.querySelector("#currentTime");
 const barFill = playerDiv.querySelector("#barFill");
 const duration = playerDiv.querySelector("#duration");
 
-function autopickNextSong(){
-    
-};
-
-
-
 function handleTrackNotFound(){
     //todo show message to user
         const popup = document.getElementById("popup-message");
@@ -74,7 +68,7 @@ function handleTrackNotFound(){
 
     isPlaying = false;
     playBtn.textContent = "▶";
-    // Hide it after 3 seconds
+    // Hide it after 9 seconds
     setTimeout(() => {
         popup.style.display = "none";
     }, 9000);
@@ -103,7 +97,7 @@ async function pickNextTrack(){
     return track;
 }
 
-//gets the selected options 
+//gets the selected options and Create an object with parameter names and their selected values
 function getSelectedFilter(){
     const selected = {};
 
@@ -148,7 +142,6 @@ async function playSong(){
     if(currentTrack === null) {
        await pickNextTrack()
     };
-    isPlaying = true;
     if(currentTrack !== null) {
         lastUpdateTime = performance.now();
         updateTime();
