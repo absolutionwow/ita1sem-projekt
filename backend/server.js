@@ -5,7 +5,7 @@ import { play } from './player.js';
 
 
 const db = await connect();
-const tracks = await loadTracks();
+let tracks = await loadTracks();
 const currentTracks = new Map(); // maps partyCode to index in tracks
 let currentFilters = {};
 

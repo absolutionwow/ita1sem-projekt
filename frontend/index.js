@@ -67,7 +67,8 @@ function handleTrackNotFound(){
     popup.style.display = "block";
 
     isPlaying = false;
-    playBtn.textContent = "▶";
+     //playBtn.textContent = "▶";
+    playIcon.textContent = "play_arrow";
     // Hide it after 9 seconds
     setTimeout(() => {
         popup.style.display = "none";
@@ -111,14 +112,19 @@ function getSelectedFilter(){
 
 // PLayer button 
 let isPlaying = false;
+const playBtn = document.getElementById("playBtn");
+const playIcon = playBtn.querySelector("span");
 playBtn.onclick = () => {
     if (!isPlaying) {
-        playBtn.textContent = "❚❚";
+        //playBtn.textContent = "❚❚";
+        console.log(playBtn);
+        playIcon.textContent = "pause";
         isPlaying = true;
         playSong()
 
     } else {
-        playBtn.textContent = "▶";
+        //playBtn.textContent = "▶";
+        playIcon.textContent = "play_arrow";
         isPlaying = false;
     }
 };
@@ -189,11 +195,14 @@ function renderProgressBar(){
     return;
 }
 
-
+const imageDiv = document.querySelector('.songImage');
 function renderPlayingSong(track){
     console.log("Rendering track: ", track);
     songTitle.textContent = track.title;
     songArtist.textContent = track.artist;
     duration.textContent = `${Math.floor(track.length_sec/60)}:${(track.length_sec % 60).toString().padStart(2, '0')}`;
+    
+    const randomImage = images[Math.floor(Math.random() * images.length)];
+    imageDiv.style.backgroundImage = `url(${randomImage})`;
     playTimeCurrent = 0;
 }
