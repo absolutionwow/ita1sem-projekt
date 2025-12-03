@@ -109,12 +109,13 @@ switch (languageValue) {
   const dbResult = await db.query(`
     SELECT track_id, title, artist, length_sec
     FROM tracks
-    WHERE LOWER(mood) = LOWER($1)
+    WHERE (LOWER($1) = 'all' OR LOWER(mood) = LOWER($1))
      AND (LOWER($2) = 'all' OR LOWER(mode) = LOWER($2))
      AND (LOWER($3) = 'all' OR LOWER(genre) = LOWER($3))
      AND (LOWER($4) = 'all' OR LOWER(language) = LOWER($4))
      AND (LOWER($5) = 'all' OR (FLOOR((release_year % 100) / 10)) * 10 = CAST($5 AS INT))
-     AND (LOWER($6) = 'all' OR (LOWER($6) = 'on' AND release_year = EXTRACT(YEAR FROM CURRENT_DATE))
+     AND (LOWER($6) = 'all' OR (LOWER($6) = 'both')
+                            OR (LOWER($6) = 'on' AND release_year = EXTRACT(YEAR FROM CURRENT_DATE))
                             OR LOWER($6) = 'off')`
      ,
     [vibeField, modeField, genreField, languageField, decadeField, newMusicField] );
