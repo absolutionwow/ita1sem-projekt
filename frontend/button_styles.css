@@ -41,6 +41,11 @@
 
   .dropdown select{
     background-color: transparent;
-    color: #000000;
+    color: #ffffff;
     border: none;
+    cursor: pointer;
+  }
+
+  .dropdown select:focus{
+    color: #000000;
   }
