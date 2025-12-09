@@ -1,12 +1,10 @@
 import express from 'express';
 import path from 'path';
 import { connect } from '../db/connect.js';
-/*import { play } from './player.js';*/
 
 
 const db = await connect();
 let tracks = await loadTracks();
-/*const currentTracks = new Map(); // maps partyCode to index in tracks*/
 let currentFilters = {};
 
 const port = process.env.PORT || 3003;
@@ -15,20 +13,9 @@ const server = express();
 server.use(express.static('frontend'));
 server.use(express.json());
 server.use(onEachRequest);
-/*server.get('/api/party/:partyCode/currentTrack', onGetCurrentTrackAtParty);*/
-server.get('/api/nextTrackFromFilters', onPickNextTrackFromFFilters);
+server.get('/api/nextTrackFromFilters', onPickNextTrackFromFilters);
 server.get(/\/[a-zA-Z0-9-_/]+/, onFallback); // serve index.html on any other simple path
 server.listen(port, onServerReady);
-
-/*async function onGetCurrentTrackAtParty(request, response) {
-    const partyCode = request.params.partyCode;
-    let trackIndex = currentTracks.get(partyCode);
-    if (trackIndex === undefined) {
-        trackIndex = pickNextTrackFor(partyCode);
-    }
-    const track = tracks[trackIndex];
-    response.json(track);
-}*/
 
 function onEachRequest(request, response, next) {
     console.log(new Date(), request.method, request.url);
@@ -51,39 +38,24 @@ async function loadTracks() {
     return dbResult.rows;
 }
 
-/*function pickNextTrackFor(partyCode) {
-    const trackIndex = Math.floor(Math.random() * tracks.length)
-    currentTracks.set(partyCode, trackIndex);
-    const track = tracks[trackIndex];
-    play(partyCode, track.track_id, track.length_sec, Date.now(), () => currentTracks.delete(partyCode));
-    return trackIndex;
-}*/
+async function onPickNextTrackFromFilters(request, response){
+    const filters = request.query; 
 
-//our code below
-
-
-async function onPickNextTrackFromFFilters(request, response){
-    // checks if filters have changed and gets new filtered tracks if so
-    const filters = request.query;  // NOT 'request.query'
-    /*console.log("Vibe:", filters.Vibe);
-    console.log("Genre:", filters.Genre);
-    console.log("Mode:", filters.Mode);
-    console.log("Language:", filters.Language);
-    console.log("New Music:", filters.NewMusic);
-    console.log("decade: " + filters.Decade);*/
-    if (request.query != currentFilters){
+    //only get new tracks if filters have changed
+    if (filters != currentFilters){
         tracks = await getTracksByFilter(filters)
-        currentFilters = request.query;
+        currentFilters = filters;
     }
-    /*console.log("Filtered tracks: ", tracks);*/
+    
+    //if no tracks found for the selected filters
     if (tracks.length === 0){
-        response.status(404).send("No tracks found for the selected filters.");
+        response.status(404).send();
         return;
     }
     const randomTrack = tracks[Math.floor(Math.random() * tracks.length)];
-    /*console.log("randomTrack: " + randomTrack);*/
+
     response.status(200).json(randomTrack);
-    return randomTrack;
+    return;
 }
 
 async function getTracksByFilter(filters) {
@@ -91,7 +63,8 @@ async function getTracksByFilter(filters) {
     const modeField = filters.Mode;
     const genreField = filters.Genre;
     const languageValue = filters.Language.toLowerCase();  
-let languageField;
+let languageField; 
+// translate from danish to english field names dansk -> danish, engelsk -> english
 switch (languageValue) {
   case 'engelsk':
     languageField = 'english';

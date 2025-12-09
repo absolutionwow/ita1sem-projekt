@@ -1,34 +1,3 @@
-/*addEventListener("DOMContentLoaded", () => {
-    let partyCode = establishPartyCode();
-    history.replaceState(null, '', partyCode);
-    addEventListener('popstate', () => {
-        partyCode = establishPartyCode();
-    });
-    pollForCurrentTrackAt(partyCode);
-});
-
-// Extract party code from browser's address field
-// or make one up, if it doesn't have one
-function establishPartyCode() {
-    const pathname = window.location.pathname;
-    if (pathname.startsWith('/') && pathname.length > 1) {
-        return pathname.substring(1);
-    } else {
-        return crypto.randomUUID().substring(0, 4);
-    }
-}
-
-// Start polling loop, repeated asking server for the current track
-async function pollForCurrentTrackAt(partyCode) {
-    const path = `/api/party/${partyCode}/currentTrack`;
-    const response = await fetch(path);
-    if (!response.ok) {
-        throw new Error(`GET ${path} failed with ${response.status} ${response.statusText}`)
-    }
-    const track = await response.json();
-    renderCurrentTrack(partyCode, track);
-    setTimeout(() => pollForCurrentTrackAt(partyCode), 1000); // refresh every 1000ms
-}*/
 
 //image const for albums
 const images = [
@@ -39,31 +8,17 @@ const images = [
   "images/album5.jpg"
 ];
 
-// update HTML to reflect party ID and current track
-/*function renderCurrentTrack(partyId, track) {
-    const contentDiv =
-    document.getElementById('songTitle').textContent = track.title;
-    document.getElementById('songArtist').textContent = track.artist;
-
-    const imageDiv = document.querySelector('.songImage');
-    const randomImage = images[Math.floor(Math.random() * images.length)];
-
-    imageDiv.style.backgroundImage = `url(${randomImage})`;
-}*/
-
-
-
-// autoplayer
+//track info elements for faster access
 const playerDiv = document.querySelector(".player"); // single element
 const songTitle = playerDiv.querySelector("#songTitle");
 const songArtist = playerDiv.querySelector("#songArtist");
 const currentTime = playerDiv.querySelector("#currentTime");
-const barFill = playerDiv.querySelector("#barFill");
 const duration = playerDiv.querySelector("#duration");
+const imageDiv = document.querySelector('.songImage');
 
 function handleTrackNotFound(){
     //todo show message to user
-        const popup = document.getElementById("popup-message");
+    const popup = document.getElementById("popup-message");
     popup.style.display = "block";
 
     isPlaying = false;
@@ -77,28 +32,30 @@ function handleTrackNotFound(){
 
 async function pickNextTrack(){
     const filters = getSelectedFilter();
-    //(URLSearchParams) convert an object of key-value pairs into a query string for a URL
+    //(URLSearchParams) convert an record (object of key-value pairs) into a query string for a URL
+    //{Vibe: "Happy", Language: "English", Genre: "Pop"} => Vibe=Happy&Language=English&Genre=Pop
     const query = new URLSearchParams(filters).toString();
     const path = `/api/nextTrackFromFilters?${query}`;
-    console.log("Fetching next track with path: ", path);
+    /*fetch from server.js with the endpoint /api/nextTrackFromFilters*/
     const response = await fetch(path);
     if (!response.ok) {
+        // not found any tracks for the selected filters error handleing
         if (response.status === 404) {
-                // not found any tracks for the selected filters
                 handleTrackNotFound();
                 return null;
             }
+        // other errors
         throw new Error(`GET ${path} failed with ${response.status} ${response.statusText}`);
     }
-    console.log("Rendering response: ", response);
-    const track = await response.json()
-    console.log("Rendering track: ", track);
-    renderPlayingSong(track);
+    /*console.log("Rendering response: ", response);*/
+    const track = await response.json();
+    /*console.log("Rendering track: ", track);*/
+    renderPlayingTrack(track);
     currentTrack = track;
     return track;
 }
 
-//gets the selected options and Create an object with parameter names and their selected values
+//make a record like {Vibe: "Happy", Language: "English", Genre: "Pop"}
 function getSelectedFilter(){
     const selected = {};
 
@@ -117,7 +74,6 @@ const playIcon = playBtn.querySelector("span");
 playBtn.onclick = () => {
     if (!isPlaying) {
         //playBtn.textContent = "❚❚";
-        /*console.log(playBtn);*/
         playIcon.textContent = "pause";
         isPlaying = true;
         playSong()
@@ -129,13 +85,13 @@ playBtn.onclick = () => {
     }
 };
 
-// PLayer button 
+// previous button 
 let prevSongList = [];
 let currentTrack = null;
 prevBtn.onclick = () => {
     if(prevSongList.length > 0){
         currentTrack = prevSongList.pop();
-        renderPlayingSong(currentTrack);
+        renderPlayingTrack(currentTrack);
     }
 };
 
@@ -144,6 +100,7 @@ nextBtn.onclick = () => {
     pickNextTrack();
 };
 
+//play track function
 async function playSong(){
     if(currentTrack === null) {
        await pickNextTrack()
@@ -163,6 +120,7 @@ async function updateTime() {
 
     const now = performance.now(); // high-res timestamp in ms
 
+    // Update play time 
     if (lastUpdateTime !== null) {
         const deltaSeconds = (now - lastUpdateTime) / 1000; // convert ms to seconds
         playTimeCurrent += deltaSeconds;
@@ -172,17 +130,18 @@ async function updateTime() {
     // Calculate minutes and seconds
     const minutes = Math.floor(playTimeCurrent / 60)
         .toString()
-        .padStart(2, '0');
+        .padStart(2, '0'); //
     const seconds = Math.floor(playTimeCurrent % 60)
         .toString()
-        .padStart(2, '0');
+        .padStart(2, '0'); //to ensure two digits
 
     // Update UI
     currentTime.textContent = `${minutes}:${seconds}`;
 
     renderProgressBar();
+    // Check if track has ended
     if (playTimeCurrent >= currentTrack.length_sec) {
-        // Song ended, pick next track
+        // track ended, pick next track
         playTimeCurrent = 0;
         await pickNextTrack();
         if (!isPlaying) return; // Stop if paused after picking next track
@@ -190,7 +149,9 @@ async function updateTime() {
     setTimeout(() => updateTime(), 1000); // refresh every 1000ms
 }
 
+const barFill = playerDiv.querySelector("#barFill");
 function renderProgressBar(){
+    //05:03 -> 05 * 60 + 03 = 303 seconds
     let currentTimeValue = parseInt(currentTime.textContent.split(":")[0]) * 60 + parseInt(currentTime.textContent.split(":")[1]);
     let durationValue = parseInt(duration.textContent.split(":")[0]) * 60 + parseInt(duration.textContent.split(":")[1]);
     const pct = (currentTimeValue / durationValue) * 100;
@@ -199,18 +160,25 @@ function renderProgressBar(){
     return;
 }
 
-const imageDiv = document.querySelector('.songImage');
-function renderPlayingSong(track){
-    console.log("Rendering track: ", track);
+
+function renderPlayingTrack(track){
+    
+    //updates the track info
     songTitle.textContent = track.title;
     songArtist.textContent = track.artist;
     duration.textContent = `${Math.floor(track.length_sec/60)}:${(track.length_sec % 60).toString().padStart(2, '0')}`;
     
+    //display album image for the track
     const randomImage = images[Math.floor(Math.random() * images.length)];
     imageDiv.style.backgroundImage = `url(${randomImage})`;
+
+    //reset time and progress bar
+    currentTime.textContent = "00:00";
     playTimeCurrent = 0;
+    renderProgressBar();
 }
 
+//todo repeat button
 let repeat = false;
 const repeatBtn = document.getElementById("repeatBtn");
 repeatBtn.onclick = () => {
