@@ -1,12 +1,12 @@
 import express from 'express';
 import path from 'path';
 import { connect } from '../db/connect.js';
-import { play } from './player.js';
+/*import { play } from './player.js';*/
 
 
 const db = await connect();
 let tracks = await loadTracks();
-const currentTracks = new Map(); // maps partyCode to index in tracks
+/*const currentTracks = new Map(); // maps partyCode to index in tracks*/
 let currentFilters = {};
 
 const port = process.env.PORT || 3003;
@@ -15,12 +15,12 @@ const server = express();
 server.use(express.static('frontend'));
 server.use(express.json());
 server.use(onEachRequest);
-server.get('/api/party/:partyCode/currentTrack', onGetCurrentTrackAtParty);
+/*server.get('/api/party/:partyCode/currentTrack', onGetCurrentTrackAtParty);*/
 server.get('/api/nextTrackFromFilters', onPickNextTrackFromFFilters);
 server.get(/\/[a-zA-Z0-9-_/]+/, onFallback); // serve index.html on any other simple path
 server.listen(port, onServerReady);
 
-async function onGetCurrentTrackAtParty(request, response) {
+/*async function onGetCurrentTrackAtParty(request, response) {
     const partyCode = request.params.partyCode;
     let trackIndex = currentTracks.get(partyCode);
     if (trackIndex === undefined) {
@@ -28,7 +28,7 @@ async function onGetCurrentTrackAtParty(request, response) {
     }
     const track = tracks[trackIndex];
     response.json(track);
-}
+}*/
 
 function onEachRequest(request, response, next) {
     console.log(new Date(), request.method, request.url);
@@ -51,13 +51,13 @@ async function loadTracks() {
     return dbResult.rows;
 }
 
-function pickNextTrackFor(partyCode) {
+/*function pickNextTrackFor(partyCode) {
     const trackIndex = Math.floor(Math.random() * tracks.length)
     currentTracks.set(partyCode, trackIndex);
     const track = tracks[trackIndex];
     play(partyCode, track.track_id, track.length_sec, Date.now(), () => currentTracks.delete(partyCode));
     return trackIndex;
-}
+}*/
 
 //our code below
 
@@ -65,31 +65,31 @@ function pickNextTrackFor(partyCode) {
 async function onPickNextTrackFromFFilters(request, response){
     // checks if filters have changed and gets new filtered tracks if so
     const filters = request.query;  // NOT 'request.query'
-    console.log("Vibe:", filters.Vibe);
+    /*console.log("Vibe:", filters.Vibe);
     console.log("Genre:", filters.Genre);
     console.log("Mode:", filters.Mode);
     console.log("Language:", filters.Language);
     console.log("New Music:", filters.NewMusic);
-    console.log("decade: " + filters.Decade);
+    console.log("decade: " + filters.Decade);*/
     if (request.query != currentFilters){
         tracks = await getTracksByFilter(filters)
         currentFilters = request.query;
     }
-    console.log("Filtered tracks: ", tracks);
+    /*console.log("Filtered tracks: ", tracks);*/
     if (tracks.length === 0){
         response.status(404).send("No tracks found for the selected filters.");
         return;
     }
     const randomTrack = tracks[Math.floor(Math.random() * tracks.length)];
-    console.log("randomTrack: " + randomTrack);
+    /*console.log("randomTrack: " + randomTrack);*/
     response.status(200).json(randomTrack);
     return randomTrack;
 }
 
 async function getTracksByFilter(filters) {
-    const vibeField = filters.Vibe;          // 'happy'
-    const modeField = filters.Mode;          // 'fitness'
-    const genreField = filters.Genre;        // 'pop'
+    const vibeField = filters.Vibe;
+    const modeField = filters.Mode;
+    const genreField = filters.Genre;
     const languageValue = filters.Language.toLowerCase();  
 let languageField;
 switch (languageValue) {

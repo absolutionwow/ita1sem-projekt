@@ -1,0 +1,33 @@
+/* Progress container */
+.progress {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: sans-serif;
+}
+
+/* Outer bar */
+.bar {
+    flex: 1;
+    height: 10px;
+    background: #ddd;
+    border-radius: 999px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* Filled portion */
+.bar-fill {
+    height: 100%;
+    width: 0%;
+    background: #4a90e2;
+    border-radius: 999px;
+    transition: width 0.1s linear;
+}
+
+/* Time text */
+.progress span {
+    font-size: 14px;
+    color: #333;
+}

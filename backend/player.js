@@ -1,7 +1,7 @@
 // This module represents a simulated integration with player devices like AirPods
 // and Bluetooth speakers
 
-const players = new Map();
+/*const players = new Map();*/
 
 // Call this function to play the specified track at the specified party.
 // Parameters:
@@ -10,7 +10,7 @@ const players = new Map();
 // - duration: the duration of the track in milliseconds, a number
 // - started: the timestamp at which the playback started, a Date
 // - callbackWhenDone: a function of zero arguments, to be called when playback is done
-export function play(partyCode, trackId, duration, started, callbackWhenDone) {
+/*export function play(partyCode, trackId, duration, started, callbackWhenDone) {
     players.set(partyCode, {
         trackId,
         duration,
@@ -30,4 +30,4 @@ function trackElapsedTimes() {
     setTimeout(() => trackElapsedTimes(), 100);
 }
 
-trackElapsedTimes();
+trackElapsedTimes();*/

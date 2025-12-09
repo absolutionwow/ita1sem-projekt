@@ -40,7 +40,7 @@ const images = [
 ];
 
 // update HTML to reflect party ID and current track
-function renderCurrentTrack(partyId, track) {
+/*function renderCurrentTrack(partyId, track) {
     const contentDiv =
     document.getElementById('songTitle').textContent = track.title;
     document.getElementById('songArtist').textContent = track.artist;
@@ -49,7 +49,7 @@ function renderCurrentTrack(partyId, track) {
     const randomImage = images[Math.floor(Math.random() * images.length)];
 
     imageDiv.style.backgroundImage = `url(${randomImage})`;
-}
+}*/
 
 
 
@@ -117,7 +117,7 @@ const playIcon = playBtn.querySelector("span");
 playBtn.onclick = () => {
     if (!isPlaying) {
         //playBtn.textContent = "❚❚";
-        console.log(playBtn);
+        /*console.log(playBtn);*/
         playIcon.textContent = "pause";
         isPlaying = true;
         playSong()
@@ -191,7 +191,11 @@ async function updateTime() {
 }
 
 function renderProgressBar(){
-    //todo
+    let currentTimeValue = parseInt(currentTime.textContent.split(":")[0]) * 60 + parseInt(currentTime.textContent.split(":")[1]);
+    let durationValue = parseInt(duration.textContent.split(":")[0]) * 60 + parseInt(duration.textContent.split(":")[1]);
+    const pct = (currentTimeValue / durationValue) * 100;
+
+    barFill.style.width = pct + "%";
     return;
 }
 
@@ -205,4 +209,11 @@ function renderPlayingSong(track){
     const randomImage = images[Math.floor(Math.random() * images.length)];
     imageDiv.style.backgroundImage = `url(${randomImage})`;
     playTimeCurrent = 0;
+}
+
+let repeat = false;
+const repeatBtn = document.getElementById("repeatBtn");
+repeatBtn.onclick = () => {
+    repeat = !repeat;
+    repeatBtn.classList.toggle("active", repeat);
 }
